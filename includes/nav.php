@@ -22,7 +22,7 @@
 		</li>
 
 		<li class="menu-item-has-children <?php if($page === "Store") echo 'current-menu-item'; ?>">
-			<a href="#">Store</a>
+			<a href="./store.php">Store</a>
 		</li>
 
 		<li class="menu-item-has-mega-menu menu-item-has-children <?php if($page === "Courses") echo 'current-menu-item'; ?>">

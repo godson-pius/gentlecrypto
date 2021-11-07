@@ -14,7 +14,7 @@
 					<header class="crumina-module crumina-heading heading--h1 heading--with-decoration">
 						<h1 class="heading-title f-size-90 weight-normal no-margin">GentleCrypto
 							<span class="weight-bold">Enterprise</span></h1>
-						<h2 class="c-primary">Blockchain solutions</h2>
+						<h3 class="c-primary">...Satisfying your priorities</h3>
 					</header>
 					<a data-scroll href="#details" class="btn btn--large btn--transparent btn--secondary">Details</a>
 				</div>
@@ -202,42 +202,15 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
-						<div class="heading-sup-title">Top-5 cryptocurrencies</div>
-						<h2 class="heading-title weight-normal">Statistics of currencies on
-							<span class="weight-bold">all your devices</span></h2>
-						<div class="heading-text">Investigationes demonstraverunt lectores legere elementum pulvinar
-							etiam non quam lacus suspendisse risus nec feugiat in fermentum laoreet sit amet cursus
-							quam adipiscing vitae proin sagittis.
-						</div>
+						<div class="heading-sup-title">Welcome</div>
+						<h2 class="heading-title weight-normal">Desk of the
+							<span class="weight-bold">CEO</span></h2>
 					</header>
 
-					<p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est
-						etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare
-						quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis
-						per laoreet sit amet cursus seacula qui mutationem consuetudium claritas est etiam processus dynamicus.
+					<p>Gentlecrypto trading academy is a result oriented crypto currency coaching and mentorship platform, a subsidiary of the Gentlecrypto enterprises, where we have structured step by step guide on everything you need to know concerning trading crypto assets successfully as an independent trader using our flexible yet exclusive training modules within the space of 5 weeks We provide one-on-one dedicated mentorship on how to get started and master the art of trading crypto currency using our easily accessible consultancy opportunities. Our courses are real time course that will earn you real money from your own room, only by applying the strategies we have taken our time to explain during the training. We provide weekly alert on how to trade crypto currencies, and key crypto currency trading set ups strengthened by fundamental & technical analysis for trading opportunities and entries.
 					</p>
 
-					<div class="btn-market-wrap mt60">
-						<a href="#" class="btn btn--market btn--apple btn--with-icon btn--icon-left">
-							<svg class="woox-icon icon-apple">
-								<use xlink:href="#icon-apple"></use>
-							</svg>
-							<div class="text">
-								<span class="sup-title">download on</span>
-								<span class="title">Apple Store</span>
-							</div>
-						</a>
 
-						<a href="#" class="btn btn--market btn--google btn--with-icon btn--icon-left">
-							<svg class="woox-icon icon-if-59-play-843782">
-								<use xlink:href="#icon-if-59-play-843782"></use>
-							</svg>
-							<div class="text">
-								<span class="sup-title">download on</span>
-								<span class="title">Google Play</span>
-							</div>
-						</a>
-					</div>
 				</div>
 
 				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt30">
@@ -249,7 +222,7 @@
 
 	<section class="bg-dotted-map">
 		<div class="container">
-			<div class="row medium-padding300 align-center">
+			<div class="row align-center">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<img class="primary-dots mb30" src="img/dots.png" alt="dots">
 
@@ -319,9 +292,9 @@
 					</div>
 					<div class="text-block">
 						<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
-							<h2 class="heading-title weight-normal">Access
-								<span class="weight-bold">analytical market & price data</span></h2>
-							<div class="heading-text">Investigationes demonstraverunt lectores legere elementum pulvinar etiam non quam lacus suspendisse risus nec feugiat in fermentum laoreet sit amet cursus.</div>
+							<h2 class="heading-title weight-normal">Greatest
+								<span class="weight-bold">Quote</span></h2>
+							<div class="heading-text">If you venture into crypto currency without it's knowledge, you will be forced to rush out of it with heart breaking losses.</div>
 						</header>
 					</div>
 				</div>
@@ -349,7 +322,7 @@
 									<div class="swiper-wrapper">
 										<div class="swiper-slide">
 											<a class="clients-item" href="#">
-												<img src="img/client1.png" class="" alt="logo">
+												<img src="img/wbtlogo.png" class="" alt="logo">
 											</a>
 										</div>
 										<div class="swiper-slide">
@@ -390,8 +363,8 @@
 			<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
 				<h2 class="heading-title heading--half-colored" style="text-align: center; width: 100%;">Testimonies</h2>
 			</header>
-			<div class="row medium-padding100">
-				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">
+			<div class="row ">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb30">
 					<div class="crumina-module crumina-module-slider navigation-bottom-both-sides">
 						<div class="swiper-container" data-show-items="1" data-prev-next="1">
 							<div class="swiper-btn-next">
@@ -415,14 +388,13 @@
 											<h6 class="testimonial-text">
 												<svg class="woox-icon icon-quote-icon quote"><use xlink:href="#icon-quote-icon"></use></svg>
 												<svg class="woox-icon icon-quote-icon2 quote quote-close"><use xlink:href="#icon-quote-icon2"></use></svg>
-												Qel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore
-												eu feugiat nulla facilisis est usus legentis in iis qui facit eorum claritatem quam nunc.
+												It's been awesome class with GentleCrypto trading academy, the beginners class was a good one. Unto the advanced class we go.
 											</h6>
 										</div>
 
 										<div class="author-content">
-											<a href="#" class="author-name">Philip Demarco</a>
-											<div class="author-prof">founder of agency</div>
+											<a href="#" class="author-name">A Divine Martins</a>
+											<div class="author-prof">Student</div>
 										</div>
 
 										<ul class="rait-stars">
@@ -457,14 +429,13 @@
 											<h6 class="testimonial-text">
 												<svg class="woox-icon icon-quote-icon quote"><use xlink:href="#icon-quote-icon"></use></svg>
 												<svg class="woox-icon icon-quote-icon2 quote quote-close"><use xlink:href="#icon-quote-icon2"></use></svg>
-												Qel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore
-												eu feugiat nulla facilisis est usus legentis in iis qui facit eorum claritatem quam nunc.
+												I really want to appreciate GentleCrypto Trading Academy for this great training. I find it well prepared and helpful. I've gained a strong knowledge of crypto trading. 
 											</h6>
 										</div>
 
 										<div class="author-content">
-											<a href="#" class="author-name">Philip Demarco</a>
-											<div class="author-prof">founder of agency</div>
+											<a href="#" class="author-name">Oluwaseyi Trust</a>
+											<div class="author-prof">Student</div>
 										</div>
 
 										<ul class="rait-stars">
@@ -499,14 +470,13 @@
 											<h6 class="testimonial-text">
 												<svg class="woox-icon icon-quote-icon quote"><use xlink:href="#icon-quote-icon"></use></svg>
 												<svg class="woox-icon icon-quote-icon2 quote quote-close"><use xlink:href="#icon-quote-icon2"></use></svg>
-												Qel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore
-												eu feugiat nulla facilisis est usus legentis in iis qui facit eorum claritatem quam nunc.
+												This is an awesome course as he broke down every single aspects of the market for beginners. Not only was the teaching experience great, he also gave some great ebooks to kick start and get familiar with some market trading terms. This is a great chance as he has now become a crypto trading coach for all students
 											</h6>
 										</div>
 
 										<div class="author-content">
-											<a href="#" class="author-name">Philip Demarco</a>
-											<div class="author-prof">founder of agency</div>
+											<a href="#" class="author-name">Joshua Uzoagulu</a>
+											<div class="author-prof">Student</div>
 										</div>
 
 										<ul class="rait-stars">
@@ -533,221 +503,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">
-					<div class="crumina-module crumina-module-slider navigation-bottom-both-sides">
-						<div class="swiper-container" data-show-items="1" data-prev-next="1">
-							<div class="swiper-btn-next">
-								<svg class="woox-icon icon-line-arrow-right"><use xlink:href="#icon-line-arrow-right"></use></svg>
-							</div>
-
-							<div class="swiper-btn-prev">
-								<svg class="woox-icon icon-line-arrow-left"><use xlink:href="#icon-line-arrow-left"></use></svg>
-							</div>
-
-							<div class="swiper-wrapper">
-								<div class="swiper-slide">
-									<div class="crumina-module crumina-testimonial-item testimonial--style2 has-border-arrow">
-										<div class="avatar avatar80">
-											<img  src="img/author2.jpg" alt="avatar">
-										</div>
-										<div class="testimonial-content">
-											<div class="block--with-arrow-bottom-center with-bg">
-												<div class="block-arrow-down"></div>
-											</div>
-											<h6 class="testimonial-text">
-												<svg class="woox-icon icon-quote-icon quote"><use xlink:href="#icon-quote-icon"></use></svg>
-												<svg class="woox-icon icon-quote-icon2 quote quote-close"><use xlink:href="#icon-quote-icon2"></use></svg>
-												Qel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore
-												eu feugiat nulla facilisis est usus legentis in iis qui facit eorum claritatem quam nunc.
-											</h6>
-										</div>
-
-										<div class="author-content">
-											<a href="#" class="author-name">Philip Demarco</a>
-											<div class="author-prof">founder of agency</div>
-										</div>
-
-										<ul class="rait-stars">
-											<li>
-												<svg class="woox-icon icon-star-1"><use xlink:href="#icon-star-1"></use></svg>
-											</li>
-											<li>
-												<svg class="woox-icon icon-star-1"><use xlink:href="#icon-star-1"></use></svg>
-											</li>
-
-											<li>
-												<svg class="woox-icon icon-star-1"><use xlink:href="#icon-star-1"></use></svg>
-											</li>
-											<li>
-												<svg class="woox-icon icon-star-1"><use xlink:href="#icon-star-1"></use></svg>
-											</li>
-											<li>
-												<svg class="woox-icon icon-star-1"><use xlink:href="#icon-star-1"></use></svg>
-											</li>
-										</ul>
-									</div>
-								</div>
-								<div class="swiper-slide">
-									<div class="crumina-module crumina-testimonial-item testimonial--style2 has-border-arrow">
-										<div class="avatar avatar80">
-											<img  src="img/author2.jpg" alt="avatar">
-										</div>
-										<div class="testimonial-content">
-											<div class="block--with-arrow-bottom-center with-bg">
-												<div class="block-arrow-down"></div>
-											</div>
-											<h6 class="testimonial-text">
-												<svg class="woox-icon icon-quote-icon quote"><use xlink:href="#icon-quote-icon"></use></svg>
-												<svg class="woox-icon icon-quote-icon2 quote quote-close"><use xlink:href="#icon-quote-icon2"></use></svg>
-												Qel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore
-												eu feugiat nulla facilisis est usus legentis in iis qui facit eorum claritatem quam nunc.
-											</h6>
-										</div>
-
-										<div class="author-content">
-											<a href="#" class="author-name">Philip Demarco</a>
-											<div class="author-prof">founder of agency</div>
-										</div>
-
-										<ul class="rait-stars">
-											<li>
-												<svg class="woox-icon icon-star-1"><use xlink:href="#icon-star-1"></use></svg>
-											</li>
-											<li>
-												<svg class="woox-icon icon-star-1"><use xlink:href="#icon-star-1"></use></svg>
-											</li>
-
-											<li>
-												<svg class="woox-icon icon-star-1"><use xlink:href="#icon-star-1"></use></svg>
-											</li>
-											<li>
-												<svg class="woox-icon icon-star-1"><use xlink:href="#icon-star-1"></use></svg>
-											</li>
-											<li>
-												<svg class="woox-icon icon-star-1"><use xlink:href="#icon-star-1"></use></svg>
-											</li>
-										</ul>
-									</div>
-								</div>
-								<div class="swiper-slide">
-									<div class="crumina-module crumina-testimonial-item testimonial--style2 has-border-arrow">
-										<div class="avatar avatar80">
-											<img  src="img/author2.jpg" alt="avatar">
-										</div>
-										<div class="testimonial-content">
-											<div class="block--with-arrow-bottom-center with-bg">
-												<div class="block-arrow-down"></div>
-											</div>
-											<h6 class="testimonial-text">
-												<svg class="woox-icon icon-quote-icon quote"><use xlink:href="#icon-quote-icon"></use></svg>
-												<svg class="woox-icon icon-quote-icon2 quote quote-close"><use xlink:href="#icon-quote-icon2"></use></svg>
-												Qel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore
-												eu feugiat nulla facilisis est usus legentis in iis qui facit eorum claritatem quam nunc.
-											</h6>
-										</div>
-
-										<div class="author-content">
-											<a href="#" class="author-name">Philip Demarco</a>
-											<div class="author-prof">founder of agency</div>
-										</div>
-
-										<ul class="rait-stars">
-											<li>
-												<svg class="woox-icon icon-star-1"><use xlink:href="#icon-star-1"></use></svg>
-											</li>
-											<li>
-												<svg class="woox-icon icon-star-1"><use xlink:href="#icon-star-1"></use></svg>
-											</li>
-
-											<li>
-												<svg class="woox-icon icon-star-1"><use xlink:href="#icon-star-1"></use></svg>
-											</li>
-											<li>
-												<svg class="woox-icon icon-star-1"><use xlink:href="#icon-star-1"></use></svg>
-											</li>
-											<li>
-												<svg class="woox-icon icon-star-1"><use xlink:href="#icon-star-1"></use></svg>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+			
 			</div>
 			<hr class="divider">
 		</div>
 	</section>
 
-	<section class="medium-padding120 responsive-align-center">
-		<div class="container">
-			<div class="row bg-2">
-				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">
-					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
-						<img class="primary-dots mb30" src="img/dots.png" alt="dots">
-						<h2 class="heading-title weight-normal">Hurry to invest
-							<span class="weight-bold">in cryptocurrency</span></h2>
-						<div class="heading-text">Investigationes demonstraverunt lectores legere elementum pulvinar etiam non quam lacus suspendisse.</div>
-					</header>
-					<p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum
-						formas humanitatis per laoreet sit amet cursus seacula qui mutationem consuetudium claritas est etiam processus dynamicus.
-					</p>
-					<div class="crumina-module crumina-counter-item counter--icon-left mt60">
-						<svg class="woox-icon">
-							<use xlink:href="#icon-group"></use>
-						</svg>
-						<div class="counter-content">
-							<div class="counter-numbers counter">
-								<span data-speed="2000" data-refresh-interval="3" data-to="68000" data-from="2">68000</span>
-								<div class="units">+</div>
-							</div>
-							<h4 class="counter-title">ICO Participants</h4>
-						</div>
-					</div>
 
-				</div>
-				<div class="col-lg-6 col-md-12 col-lg-offset-0 col-sm-12 col-xs-12">
-					<div class="widget w-distribution-ends countdown-bg1">
-						<h5 class="title">Distribution
-							<br>Ends In:</h5>
-
-						<div class="crumina-countdown-item">
-							<div class="crumina-countdown" data-date="2019-01-01 00:00:00"></div>
-						</div>
-
-						<a href="006_events.html" class="btn btn--large btn--green-light">
-							Buy Woox Tokens
-						</a>
-
-						<div class="crumina-module crumina-skills-item skills-item--bordered">
-							<div class="skills-item-info">
-								<span class="skills-item-title">$6M<span class="skills-item-count c-primary"><span class="count-animate" data-speed="1000" data-refresh-interval="50" data-to="50" data-from="0"></span><span class="units">m</span></span></span>
-							</div>
-							<div class="skills-item-meter">
-								<span class="skills-item-meter-active bg-primary-color" style="width: 50%"></span>
-							</div>
-							<span class="add-info">
-								<span><span class="c-link-color">Softcap</span> in 976 days</span>
-								<span class="c-link-color">Hardcap</span>
-							</span>
-						</div>
-
-						<div class="price-wrap">
-							<div class="token-price">
-								Token Price:
-								<div class="price-value">$0.0023</div>
-							</div>
-							<div class="token-total">
-								Total Woox Tokens:
-								<div class="price-value">6803.0122</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 
 
 </div>

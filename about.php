@@ -11,7 +11,7 @@
 					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
 						<div class="heading-sup-title">Meet The Team</div>
 						<h2 class="heading-title heading--half-colored">Our professionals</h2>
-						<div class="heading-text">Investigationes demonstraverunt lectores legere elementum pulvinar etiam non quam lacus suspendisse risus nec feugiat in laoreet sit amet cursus.</div>
+						<div class="heading-text">Talent wins games, but teamwork and intelligence win championships</div>
 					</header>
 					<a data-scroll href="#traders" class="btn btn--large btn--primary btn--transparent">Our Traders</a>
 				</div>
@@ -19,50 +19,9 @@
 		</div>
 	</section>
 
-	<section class="pt-mobile-80">
-		<div class="container">
-			<div class="row medium-padding120">
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30">
-					<div class="author-block author-block--column hover-shadow-top">
-						<div class="avatar avatar200">
-							<img src="img/author1-200.jpg" alt="avatar">
-						</div>
-						<div class="author-content">
-							<a href="#" class="h6 author-name">Frank Godman</a>
-							<div class="author-prof">Chief Marketing Officer</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30">
-					<div class="author-block author-block--column hover-shadow-left">
-						<div class="avatar avatar200">
-							<img src="img/author2-200.jpg" alt="avatar">
-						</div>
-						<div class="author-content">
-							<a href="#" class="h6 author-name">Britney Simpson</a>
-							<div class="author-prof">Administrator</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30">
-					<div class="author-block author-block--column hover-shadow-right">
-						<div class="avatar avatar200">
-							<img src="img/author3-200.jpg" alt="avatar">
-						</div>
-						<div class="author-content">
-							<a href="#" class="h6 author-name">James Anderson</a>
-							<div class="author-prof">Coins Sales and Marketing</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<hr class="divider">
-		</div>
-	</section>
-
 	<section>
 		<div class="container">
-			<div class="row medium-padding120">
+			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30">
 					<div class="author-block author-block--column hover-shadow-left-top">
 						<div class="avatar avatar320">

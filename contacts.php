@@ -12,7 +12,7 @@
 					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
 						<div class="heading-sup-title">CONTACTS</div>
 						<h2 class="heading-title heading--half-colored">Contact informations</h2>
-						<div class="heading-text">Investigationes demonstraverunt lectores legere elementum pulvinar etiam non quam lacus suspendisse risus nec feugiat in laoreet sit amet cursus.</div>
+						<div class="heading-text">GentleCrypto Enterprise giving you the best! Do well to contact us for anything.</div>
 					</header>
 					<a data-scroll href="#details" class="btn btn--large btn--primary">Contact Details</a>
 				</div>
@@ -30,7 +30,7 @@
 							<header class="crumina-module crumina-heading heading--h2 heading--with-decoration custom-color c-white">
 								<h2 class="heading-title">We’re here</h2>
 							</header>
-							<h6 class="adress">795 South Park Avenue, Melbourne, Australia</h6>
+							<h6 class="adress">Enugu State, Nigeria</h6>
 						</div>
 					</div>
 
@@ -55,30 +55,30 @@
 						<div class="contact-item" data-mh="equal-block">
 						<h4 class="contact-item-title">Contact us</h4>
 						<div class="info-wrap">
-							<div class="info">Phone: <span>8 800 567.890.11</span></div>
-							<div class="info">Email: <a href="mailto:support@woox.com">support@woox.com</a></div>
+							<div class="info">Phone: <span>+234 90 3493 1935</span></div>
+							<div class="info">Email: <a href="mailto:support@gentlecrypto.io">support@gentlecrypto.io</a></div>
 						</div>
 						<ul class="socials socials--double-icons">
 							<li class="social-item">
-								<a href="#">
+								<a href="https://twitter.com/GentleCrypto?s=09">
 									<i class="fab fa-twitter woox-icon"></i>
 								</a>
 							</li>
 
 							<li class="social-item">
-								<a href="#">
-									<i class="fab fa-dribbble woox-icon"></i>
+								<a href="https://youtube.com/channel/UCMee1TkTzEZDtqRYSizJLEw">
+									<i class="fab fa-youtube woox-icon"></i>
 								</a>
 							</li>
 
 							<li class="social-item">
-								<a href="#">
+								<a href="https://instagram.com/gentle_crypto?utm_medium=copy_link">
 									<i class="fab fa-instagram woox-icon"></i>
 								</a>
 							</li>
 
 							<li class="social-item">
-								<a href="#">
+								<a href="https://www.facebook.com/Gentlecrypto-Trading-Academy-111172000801563/">
 									<i class="fab fa-facebook-square woox-icon"></i>
 								</a>
 							</li>
@@ -97,8 +97,7 @@
 			<div class="row pb120">
 				<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
 					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
-						<h2 class="heading-title heading--half-colored">If you are interested in working with us, <b class="c-color">please get in touch</b></h2>
-						<div class="heading-text">Iaculis nunc sed augue lacus viverra vitae congue. Sagittis orci a scelerisque lobortis mattis.</div>
+						<h2 class="heading-title heading--half-colored">please get in touch</h2>
 					</header>
 				</div>
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
