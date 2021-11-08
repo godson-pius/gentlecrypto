@@ -62,9 +62,8 @@
 <header class="header" id="site-header">
 	<div class="container">
 		<div class="header-content-wrapper">
-			<a href="index.php" class="site-logo">
-				<img src="img/gentlecrypto.png" alt="Woox">
-				
+			<a href="index.php" class="">
+				<img src="img/gentlecrypto.png" width="160px" alt="Woox">
 			</a>
 
 			<?php include("./includes/nav.php"); ?>

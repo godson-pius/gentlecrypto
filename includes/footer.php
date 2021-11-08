@@ -5,8 +5,8 @@
 		<div class="row">
 			<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-sm-offset-0 col-xs-12">
 				<div class="widget w-info">
-					<a href="index.php" class="site-logo">
-						<img src="img/gentlecrypto.png" width="2000" alt="Woox">
+					<a href="index.php" class="">
+						<img src="img/gentlecrypto.png" width="160px" alt="Woox">
 						
 					</a>
 					<p>If you venture into crypto currency without it's knowledge, you will be forced to rush out of it with heart breaking losses.</p>
