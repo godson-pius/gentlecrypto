@@ -9,7 +9,9 @@
 						<img src="img/gentlecrypto.png" width="160px" alt="Woox">
 						
 					</a>
-					<p>If you venture into crypto currency without it's knowledge, you will be forced to rush out of it with heart breaking losses.</p>
+					<p>Since 2020, Gentlecrypto Enterprise has become one of the trusted brands within the crypto  and Financial space. 
+
+We have bagged several award of credibility within the crypto and Enterprenurship space, these success awards are due to our dedication towards helping the common man get their hands on the finance of the futures through disciplined knowledge sharing and mentorship within the communities that we control.</p>
 				</div>
 
 				<div class="widget w-contacts">

@@ -8,11 +8,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
-					<img class="responsive-width-50" src="img/main.png" alt="image">
+					<img class="responsive-width-50" src="img/main2.png" alt="image">
 				</div>
 				<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
 					<header class="crumina-module crumina-heading heading--h1 heading--with-decoration">
-						<h1 class="heading-title f-size-90 weight-normal no-margin">GentleCrypto
+						<h1 class="heading-title f-size-90 weight-normal no-margin">Gentlecrypto
 							<span class="weight-bold">Enterprise</span></h1>
 						<h3 class="c-primary">...Satisfying your priorities</h3>
 					</header>
