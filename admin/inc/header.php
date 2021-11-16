@@ -166,12 +166,35 @@
                             </a>
                         </li>
 
-
                         <li>
                             <a href="javascript: void(0);"><i class="ti-book"></i> <span> Courses </span> <span class="menu-arrow"></span></a>
                             <ul class="nav-second-level" aria-expanded="false">
                                 <li><a href="doctors.php">All Courses</a></li>
+                                <li><a href="doctors.php">Add Lessons</a></li>
                                 <li><a href="add-doctor.php">Add Courses</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);"><i class="ti-book"></i> <span> Products </span> <span class="menu-arrow"></span></a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li><a href="doctors.php">All Products</a></li>
+                                <li><a href="add-doctor.php">Add Products</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);"><i class="ti-user"></i> <span> Vendors </span> <span class="menu-arrow"></span></a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li><a href="doctors.php">All Vendors</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);"><i class="ti-user"></i> <span> Moderators </span> <span class="menu-arrow"></span></a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li><a href="doctors.php">All Moderators</a></li>
+                                <li><a href="doctors.php">Add Moderators</a></li>
                             </ul>
                         </li>
 

@@ -56,6 +56,52 @@
 					</div>
 				</div>
 
+				<div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 sorting-item">
+					<div class="crumina-module crumina-event-item">
+						<div class="event-thumb bg-event4">
+							<div class="overlay"></div>
+						</div>
+						<div class="event-content">
+							<h4 class="event-title mb30">What is Bitcoin? A Step-By-Step Guide For Intermediate</h4>
+							<a href="007_event_details.html" class="btn btn--medium btn--transparent btn--secondary">Buy Course</a>
+						</div>
+
+						<div class="event-venue">
+
+							<div class="author-block">
+
+								<div class="author-content">
+									<a href="#" class="author-name">Angelina Johnson</a>
+									<div class="author-prof">Tutor</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 sorting-item">
+					<div class="crumina-module crumina-event-item">
+						<div class="event-thumb bg-event4">
+							<div class="overlay"></div>
+						</div>
+						<div class="event-content">
+							<h4 class="event-title mb30">What is Bitcoin? A Step-By-Step Guide For Expert</h4>
+							<a href="007_event_details.html" class="btn btn--medium btn--transparent btn--secondary">Buy Course</a>
+						</div>
+
+						<div class="event-venue">
+
+							<div class="author-block">
+
+								<div class="author-content">
+									<a href="#" class="author-name">Angelina Johnson</a>
+									<div class="author-prof">Tutor</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
 
 
 
