@@ -18,7 +18,29 @@
 	<!--Styles for RTL-->
 
 	<!--<link rel="stylesheet" type="text/css" href="css/rtl.css">-->
+	<style>
+		.team-img {
+			width: 200px; height: 200px; background-size: cover; border-radius: 600px;
+		}
 
+		.team-ceo {
+			width: 301px; height: 301px; background-size: cover; border-radius: 600px;
+		}
+
+		@media (max-width: 989px) {
+			.team-img {
+				width: 160px; height: 160px; background-size: cover; border-radius: 600px;
+			}
+
+			.team-ceo {
+				width: 200px; height: 200px; background-size: cover; border-radius: 600px;
+			}
+		}
+
+		#lang .goog-te-combo {
+			background-color: "#16181d";
+		}
+	</style>
 
 </head>
 
@@ -68,12 +90,15 @@
 
 			<?php include("./includes/nav.php"); ?>
 
-			<select class="woox--select language-switcher" data-minimum-results-for-search="Infinity" data-dropdown-css-class="language-switcher-dropdown">
+			<div id="lang"></div>
+
+
+			<!-- <select class="woox--select language-switcher" data-minimum-results-for-search="Infinity" data-dropdown-css-class="language-switcher-dropdown">
 				<option value="French" data-href="">French</option>
 				<option value="German" data-href="">German</option>
 				<option value="Ukrainian" data-href="">Ukrainian</option>
 				<option value="English" data-href="">English</option>
-			</select>
+			</select> -->
 
 		</div>
 	</div>

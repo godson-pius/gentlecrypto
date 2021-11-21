@@ -14,7 +14,7 @@
 						<div class="heading-text">Talent wins games, but teamwork and intelligence win championships
 						</div>
 					</header>
-					<a data-scroll href="#traders" class="btn btn--large btn--primary btn--transparent">Our Traders</a>
+					<a data-scroll href="#traders" class="btn btn--large btn--primary btn--transparent">Our Team</a>
 				</div>
 			</div>
 		</div>
@@ -23,12 +23,12 @@
 	<section>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb30">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30">
 					<div class="author-block author-block--column hover-shadow-left-top">
 						<div class="avatar avatar320">
 							<!-- <img src="img/author1-320.jpg" alt="avatar"> -->
-							<div class="avatar avatar320"
-								style="width: 200px; height: 200px; background-image: url('img/escrow.jpg'); background-size: cover; border-radius: 600px;">
+							<div class="avatar avatar320 team-img"
+								style="background-image: url('img/escrow.jpg');">
 							</div>
 						</div>
 						<div class="author-content">
@@ -37,31 +37,51 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb30">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30">
 					<div class="author-block author-block--column hover-shadow-right-bottom">
 						<div class="avatar avatar320">
 							<!-- <img src="img/author2-320.jpg" alt="avatar"> -->
-							<div class="avatar avatar320"
-								style="width: 200px; height: 200px; background-image: url('img/ceowbt.jpg'); background-size: cover; border-radius: 600px;">
+							<div class="avatar avatar320 team-img"
+								style="background-image: url('img/ceowbt.jpg');">
 							</div>
 						</div>
 						<div class="author-content">
 							<a href="#" class="h6 author-name">Godson Pius</a>
-							<div class="author-prof">Website Manager</div>
+							<div class="author-prof">Web Developer</div>
 						</div>
 					</div>
 				</div>
-				<!-- <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30">
-					<div class="author-block author-block--column hover-shadow-bottom">
+
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30">
+					<div class="author-block author-block--column hover-shadow-left-top">
 						<div class="avatar avatar320">
-							<img src="img/author3-320.jpg" alt="avatar">
+							<!-- <img src="img/author1-320.jpg" alt="avatar"> -->
+							<div class="avatar avatar320 team-img"
+								style="background-image: url('img/pub.jpg');">
+							</div>
 						</div>
 						<div class="author-content">
-							<a href="#" class="h6 author-name">Brenda Bush</a>
-							<div class="author-prof">Chief Finance Officer</div>
+							<a href="#" class="h6 author-name">Ezugwu Peter Raymond</a>
+							<div class="author-prof">Head of publicity</div>
 						</div>
 					</div>
-				</div> -->
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30">
+					<div class="author-block author-block--column hover-shadow-bottom">
+						<div class="avatar avatar320">
+						<div class="avatar avatar320 team-img"
+								style="background-image: url('img/com.jpg');">
+							</div>
+						</div>
+						<div class="author-content">
+							<a href="#" class="h6 author-name">Odumejemba Ventura J. Kosisochukwu</a>
+							<div class="author-prof">Head of communications</div>
+						</div>
+					</div>
+				</div>
+
+				
 			</div>
 		</div>
 	</section>
@@ -73,8 +93,8 @@
 					<div class="author-block author-block--column hover-shadow-right-top">
 						<div class="avatar avatar440">
 							<!-- <img src="img/ceogentle.jpg" alt="avatar"> -->
-							<div class="avatar avatar440"
-								style="width: 301px; height: 301px; background-image: url('img/ceogentle.jpg'); background-size: cover; border-radius: 600px;">
+							<div class="avatar avatar440 team-ceo"
+								style="background-image: url('img/ceogentle.jpg');">
 							</div>
 						</div>
 						<div class="author-content">
@@ -122,7 +142,7 @@
 							<div class="overlay"></div>
 						</div>
 						<div class="event-content">
-							<h4 class="event-title mb30">Gentlecrypto wears</h4>
+							<h4 class="event-title mb30">Gentlecrypto stores</h4>
 							<a href="007_event_details.html" class="btn btn--medium btn--transparent btn--secondary">View more</a>
 						</div>
 					</div>

@@ -301,6 +301,9 @@
 			</div>
 
 			<div class="row pb100">
+				<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+				<h2 class="heading-title heading--half-colored" style="text-align: center; width: 100%;">Our Partners</h2>
+			</header>
 				<div class="col-lg-12 col-md-12 col0sm-12 col-xs-12">
 					<div class="crumina-module crumina-module-slider clients--slider navigation-center-both-sides">
 
@@ -322,12 +325,12 @@
 									<div class="swiper-wrapper">
 										<div class="swiper-slide">
 											<a class="clients-item" href="#">
-												<img src="img/wbtlogo.png" class="" alt="logo">
+												<img src="img/wbtlogo.png" width="125" class="" alt="logo">
 											</a>
 										</div>
 										<div class="swiper-slide">
 											<a class="clients-item" href="#">
-												<img src="img/client2.png" class="" alt="logo">
+												<img src="img/tfi.png" class="" alt="logo">
 											</a>
 										</div>
 										<div class="swiper-slide">

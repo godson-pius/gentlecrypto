@@ -80,3 +80,10 @@ We have bagged several award of credibility within the crypto and Enterprenurshi
 		</svg>
 	</a>
 </footer>
+
+<script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+    <script>
+        function loadGoogleTranslate() {
+            new google.translate.TranslateElement("lang");
+        }
+    </script>

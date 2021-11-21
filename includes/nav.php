@@ -17,16 +17,24 @@
 			<a href="./index.php">Home</a>
 		</li>
 
-		<li class="<?php if($page === "About") echo 'current-menu-item'; ?>">
-			<a href="./about.php">About Us</a>
+		<li class="menu-item-has-mega-menu menu-item-has-children <?php if($page === "Courses") echo 'current-menu-item'; ?>">
+			<a href="./courses.php">Courses</a>
 		</li>
 
 		<li class="menu-item-has-children <?php if($page === "Store") echo 'current-menu-item'; ?>">
 			<a href="./store.php">Store</a>
 		</li>
 
-		<li class="menu-item-has-mega-menu menu-item-has-children <?php if($page === "Courses") echo 'current-menu-item'; ?>">
-			<a href="./courses.php">Courses</a>
+		<li class="menu-item-has-children <?php if($page === "Marketplace") echo 'current-menu-item'; ?>">
+			<a href="./store.php">Marketplace</a>
+		</li>
+
+		<li class="<?php if($page === "About") echo 'current-menu-item'; ?>">
+			<a href="./about.php">About Us</a>
+		</li>
+
+		<li class="<?php if($page === "Affliate") echo 'current-menu-item'; ?>">
+			<a href="./about.php">Affliate marketer</a>
 		</li>
 
 		<li class="<?php if($page === "Contact") echo 'current-menu-item'; ?>">

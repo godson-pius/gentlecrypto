@@ -21,6 +21,8 @@
   font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -36,7 +38,7 @@ body{
   background-image: url("../img/body-bg.png");
   background-color: $body-bg-color;
   color: $body-font-color;
-  font-family: $body-font-family;
+  font-family: "Roboto', sans-serif";
   font-size: $body-font-size;
   font-weight: $body-font-weight;
   line-height: $base-line-height;
