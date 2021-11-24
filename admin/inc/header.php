@@ -19,16 +19,20 @@
         <link href="assets/plugins/datatables/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
         <!-- Responsive datatable examples -->
         <link href="assets/plugins/datatables/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+<!-- summernotes -->
 
         <!-- Multi Item Selection examples -->
         <link href="assets/plugins/datatables/select.bootstrap4.min.css" rel="stylesheet" type="text/css" />
 
         <!-- App css -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/metismenu.min.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-
+        <link href="assets/css/summernote.css" rel="stylesheet">
+  <script src="assets/js/summernote.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="assets/js/modernizr.min.js"></script>
 
     </head>
@@ -169,9 +173,9 @@
                         <li>
                             <a href="javascript: void(0);"><i class="ti-book"></i> <span> Courses </span> <span class="menu-arrow"></span></a>
                             <ul class="nav-second-level" aria-expanded="false">
-                                <li><a href="doctors.php">All Courses</a></li>
-                                <li><a href="doctors.php">Add Lessons</a></li>
-                                <li><a href="add-doctor.php">Add Courses</a></li>
+                                <li><a href="courses.php">All Courses</a></li>
+                                <li><a href="add-lesson.php">Add Lessons</a></li>
+                                <li><a href="add-course.php">Add Courses</a></li>
                             </ul>
                         </li>
 
