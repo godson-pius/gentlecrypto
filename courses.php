@@ -1,7 +1,15 @@
+<?php require_once("admin/config/db.php")?>
 <?php $page = "Courses"; ?>
 <?php include("./includes/header.php"); ?>
-<!-- ... end Header -->
 
+<!-- ... end Header -->
+<style type="text/css">
+	.dk{
+		color: black !important;
+		font-weight: bolder;
+
+	}
+</style>
 
 <div class="main-content-wrapper">
 	<section data-settings="particles-1" class="main-section crumina-flying-balls particles-js bg-1 medium-padding120">
@@ -33,85 +41,62 @@
 			<div class="row sorting-container" id="portfolio-grid" data-layout="masonry" data-isotope='{"masonry": { "columnWidth": ".grid-sizer" }}'>
 				<div class="grid-sizer"></div>
 
+<?php
+
+$sql_course = "SELECT * from courses";
+$course_result = mysqli_query($link,$sql_course);
+      $count_result = mysqli_num_rows($course_result);
+
+    if($count_result != 0){
+    while($row_course = $course_result->fetch_assoc()) {
+  $course_detail = $row_course["course_detail"];
+  $tutor = $row_course["tutor"];
+    $tutor_image = $row_course["tutor_image"];
+
+?>
 				<div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 sorting-item">
 					<div class="crumina-module crumina-event-item">
 						<div class="event-thumb bg-event4">
 							<div class="overlay"></div>
 						</div>
 						<div class="event-content">
-							<h4 class="event-title mb30">What is Bitcoin? A Step-By-Step Guide For Beginners</h4>
+							<h4 class="event-title mb30"><?php echo $course_detail ?></h4>
 							<a href="007_event_details.html" class="btn btn--medium btn--transparent btn--secondary">Buy Course</a>
 						</div>
 
-						<div class="event-venue">
+						<div class="event-venue" style="background-image: url('tutor_images/<?php echo $tutor_image ?>'); background-size:cover;">
 
 							<div class="author-block">
 
 								<div class="author-content">
-									<a href="#" class="author-name">Angelina Johnson</a>
-									<div class="author-prof">Tutor</div>
+									<a href="#" class="author-name dk"><?php echo $tutor ?></a>
+									<div class="author-prof dk">Tutor</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-
-				<div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 sorting-item">
-					<div class="crumina-module crumina-event-item">
-						<div class="event-thumb bg-event4">
-							<div class="overlay"></div>
-						</div>
-						<div class="event-content">
-							<h4 class="event-title mb30">What is Bitcoin? A Step-By-Step Guide For Intermediate</h4>
-							<a href="007_event_details.html" class="btn btn--medium btn--transparent btn--secondary">Buy Course</a>
-						</div>
-
-						<div class="event-venue">
-
-							<div class="author-block">
-
-								<div class="author-content">
-									<a href="#" class="author-name">Angelina Johnson</a>
-									<div class="author-prof">Tutor</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 sorting-item">
-					<div class="crumina-module crumina-event-item">
-						<div class="event-thumb bg-event4">
-							<div class="overlay"></div>
-						</div>
-						<div class="event-content">
-							<h4 class="event-title mb30">What is Bitcoin? A Step-By-Step Guide For Expert</h4>
-							<a href="007_event_details.html" class="btn btn--medium btn--transparent btn--secondary">Buy Course</a>
-						</div>
-
-						<div class="event-venue">
-
-							<div class="author-block">
-
-								<div class="author-content">
-									<a href="#" class="author-name">Angelina Johnson</a>
-									<div class="author-prof">Tutor</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-
-
-
-			</div>
+<?php }
+?>
+</div>
 
 			<div class="row align-center">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<a href="#" class="btn btn--large btn--transparent btn--dark-lighter" id="load-more-button" data-load-link="events-to-load.html" data-container="portfolio-grid">Load More Courses</a>
 				</div>
 			</div>
+			<?php
+}
+
+else{
+
+?>
+				
+<div style="text-align:center !important;"><h3 style="text-align:center;">NO COURSES AVAILABLE</h3></div>
+<?php } ?>
+
+
+			
 		</div>
 	</section>
 
