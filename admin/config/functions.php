@@ -172,3 +172,23 @@ if ($uploadOk == 1){
 
 }
 
+// for deleting a course
+if(isset($_POST["delete_course"])){
+  extract($_POST);
+  $sql = "DELETE FROM courses where id = $id";
+  if(mysqli_query($link, $sql)){
+     echo ("<script LANGUAGE='JavaScript'>
+    window.alert('Course Deleted Successfully');
+    window.location.href='../courses.php';
+    </script>");
+
+  }
+
+  else{
+    echo ("<script LANGUAGE='JavaScript'>
+    window.alert('An Error occured Try again later!');
+    window.location.href='../courses.php';
+    </script>");
+  }
+}
+
