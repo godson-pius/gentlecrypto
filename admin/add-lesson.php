@@ -136,7 +136,7 @@
                                             </div>
                                             
 
-                                            <div class="form-group text-right m-b-0">
+                                            <div class="text-right form-group m-b-0">
                                                 <button class="btn btn-primary waves-effect waves-light" type="submit" id="submit" name="add_lesson">
                                                     Add Lesson
                                                 </button>
