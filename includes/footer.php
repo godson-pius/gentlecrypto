@@ -17,32 +17,38 @@ We have bagged several award of credibility within the crypto and Enterprenurshi
 				<div class="widget w-contacts">
 					<ul class="socials socials--white">
 						<li class="social-item">
-							<a href="https://twitter.com/GentleCrypto?s=09">
+							<a target="_blank" href="https://twitter.com/GentleCrypto?s=09">
 								<i class="fab fa-twitter woox-icon"></i>
 							</a>
 						</li>
 
 						<li class="social-item">
-							<a href="https://youtube.com/channel/UCMee1TkTzEZDtqRYSizJLEw">
+							<a target="_blank" href="https://youtube.com/channel/UCMee1TkTzEZDtqRYSizJLEw">
 								<i class="fab fa-youtube woox-icon"></i>
 							</a>
 						</li>
 
 						<li class="social-item">
-							<a href="https://instagram.com/gentle_crypto?utm_medium=copy_link">
+							<a target="_blank" href="https://instagram.com/gentle_crypto?utm_medium=copy_link">
 								<i class="fab fa-instagram woox-icon"></i>
 							</a>
 						</li>
 
 						<li class="social-item">
-							<a href="https://www.linkedin.com/in/igwenagu-emmanuel-chinecherem-a89450158">
+							<a target="_blank" href="https://www.linkedin.com/in/igwenagu-emmanuel-chinecherem-a89450158">
 								<i class="fab fa-linkedin-in woox-icon"></i>
 							</a>
 						</li>
 
 						<li class="social-item">
-							<a href="https://www.facebook.com/Gentlecrypto-Trading-Academy-111172000801563/">
+							<a target="_blank" href="https://www.facebook.com/Gentlecrypto-Trading-Academy-111172000801563/">
 								<i class="fab fa-facebook-square woox-icon"></i>
+							</a>
+						</li>
+
+						<li class="social-item">
+							<a target="_blank" href="https://t.me/Gentle_crypto">
+								<i class="fab fa-telegram woox-icon"></i>
 							</a>
 						</li>
 					</ul>
@@ -80,6 +86,24 @@ We have bagged several award of credibility within the crypto and Enterprenurshi
 		</svg>
 	</a>
 </footer>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
     <script>

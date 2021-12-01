@@ -62,6 +62,7 @@
 <!-- App js -->
 <script src="assets/js/jquery.core.js"></script>
 <script src="assets/js/jquery.app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.20/summernote.min.js" integrity="sha512-6rE6Bx6fCBpRXG/FWpQmvguMWDLWMQjPycXMr35Zx/HRD9nwySZswkkLksgyQcvrpYMx0FELLJVBvWFtubZhDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
 
 <script type="text/javascript">
             $(document).ready(function() {
@@ -91,8 +92,12 @@
                     }
                 });
 
-                table.buttons().container()
-                        .appendTo('#datatable-buttons_wrapper .col-md-6:eq(0)');
+                table.buttons().container().appendTo('#datatable-buttons_wrapper .col-md-6:eq(0)');
+
+                $('#summernote').summernote({
+                    placeholder: "Course details and benefits goes here!",
+                    height: 150
+                });
             } );
 
         </script>

@@ -25,9 +25,9 @@
 			<a href="./store.php">Store</a>
 		</li>
 
-		<li class="menu-item-has-children <?php if($page === "Marketplace") echo 'current-menu-item'; ?>">
+		<!-- <li class="menu-item-has-children <?php if($page === "Marketplace") echo 'current-menu-item'; ?>">
 			<a href="./store.php">Marketplace</a>
-		</li>
+		</li> -->
 
 		<li class="<?php if($page === "About") echo 'current-menu-item'; ?>">
 			<a href="./about.php">About Us</a>
