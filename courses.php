@@ -65,7 +65,7 @@ $course_result = mysqli_query($link,$sql_course);
 						</div>
 						<div class="event-content">
 							<h4 class="event-title mb30"><?php echo $course_name; ?></h4>
-							<a href="007_event_details.html" class="btn btn--medium btn--transparent btn--secondary">View
+							<a href="#" class="btn btn--medium btn--transparent btn--secondary">View
 								Course</a>
 						</div>
 
