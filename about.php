@@ -206,24 +206,7 @@
 			</div>
 		</section>
 
-		<section class="subsidiaries">
-			<div class="container">
-				<div class="row medium-padding120 align-center">
-					<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12">
-						<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
-							<h2 class="heading-title heading--half-colored">Our Vison</h2>
-						</header>
-					</div>
-				</div>
-			</div>
-
-			<section class="">
-				<div class="container">
-					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus tempore ex, dolorum et dicta maxime aut nemo ea aspernatur odio esse temporibus? Perspiciatis molestias adipisci velit minima, assumenda magni autem?</p>
-				</div>
-			</section>
-
-		</section>
+		
 		<!-- Footer -->
 		<?php include("./includes/footer.php"); ?>
 		<!-- ... end Footer -->

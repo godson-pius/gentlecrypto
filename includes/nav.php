@@ -33,8 +33,16 @@
 			<a href="./about.php">About Us</a>
 		</li>
 
+		<li class="<?php if($page === "Ebooks") echo 'current-menu-item'; ?>">
+			<a href="./ebook.php">Ebooks</a>
+		</li>
+
 		<li class="<?php if($page === "Affliate") echo 'current-menu-item'; ?>">
-			<a href="./about.php">Affliate marketer</a>
+			<a href="">Affliate programme</a>
+		</li>
+
+		<li class="<?php if($page === "Events") echo 'current-menu-item'; ?>">
+			<a href="./events.php">Events</a>
 		</li>
 
 		<li class="<?php if($page === "Contact") echo 'current-menu-item'; ?>">

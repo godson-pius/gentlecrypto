@@ -21,8 +21,7 @@
 						<h2 class="heading-title heading--half-colored">Upcoming <span
 								class="weight-bold">Courses</span>
 						</h2>
-						<div class="heading-text">No matter how busy you may think you are, you must find time for
-							reading, or surrender yourself to self-chosen ignorance.</div>
+						<div class="heading-text">Our trading courses will teach, guide and correct you through the beautiful yet complex world of crypto currency trading.</div>
 					</header>
 				</div>
 			</div>

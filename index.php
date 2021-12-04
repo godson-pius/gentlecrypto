@@ -309,7 +309,9 @@
 										</div>
 										<div class="event-content">
 											<h4 class="event-title mb30">Crypto currency coaching/training</h4>
-											<p>enroll with our academy and get to acquire first hand, expert knowledge on what trading is all about, leveraging on our experience in the market. Visit the botton below to see our trading courses 
+											<p>enroll with our academy and get to acquire first hand, expert knowledge
+												on what trading is all about, leveraging on our experience in the
+												market. Visit the botton below to see our trading courses
 											</p>
 											<a href="courses.php"
 												class="btn btn--medium btn--transparent btn--secondary">Courses</a>
@@ -325,7 +327,8 @@
 										</div>
 										<div class="event-content">
 											<h4 class="event-title mb30">Crypto currency trading</h4>
-											<p>we can help you and trade profitable on the crypto market all you need to do is get your funds to us and we begin. 
+											<p>we can help you and trade profitable on the crypto market all you need to
+												do is get your funds to us and we begin.
 											</p>
 											<!-- <a href="courses.php"
 												class="btn btn--medium btn--transparent btn--secondary">Courses</a> -->
@@ -341,7 +344,9 @@
 										</div>
 										<div class="event-content">
 											<h4 class="event-title mb30">Crypto currency securities</h4>
-											<p>we can help you keep track with all your crypto currency transactions, acting as a middle man as the case may be, to avoid being scammed or lose of funds
+											<p>we can help you keep track with all your crypto currency transactions,
+												acting as a middle man as the case may be, to avoid being scammed or
+												lose of funds
 											</p>
 											<!-- <a href="courses.php"
 												class="btn btn--medium btn--transparent btn--secondary">Courses</a> -->
@@ -357,7 +362,8 @@
 										</div>
 										<div class="event-content">
 											<h4 class="event-title mb30">Buying and selling coins</h4>
-											<p>We buy and sell any crypto available to you according to your requirements at a very customer friendly rate
+											<p>We buy and sell any crypto available to you according to your
+												requirements at a very customer friendly rate
 											</p>
 											<!-- <a href="courses.php"
 												class="btn btn--medium btn--transparent btn--secondary">Courses</a> -->
@@ -373,7 +379,8 @@
 										</div>
 										<div class="event-content">
 											<h4 class="event-title mb30">Crypto OTC desk/exchange</h4>
-											<p>Buy and sell coins using our OTC Desk, leveraging on our policy of trust, reliability and swift delivery. 
+											<p>Buy and sell coins using our OTC Desk, leveraging on our policy of trust,
+												reliability and swift delivery.
 											</p>
 											<!-- <a href="courses.php"
 												class="btn btn--medium btn--transparent btn--secondary">Courses</a> -->
@@ -389,7 +396,8 @@
 										</div>
 										<div class="event-content">
 											<h4 class="event-title mb30">Crypto currency escrow services</h4>
-											<p>Be a part of our escrow services, where we link you to potential buyers and sellers with ease and maximum security.
+											<p>Be a part of our escrow services, where we link you to potential buyers
+												and sellers with ease and maximum security.
 											</p>
 											<!-- <a href="courses.php"
 												class="btn btn--medium btn--transparent btn--secondary">Courses</a> -->
@@ -402,7 +410,7 @@
 						</div>
 					</section>
 
-				
+
 				</div>
 			</div>
 		</div>
@@ -413,28 +421,117 @@
 		<div class="container">
 			<div class="row medium-padding120">
 				<div class="crumina-module crumina-featured-block">
-					<div class="image-block">
-						<img src="img/pc.png" alt="phone">
+					<div class="text-block">
+						<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+							<h2 class="heading-title weight-normal">Our
+								<span class="weight-bold">Vision</span></h2>
+							<div class="heading-text">We are looking at pioneering blockchain adoption among African
+								companies and businesses in multi-sectorial corporations by creating sustainable
+								solutions to basic human needs within Africa and beyond through leveraging on the power
+								of blockchain and artificial intelligence.
+							</div>
+						</header>
 					</div>
 					<div class="text-block">
 						<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
-							<h2 class="heading-title weight-normal">Greatest
-								<span class="weight-bold">Quote</span></h2>
-							<div class="heading-text">If you venture into crypto currency without it's knowledge, you
-								will be forced to rush out of it with heart breaking losses.</div>
+							<h2 class="heading-title weight-normal">Our
+								<span class="weight-bold">Mission</span></h2>
+							<div class="heading-text">building a community of successful independent digital asset
+								traders
+								Our academy strategically places our students ahead of others when it comes to crypto
+								currency trading and coaching.
+							</div>
 						</header>
 					</div>
 				</div>
 			</div>
+			<div class="crumina-module crumina-featured-block">
+				<div class="image-block">
+					<img src="img/pc.png" alt="phone">
+				</div>
+				<div class="text-block">
+					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+						<h2 class="heading-title weight-normal">Greatest
+							<span class="weight-bold">Quote</span></h2>
+						<div class="heading-text">If you venture into crypto currency without it's knowledge, you
+							will be forced to rush out of it with heart breaking losses.</div>
+					</header>
+				</div>
+			</div>
+		</div>
 
-			<div class="row pb100">
-				<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
-					<h2 class="heading-title heading--half-colored" style="text-align: center; width: 100%;">Our
-						Partners</h2>
-				</header>
-				<div class="col-lg-12 col-md-12 col0sm-12 col-xs-12">
-					<div class="crumina-module crumina-module-slider clients--slider navigation-center-both-sides">
+		<div class="row pb100 medium-padding120">
+			<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+				<h2 class="heading-title heading--half-colored" style="text-align: center; width: 100%;">Our
+					Partners</h2>
+			</header>
+			<div class="col-lg-12 col-md-12 col0sm-12 col-xs-12">
+				<div class="crumina-module crumina-module-slider clients--slider navigation-center-both-sides">
 
+					<div class="swiper-btn-next">
+						<svg class="woox-icon icon-line-arrow-right">
+							<use xlink:href="#icon-line-arrow-right"></use>
+						</svg>
+					</div>
+
+					<div class="swiper-btn-prev">
+						<svg class="woox-icon icon-line-arrow-left">
+							<use xlink:href="#icon-line-arrow-left"></use>
+						</svg>
+					</div>
+
+					<div class="row">
+						<div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12">
+							<div class="swiper-container" data-show-items="5" data-prev-next="1">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<a class="clients-item" href="#">
+											<img src="img/wbtlogo.png" width="125" class="" alt="logo">
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a class="clients-item" href="#">
+											<img src="img/tfi.png" class="" alt="logo">
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a class="clients-item" href="#">
+											<img src="img/client3.png" class="" alt="logo">
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a class="clients-item" href="#">
+											<img src="img/client4.png" class="" alt="logo">
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a class="clients-item" href="#">
+											<img src="img/client5.png" class="" alt="logo">
+										</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr class="divider">
+</div>
+
+</section>
+
+<section>
+	<div class="container mt100">
+		<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+			<h2 class="heading-title heading--half-colored" style="text-align: center; width: 100%;">Testimonies
+			</h2>
+		</header>
+		<div class="row ">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb30">
+				<div class="crumina-module crumina-module-slider navigation-bottom-both-sides">
+					<div class="swiper-container" data-show-items="1" data-prev-next="1">
 						<div class="swiper-btn-next">
 							<svg class="woox-icon icon-line-arrow-right">
 								<use xlink:href="#icon-line-arrow-right"></use>
@@ -447,255 +544,191 @@
 							</svg>
 						</div>
 
-						<div class="row">
-							<div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12">
-								<div class="swiper-container" data-show-items="5" data-prev-next="1">
-									<div class="swiper-wrapper">
-										<div class="swiper-slide">
-											<a class="clients-item" href="#">
-												<img src="img/wbtlogo.png" width="125" class="" alt="logo">
-											</a>
-										</div>
-										<div class="swiper-slide">
-											<a class="clients-item" href="#">
-												<img src="img/tfi.png" class="" alt="logo">
-											</a>
-										</div>
-										<div class="swiper-slide">
-											<a class="clients-item" href="#">
-												<img src="img/client3.png" class="" alt="logo">
-											</a>
-										</div>
-										<div class="swiper-slide">
-											<a class="clients-item" href="#">
-												<img src="img/client4.png" class="" alt="logo">
-											</a>
-										</div>
-										<div class="swiper-slide">
-											<a class="clients-item" href="#">
-												<img src="img/client5.png" class="" alt="logo">
-											</a>
-										</div>
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div
+									class="crumina-module crumina-testimonial-item testimonial--style2 has-border-arrow">
+									<div class="avatar avatar80">
+										<img src="img/author2.jpg" alt="avatar">
 									</div>
+									<div class="testimonial-content">
+										<div class="block--with-arrow-bottom-center">
+											<div class="block-arrow-down"></div>
+										</div>
+										<h6 class="testimonial-text">
+											<svg class="woox-icon icon-quote-icon quote">
+												<use xlink:href="#icon-quote-icon"></use>
+											</svg>
+											<svg class="woox-icon icon-quote-icon2 quote quote-close">
+												<use xlink:href="#icon-quote-icon2"></use>
+											</svg>
+											It's been awesome class with GentleCrypto trading academy, the beginners
+											class was a good one. Unto the advanced class we go.
+										</h6>
+									</div>
+
+									<div class="author-content">
+										<a href="#" class="author-name">A Divine Martins</a>
+										<div class="author-prof">Student</div>
+									</div>
+
+									<ul class="rait-stars">
+										<li>
+											<svg class="woox-icon icon-star-1">
+												<use xlink:href="#icon-star-1"></use>
+											</svg>
+										</li>
+										<li>
+											<svg class="woox-icon icon-star-1">
+												<use xlink:href="#icon-star-1"></use>
+											</svg>
+										</li>
+
+										<li>
+											<svg class="woox-icon icon-star-1">
+												<use xlink:href="#icon-star-1"></use>
+											</svg>
+										</li>
+										<li>
+											<svg class="woox-icon icon-star-1">
+												<use xlink:href="#icon-star-1"></use>
+											</svg>
+										</li>
+										<li>
+											<svg class="woox-icon icon-star-1">
+												<use xlink:href="#icon-star-1"></use>
+											</svg>
+										</li>
+									</ul>
 								</div>
-
 							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<hr class="divider">
-		</div>
-
-	</section>
-
-	<section>
-		<div class="container mt100">
-			<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
-				<h2 class="heading-title heading--half-colored" style="text-align: center; width: 100%;">Testimonies
-				</h2>
-			</header>
-			<div class="row ">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb30">
-					<div class="crumina-module crumina-module-slider navigation-bottom-both-sides">
-						<div class="swiper-container" data-show-items="1" data-prev-next="1">
-							<div class="swiper-btn-next">
-								<svg class="woox-icon icon-line-arrow-right">
-									<use xlink:href="#icon-line-arrow-right"></use>
-								</svg>
-							</div>
-
-							<div class="swiper-btn-prev">
-								<svg class="woox-icon icon-line-arrow-left">
-									<use xlink:href="#icon-line-arrow-left"></use>
-								</svg>
-							</div>
-
-							<div class="swiper-wrapper">
-								<div class="swiper-slide">
-									<div
-										class="crumina-module crumina-testimonial-item testimonial--style2 has-border-arrow">
-										<div class="avatar avatar80">
-											<img src="img/author2.jpg" alt="avatar">
-										</div>
-										<div class="testimonial-content">
-											<div class="block--with-arrow-bottom-center">
-												<div class="block-arrow-down"></div>
-											</div>
-											<h6 class="testimonial-text">
-												<svg class="woox-icon icon-quote-icon quote">
-													<use xlink:href="#icon-quote-icon"></use>
-												</svg>
-												<svg class="woox-icon icon-quote-icon2 quote quote-close">
-													<use xlink:href="#icon-quote-icon2"></use>
-												</svg>
-												It's been awesome class with GentleCrypto trading academy, the beginners
-												class was a good one. Unto the advanced class we go.
-											</h6>
-										</div>
-
-										<div class="author-content">
-											<a href="#" class="author-name">A Divine Martins</a>
-											<div class="author-prof">Student</div>
-										</div>
-
-										<ul class="rait-stars">
-											<li>
-												<svg class="woox-icon icon-star-1">
-													<use xlink:href="#icon-star-1"></use>
-												</svg>
-											</li>
-											<li>
-												<svg class="woox-icon icon-star-1">
-													<use xlink:href="#icon-star-1"></use>
-												</svg>
-											</li>
-
-											<li>
-												<svg class="woox-icon icon-star-1">
-													<use xlink:href="#icon-star-1"></use>
-												</svg>
-											</li>
-											<li>
-												<svg class="woox-icon icon-star-1">
-													<use xlink:href="#icon-star-1"></use>
-												</svg>
-											</li>
-											<li>
-												<svg class="woox-icon icon-star-1">
-													<use xlink:href="#icon-star-1"></use>
-												</svg>
-											</li>
-										</ul>
+							<div class="swiper-slide">
+								<div
+									class="crumina-module crumina-testimonial-item testimonial--style2 has-border-arrow">
+									<div class="avatar avatar80">
+										<img src="img/author2.jpg" alt="avatar">
 									</div>
+									<div class="testimonial-content">
+										<div class="block--with-arrow-bottom-center">
+											<div class="block-arrow-down"></div>
+										</div>
+										<h6 class="testimonial-text">
+											<svg class="woox-icon icon-quote-icon quote">
+												<use xlink:href="#icon-quote-icon"></use>
+											</svg>
+											<svg class="woox-icon icon-quote-icon2 quote quote-close">
+												<use xlink:href="#icon-quote-icon2"></use>
+											</svg>
+											I really want to appreciate GentleCrypto Trading Academy for this great
+											training. I find it well prepared and helpful. I've gained a strong
+											knowledge of crypto trading.
+										</h6>
+									</div>
+
+									<div class="author-content">
+										<a href="#" class="author-name">Oluwaseyi Trust</a>
+										<div class="author-prof">Student</div>
+									</div>
+
+									<ul class="rait-stars">
+										<li>
+											<svg class="woox-icon icon-star-1">
+												<use xlink:href="#icon-star-1"></use>
+											</svg>
+										</li>
+										<li>
+											<svg class="woox-icon icon-star-1">
+												<use xlink:href="#icon-star-1"></use>
+											</svg>
+										</li>
+
+										<li>
+											<svg class="woox-icon icon-star-1">
+												<use xlink:href="#icon-star-1"></use>
+											</svg>
+										</li>
+										<li>
+											<svg class="woox-icon icon-star-1">
+												<use xlink:href="#icon-star-1"></use>
+											</svg>
+										</li>
+										<li>
+											<svg class="woox-icon icon-star-1">
+												<use xlink:href="#icon-star-1"></use>
+											</svg>
+										</li>
+									</ul>
 								</div>
-								<div class="swiper-slide">
-									<div
-										class="crumina-module crumina-testimonial-item testimonial--style2 has-border-arrow">
-										<div class="avatar avatar80">
-											<img src="img/author2.jpg" alt="avatar">
-										</div>
-										<div class="testimonial-content">
-											<div class="block--with-arrow-bottom-center">
-												<div class="block-arrow-down"></div>
-											</div>
-											<h6 class="testimonial-text">
-												<svg class="woox-icon icon-quote-icon quote">
-													<use xlink:href="#icon-quote-icon"></use>
-												</svg>
-												<svg class="woox-icon icon-quote-icon2 quote quote-close">
-													<use xlink:href="#icon-quote-icon2"></use>
-												</svg>
-												I really want to appreciate GentleCrypto Trading Academy for this great
-												training. I find it well prepared and helpful. I've gained a strong
-												knowledge of crypto trading.
-											</h6>
-										</div>
-
-										<div class="author-content">
-											<a href="#" class="author-name">Oluwaseyi Trust</a>
-											<div class="author-prof">Student</div>
-										</div>
-
-										<ul class="rait-stars">
-											<li>
-												<svg class="woox-icon icon-star-1">
-													<use xlink:href="#icon-star-1"></use>
-												</svg>
-											</li>
-											<li>
-												<svg class="woox-icon icon-star-1">
-													<use xlink:href="#icon-star-1"></use>
-												</svg>
-											</li>
-
-											<li>
-												<svg class="woox-icon icon-star-1">
-													<use xlink:href="#icon-star-1"></use>
-												</svg>
-											</li>
-											<li>
-												<svg class="woox-icon icon-star-1">
-													<use xlink:href="#icon-star-1"></use>
-												</svg>
-											</li>
-											<li>
-												<svg class="woox-icon icon-star-1">
-													<use xlink:href="#icon-star-1"></use>
-												</svg>
-											</li>
-										</ul>
+							</div>
+							<div class="swiper-slide">
+								<div
+									class="crumina-module crumina-testimonial-item testimonial--style2 has-border-arrow">
+									<div class="avatar avatar80">
+										<img src="img/author2.jpg" alt="avatar">
 									</div>
-								</div>
-								<div class="swiper-slide">
-									<div
-										class="crumina-module crumina-testimonial-item testimonial--style2 has-border-arrow">
-										<div class="avatar avatar80">
-											<img src="img/author2.jpg" alt="avatar">
+									<div class="testimonial-content">
+										<div class="block--with-arrow-bottom-center">
+											<div class="block-arrow-down"></div>
 										</div>
-										<div class="testimonial-content">
-											<div class="block--with-arrow-bottom-center">
-												<div class="block-arrow-down"></div>
-											</div>
-											<h6 class="testimonial-text">
-												<svg class="woox-icon icon-quote-icon quote">
-													<use xlink:href="#icon-quote-icon"></use>
-												</svg>
-												<svg class="woox-icon icon-quote-icon2 quote quote-close">
-													<use xlink:href="#icon-quote-icon2"></use>
-												</svg>
-												This is an awesome course as he broke down every single aspects of the
-												market for beginners. Not only was the teaching experience great, he
-												also gave some great ebooks to kick start and get familiar with some
-												market trading terms. This is a great chance as he has now become a
-												crypto trading coach for all students
-											</h6>
-										</div>
-
-										<div class="author-content">
-											<a href="#" class="author-name">Joshua Uzoagulu</a>
-											<div class="author-prof">Student</div>
-										</div>
-
-										<ul class="rait-stars">
-											<li>
-												<svg class="woox-icon icon-star-1">
-													<use xlink:href="#icon-star-1"></use>
-												</svg>
-											</li>
-											<li>
-												<svg class="woox-icon icon-star-1">
-													<use xlink:href="#icon-star-1"></use>
-												</svg>
-											</li>
-
-											<li>
-												<svg class="woox-icon icon-star-1">
-													<use xlink:href="#icon-star-1"></use>
-												</svg>
-											</li>
-											<li>
-												<svg class="woox-icon icon-star-1">
-													<use xlink:href="#icon-star-1"></use>
-												</svg>
-											</li>
-											<li>
-												<svg class="woox-icon icon-star-1">
-													<use xlink:href="#icon-star-1"></use>
-												</svg>
-											</li>
-										</ul>
+										<h6 class="testimonial-text">
+											<svg class="woox-icon icon-quote-icon quote">
+												<use xlink:href="#icon-quote-icon"></use>
+											</svg>
+											<svg class="woox-icon icon-quote-icon2 quote quote-close">
+												<use xlink:href="#icon-quote-icon2"></use>
+											</svg>
+											This is an awesome course as he broke down every single aspects of the
+											market for beginners. Not only was the teaching experience great, he
+											also gave some great ebooks to kick start and get familiar with some
+											market trading terms. This is a great chance as he has now become a
+											crypto trading coach for all students
+										</h6>
 									</div>
+
+									<div class="author-content">
+										<a href="#" class="author-name">Joshua Uzoagulu</a>
+										<div class="author-prof">Student</div>
+									</div>
+
+									<ul class="rait-stars">
+										<li>
+											<svg class="woox-icon icon-star-1">
+												<use xlink:href="#icon-star-1"></use>
+											</svg>
+										</li>
+										<li>
+											<svg class="woox-icon icon-star-1">
+												<use xlink:href="#icon-star-1"></use>
+											</svg>
+										</li>
+
+										<li>
+											<svg class="woox-icon icon-star-1">
+												<use xlink:href="#icon-star-1"></use>
+											</svg>
+										</li>
+										<li>
+											<svg class="woox-icon icon-star-1">
+												<use xlink:href="#icon-star-1"></use>
+											</svg>
+										</li>
+										<li>
+											<svg class="woox-icon icon-star-1">
+												<use xlink:href="#icon-star-1"></use>
+											</svg>
+										</li>
+									</ul>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-
 			</div>
-			<hr class="divider">
+
 		</div>
-	</section>
+		<hr class="divider">
+	</div>
+</section>
 
 
 
