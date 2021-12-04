@@ -4,8 +4,13 @@
 
 <!-- ... end Header -->
 <style type="text/css">
+<<<<<<< Updated upstream
 	.dk {
 		color: black !important;
+=======
+	.dk{
+		color: ghostwhite; !important;
+>>>>>>> Stashed changes
 		font-weight: bolder;
 
 	}
@@ -27,10 +32,13 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-4 col-lg-offset-4 col-md-12 col-sm-12 col-xs-12">
-					<div class="input-with-btn-inline">
-						<input id='name' name="name" placeholder="Your Email Address" type="text" value="">
-						<button class="btn btn--large btn--green-light">Subscribe</button>
+					<div class="input-with-btn-inline content-frm">
+						<form class="subsFrm" method="POST">
+						<input id='email' name="email" placeholder="Your Email Address" type="email" value="">
+						<button id="subscribeBtn" class="btn btn--large btn--green-light">Subscribe</button>
+					</form>
 					</div>
+					<div class="status"></div>
 				</div>
 			</div>
 		</div>
@@ -200,7 +208,54 @@ else{
 <script src="js/js-plugins/ion.rangeSlider.js"></script>
 
 <!-- FontAwesome 5.x.x JS -->
-
+<script>
+$(document).ready(function(){
+    $('#subscribeBtn').on('click', function(){
+        // Remove previous status message
+        $('.status').html('');
+		
+        // Email and name regex
+        var regEmail = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i;
+       
+		
+        // Get input values
+        var email = $('#email').val();
+		
+        // Validate input fields
+        if(email.trim() == '' ){
+            alert('Please enter your email.');
+            $('#email').focus();
+            return false;
+        }else if(email.trim() != '' && !regEmail.test(email)){
+            alert('Please enter a valid email.');
+            $('#email').focus();
+            return false;
+        }else{
+            // Post subscription form via Ajax
+            $.ajax({
+                type:'POST',
+                url:'subscription.php',
+                dataType: "json",
+                data:{subscribe:1,email:email},
+                beforeSend: function () {
+                    $('#subscribeBtn').attr("disabled", "disabled");
+                    $('.content-frm').css('opacity', '.5');
+                },
+                success:function(data){
+                    if(data.status == 'ok'){
+                        $('#subsFrm')[0].reset();
+                        $('.status').html('<p class="success">'+data.msg+'</p>');
+                    }else{
+                        $('.status').html('<p class="error">'+data.msg+'</p>');
+                    }
+                    $('#subscribeBtn').removeAttr("disabled");
+                    $('.content-frm').css('opacity', '');
+                }
+            });
+        }
+    });
+});
+</script>
 <script defer src="fonts/fontawesome-all.js"></script>
 
 <script src="js/main.js"></script>
