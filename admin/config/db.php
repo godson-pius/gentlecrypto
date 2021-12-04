@@ -2,7 +2,7 @@
 <?php
 session_start();
 
-define("HOST", "localhost");
+define("HOST", "localhost:3308");
 define("USER", "root");
 define("PASSWORD", "");
 define("DBNAME", "gentlecrypto");
