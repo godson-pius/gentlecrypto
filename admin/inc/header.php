@@ -181,7 +181,15 @@
                         </li>
 
                         <li>
-                            <a href="javascript: void(0);"><i class="ti-book"></i> <span> Products </span> <span class="menu-arrow"></span></a>
+                            <a href="javascript: void(0);"><i class="ti-announcement"></i> <span> Events </span> <span class="menu-arrow"></span></a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li><a href="events.php">All Events</a></li>
+                                <li><a href="add-event.php">Add Events</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);"><i class="ti-shopping-cart"></i> <span> Products </span> <span class="menu-arrow"></span></a>
                             <ul class="nav-second-level" aria-expanded="false">
                                 <li><a href="doctors.php">All Products</a></li>
                                 <li><a href="add-doctor.php">Add Products</a></li>
@@ -204,7 +212,7 @@
                         </li>
 
                         <li>
-                            <a href="messages.php"><i class="ti-user"></i> <span> Messages </span></a>
+                            <a href="messages.php"><i class="ti-comments"></i> <span> Messages </span></a>
                         </li>
 
                         <li>
