@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3308
--- Generation Time: Nov 24, 2021 at 10:41 PM
+-- Generation Time: Dec 05, 2021 at 01:41 AM
 -- Server version: 10.4.13-MariaDB
 -- PHP Version: 7.4.8
 
@@ -50,15 +50,19 @@ CREATE TABLE `courses` (
   `course_name` varchar(500) DEFAULT NULL,
   `course_detail` varchar(1000) DEFAULT NULL,
   `tutor` varchar(100) DEFAULT NULL,
-  `tutor_image` varchar(200) DEFAULT NULL
+  `tutor_image` varchar(200) DEFAULT NULL,
+  `updated_at` datetime DEFAULT current_timestamp(),
+  `created_at` datetime DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `courses`
 --
 
-INSERT INTO `courses` (`id`, `course_name`, `course_detail`, `tutor`, `tutor_image`) VALUES
-(4, 'Bitcoin Tradind', 'Bitcoin Trading for Beginners', 'helen Okereke', 'hel2.jpg');
+INSERT INTO `courses` (`id`, `course_name`, `course_detail`, `tutor`, `tutor_image`, `updated_at`, `created_at`) VALUES
+(5, 'helen', 'helen', 'helen', '84214121_206852460565326_6808168431456616448_n.jpg', '2021-11-27 08:53:55', '2021-11-27 08:54:17'),
+(6, 'helen', 'helen', 'helen', '84214121_206852460565326_6808168431456616448_n.jpg', '2021-11-27 08:53:55', '2021-11-27 08:54:17'),
+(7, 'helen', 'helen', 'helen', '84214121_206852460565326_6808168431456616448_n.jpg', '2021-11-27 08:53:55', '2021-11-27 08:54:17');
 
 -- --------------------------------------------------------
 
@@ -86,7 +90,7 @@ CREATE TABLE `course_payments` (
 CREATE TABLE `lessons` (
   `id` int(11) NOT NULL,
   `course_id` int(11) NOT NULL,
-  `lesson_detail` varchar(2000) DEFAULT NULL,
+  `lesson_detail` text DEFAULT NULL,
   `topic` varchar(100) DEFAULT NULL,
   `video` varchar(200) DEFAULT NULL,
   `date_added` datetime DEFAULT current_timestamp(),
@@ -106,6 +110,21 @@ CREATE TABLE `monthly_subscription` (
   `time` time DEFAULT NULL,
   `amount` decimal(15,4) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `subscribers`
+--
+
+CREATE TABLE `subscribers` (
+  `id` int(11) NOT NULL,
+  `email` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
+  `verify_code` varchar(150) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `is_verified` tinyint(1) NOT NULL DEFAULT 0,
+  `created` datetime NOT NULL,
+  `status` tinyint(1) NOT NULL DEFAULT 1
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -133,11 +152,23 @@ CREATE TABLE `users` (
   `first_name` varchar(200) DEFAULT NULL,
   `last_name` varchar(200) DEFAULT NULL,
   `email` varchar(200) DEFAULT NULL,
-  `phone_no` varchar(15) DEFAULT NULL,
   `reg_date` datetime DEFAULT current_timestamp(),
   `profile_picture` varchar(255) DEFAULT NULL,
   `password` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `first_name`, `last_name`, `email`, `reg_date`, `profile_picture`, `password`) VALUES
+(1, 'mary', 'gaga', 'okerekehelen@gmail.com', '2021-12-04 23:35:10', NULL, 'bf2bc2545a4a5f5683d9ef3ed0d977e0'),
+(2, 'helen', 'okereke', 'okerekehelenugoeze@gmail.com', '2021-12-05 00:50:42', NULL, '5d41402abc4b2a76b9719d911017c592'),
+(3, 'mary', 'gaga', 'okerekehelenugo@gmail.com', '2021-12-05 00:54:31', NULL, '5d41402abc4b2a76b9719d911017c592'),
+(4, 'mary', 'gaga', 'okereke@gmail.com', '2021-12-05 00:56:09', NULL, 'bf2bc2545a4a5f5683d9ef3ed0d977e0'),
+(5, 'ugo', 'gaga', 'okerek@gmail.com', '2021-12-05 01:00:12', NULL, '634a3583084e873ccf31d58622707219'),
+(6, 'helen', 'okereke', 'okerekehelenugoe@gmail.com', '2021-12-05 01:01:04', NULL, '6643724c334ecea097159e84d4b9622a'),
+(7, 'mary', 'gaga', 'okerekehze@gmail.com', '2021-12-05 01:02:00', NULL, 'a3aca2964e72000eea4c56cb341002a4');
 
 -- --------------------------------------------------------
 
@@ -195,6 +226,12 @@ ALTER TABLE `monthly_subscription`
   ADD KEY `vendor_id` (`vendor_id`);
 
 --
+-- Indexes for table `subscribers`
+--
+ALTER TABLE `subscribers`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `transactions`
 --
 ALTER TABLE `transactions`
@@ -228,7 +265,7 @@ ALTER TABLE `admins`
 -- AUTO_INCREMENT for table `courses`
 --
 ALTER TABLE `courses`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `course_payments`
@@ -249,6 +286,12 @@ ALTER TABLE `monthly_subscription`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
+-- AUTO_INCREMENT for table `subscribers`
+--
+ALTER TABLE `subscribers`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT for table `transactions`
 --
 ALTER TABLE `transactions`
@@ -258,7 +301,7 @@ ALTER TABLE `transactions`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `vendors`

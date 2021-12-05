@@ -18,7 +18,12 @@
         <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 
         <script src="assets/js/modernizr.min.js"></script>
-
+        <style>
+.error{
+    color:red;
+    display:none;
+}
+</style>
     </head>
 
 
@@ -41,51 +46,71 @@
                                     <!--<h4 class="text-uppercase font-bold m-b-0">Sign In</h4>-->
                                 </div>
                                 <div class="account-content">
-                                    <form class="form-horizontal" action="#">
+                                <div class="form-group m-b-20">
+                                            <div class="col-12">
+                                                <div id="errb" class="form-control text-center" style="color:white; background-color:orange; display:none;"><i class="fa fa-exclamation-triangle" id="this"></i>
+                                           
+                                        </div>
+                                        </div>
+                                    <form class="form-horizontal" method="POST" onSubmit="return validate();" novalidate action="#">
 
                                         <div class="form-group m-b-20">
                                             <div class="col-12">
-                                                <label for="username">Full Name</label>
-                                                <input class="form-control" type="text" id="username" required="" placeholder="Michael Zenaty">
-                                            </div>
+                                                <label for="username">First Name</label>
+                                                <input class="form-control" type="text" id="fname" required="" placeholder="Michael Zenaty">
+                                            <i class="fa fa-exclamation-triangle error" id="efname" aria-hidden="true"></i>
+                                        </div>
+                                        </div>
+
+                                        <div class="form-group m-b-20">
+                                            <div class="col-12">
+                                                <label for="username">Last Name</label>
+                                                <input class="form-control" type="text" id="lname" required="" placeholder="johndoe">
+                                            <i class="fa fa-exclamation-triangle error" id="elname" aria-hidden="true"></i>
+                                        </div>
                                         </div>
 
                                         <div class="form-group m-b-20">
                                             <div class="col-12">
                                                 <label for="emailaddress">Email address</label>
-                                                <input class="form-control" type="email" id="emailaddress" required="" placeholder="john@deo.com">
-                                            </div>
+                                                <input class="form-control" type="email" id="email" required="" placeholder="john@deo.com">
+                                           
+                                            <i class="fa fa-exclamation-triangle error" id="eemail" aria-hidden="true"></i>
                                         </div>
+                                        </div>
+
+                                        
 
                                         <div class="form-group m-b-20">
                                             <div class="col-12">
-                                                <label for="username">Username</label>
-                                                <input class="form-control" type="text" id="username" required="" placeholder="johndoe">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group m-b-20">
-                                            <div class="col-12">
-                                                <label for="password">Password</label>
+                                                <div class="row">
+                                                <label for="password" class="col-8">Password</label> <span class="col-3 text-center" id="StrengthDisp" style="display:none; background-color:red; color:white; border-radius:10px; margin-bottom:1%" class="badge displayBadge">Weak</span>
+</div>
                                                 <input class="form-control" type="password" required="" id="password" placeholder="Enter your password">
-                                            </div>
+                                            
+                                            <i class="fa fa-exclamation-triangle error" id="epass" aria-hidden="true"></i>
+                                        </div>
                                         </div>
 
                                         <div class="form-group m-b-20">
                                             <div class="col-12">
-                                                <label for="cpassword">Confirm Password</label>
-                                                <input class="form-control" type="cpassword" required="" id="password" placeholder="Confirm your password">
-                                            </div>
+                                            <div class="row">
+                                                <label for="cpassword" class="col-8">Confirm Password</label><span class="col-3 text-center" id="StrengthDisp2" style="display:none; background-color:red; color:white; border-radius:10px; margin-bottom:1%" class="badge displayBadge">not Match</span>
+</div><input class="form-control" type="password" required="" id="conpassword" placeholder="Confirm your password">
+                                            
+                                            <i class="fa fa-exclamation-triangle error" id="econ" aria-hidden="true"></i>
                                         </div>
+</div>
 
                                         <div class="form-group m-b-30">
                                             <div class="col-12">
                                                 <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox5" type="checkbox">
+                                                    <input id="term" type="checkbox">
                                                     <label for="checkbox5">
                                                         I accept <a href="#">Terms and Conditions</a>
                                                     </label>
                                                 </div>
+                                                <i class="fa fa-exclamation-triangle error" id="et" aria-hidden="true"></i>
                                             </div>
                                         </div>
 
@@ -125,5 +150,179 @@
         <script src="assets/js/jquery.core.js"></script>
         <script src="assets/js/jquery.app.js"></script>
 
+        <script>
+            function validate(){
+                
+    var firstname = document.getElementById("fname").value;
+    var lastname = document.getElementById("lname").value;
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+    var confirmpassword = document.getElementById("conpassword").value;
+    var msg = document.getElementById("this");
+    var terms = document.getElementById("term");
+    var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+
+    if(firstname.length == 0){
+        document.getElementById("efname").style.display="block";
+        document.getElementById("efname").innerHTML="Please enter your First Name";
+        return false;
+    }
+    else{
+        document.getElementById("efname").style.display="none";
+    }
+    if(lastname.length == 0){
+        document.getElementById("elname").style.display="block";
+        document.getElementById("elname").innerHTML="Please enter your Last Name";
+        return false;
+    }
+    else{
+        document.getElementById("elname").style.display="none";
+    }
+    if(email.length == 0){
+        document.getElementById("eemail").style.display="block";
+        document.getElementById("eemail").innerHTML="Please Enter Your Email Address";
+        return false;
+    }
+    else if(!(email.match(validRegex))){
+        document.getElementById("eemail").style.display="block";
+        document.getElementById("eemail").innerHTML="Invalid Email Address";
+        return false;
+
+    }
+    else{
+        document.getElementById("eemail").style.display="none";
+    }
+
+    if(password.length == 0){
+        document.getElementById("epass").style.display="block";
+        document.getElementById("epass").innerHTML="Please Enter your Password";
+        return false;
+    }
+    else{
+        document.getElementById("epass").style.display="none";
+    }
+
+    if(confirmpassword != password){
+        document.getElementById("econ").style.display="block";
+        document.getElementById("econ").innerHTML="Password does not match";
+        return false;
+    }
+    else{
+        document.getElementById("econ").style.display="none";
+    }
+
+    if(!(terms.checked)){
+        document.getElementById("et").style.display="block";
+        document.getElementById("et").innerHTML="You Must accept our Terms";
+        return false;
+    }
+    else{
+        document.getElementById("et").style.display="none";
+    }
+
+    
+    $.ajax({
+ type: 'post',
+ url: 'config/functions.php',
+ data: {
+  fname:firstname,
+  lname:lastname,
+  mail:email,
+  pass:password,
+  register:"1"
+ },
+ success: function (response) {
+
+  if(response.trim() == "success"){
+      alert("Registered Successfully");
+      window.location.href="pages-login.php";
+  }
+  else{
+    document.getElementById("errb").style.display="block";
+      msg.innerHTML = response;
+      return false;
+  }
+ }
+ });
+ return false;
+    
+}
+var pass2 = document.getElementById("password");
+let strengthBadge = document.getElementById('StrengthDisp');
+let strengthBadge2 = document.getElementById('StrengthDisp2');
+let timeout;
+let con = document.getElementById("conpassword"); 
+let strongPassword = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;
+    let mediumPassword = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
+    
+    function StrengthChecker(PasswordParameter){
+        // We then change the badge's color and text based on the password strength
+
+        if(PasswordParameter.match(strongPassword)) {
+            strengthBadge.style.backgroundColor = "green"
+            strengthBadge.style.color = 'white'
+            strengthBadge.textContent = 'Strong'
+        } 
+        else if(PasswordParameter.match(mediumPassword)){
+            strengthBadge.style.backgroundColor = 'orange'
+            strengthBadge.style.color = 'white'
+            strengthBadge.textContent = 'Medium'
+        } else{
+            strengthBadge.style.backgroundColor = 'red'
+            strengthBadge.style.color = 'white'
+            strengthBadge.textContent = 'Weak'
+        }
+        checkit();
+    }
+
+    pass2.addEventListener("input", () => {
+        strengthBadge.style.display= 'block'
+        clearTimeout(timeout);
+
+        //We then call the StrengChecker function as a callback then pass the typed password to it
+
+        timeout = setTimeout(() => StrengthChecker(pass2.value), 500);
+
+        //Incase a user clears the text, the badge is hidden again
+
+        if(pass2.value.length !== 0){
+            strengthBadge.style.display != 'block'
+        } else{
+            strengthBadge.style.display = 'none'
+        }
+    });
+
+
+function checkit(){
+    if(con.value == pass2.value){
+    strengthBadge2.style.backgroundColor = 'green'
+            strengthBadge2.style.color = 'white'
+            strengthBadge2.textContent = 'Matched'
+    }
+    else{
+    strengthBadge2.style.backgroundColor = 'red'
+            strengthBadge2.style.color = 'white'
+            strengthBadge2.textContent = 'not Match'
+    }
+}
+
+    con.addEventListener("input", () => {
+        strengthBadge2.style.display= 'block'
+        clearTimeout(timeout);
+
+        //We then call the StrengChecker function as a callback then pass the typed password to it
+
+        timeout = setTimeout(() => checkit(), 500);
+
+        //Incase a user clears the text, the badge is hidden again
+
+        if(con.value.length !== 0){
+            strengthBadge2.style.display != 'block'
+        } else{
+            strengthBadge2.style.display = 'none'
+        }
+    });
+</script>
     </body>
 </html>
