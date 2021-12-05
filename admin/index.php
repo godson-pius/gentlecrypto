@@ -1,6 +1,9 @@
 
 <?php
   require_once 'config/db.php';
+  if(!(isset($_SESSION["login"]))){
+    header("location:pages-login.php");
+}
   //blockUrlHackers('pages-login.php', $_SESSION['admin']);
 
 ?>

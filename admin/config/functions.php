@@ -192,3 +192,60 @@ if(isset($_POST["delete_course"])){
   }
 }
 
+
+if(isset($_POST["register"])){
+  trim(extract($_POST));
+  $emailcheck = "SELECT * from users where email = '$mail'";
+$emailcheckresult = mysqli_query($link,$emailcheck);
+      $countcheck = mysqli_num_rows($emailcheckresult);
+
+    if($countcheck != 0){
+      echo "This Email Address already exists";
+    }
+    else{
+  $sql_query = "INSERT INTO users(first_name,last_name,email,password) VALUES('$fname','$lname','$mail', MD5('$pass'))";
+  if(mysqli_query($link,$sql_query)){
+    echo "success";
+  }
+  else{
+    echo "Error Please try again Later!";
+  }
+}
+
+}
+
+
+if(isset($_POST["login"])){
+  trim(extract($_POST));
+  $emailcheck = "SELECT * from users where email = '$mail'";
+$emailcheckresult = mysqli_query($link,$emailcheck);
+      $countcheck = mysqli_num_rows($emailcheckresult);
+
+    if($countcheck == 0){
+      echo "This Email Address does not exist";
+    }
+    else{
+      $passcheck = "SELECT * from users where email = '$mail' && password = MD5('$pass')";
+      $passcheckresult = mysqli_query($link,$passcheck);
+      $countcheck2 = mysqli_num_rows($passcheckresult);
+
+    if($countcheck2 == 0){
+      echo "This Password is Incorrect";
+    }
+    else{
+      $row = mysqli_fetch_array($passcheckresult, MYSQLI_ASSOC);
+        $id = $row["id"];
+
+      session_start();
+      $_SESSION["login"] = "logged";
+      $_SESSION["id"] = $id;
+      if($rem != 0){
+        $time = time() + 86400;
+        setcookie('pass',$pass,$time);
+       }
+      echo "success";
+}
+}
+
+}
+
