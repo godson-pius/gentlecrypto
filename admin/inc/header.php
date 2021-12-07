@@ -213,7 +213,7 @@
                                 <li><a href="pages-register.php">Register</a></li>
                                 <li><a href="pages-forget-password.php">Change Password</a></li>
                                 <li><a href="pages-lock-screen.php">Lock-screen</a></li>
-                                <li><a href="pages-lock-screen.php">Logout</a></li>
+                                <li><a href="logout.php">Logout</a></li>
                             </ul>
                         </li>
 
