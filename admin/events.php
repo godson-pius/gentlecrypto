@@ -24,12 +24,13 @@
                             <div class="col-12">
                                 <div class="table-responsive">
 
-                                    <table id="datatable-buttons" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                                    <table id="datatable-buttons" class="table table-striped table-bordered text-center" cellspacing="0" width="100%">
                                         <thead>
                                         <tr>
-                                            <th>Course Name</th>
-                                            <th>Course Details</th>
-                                            <th>Tutor</th>
+                                            <th>Event Title</th>
+                                            <th>Event Venue</th>
+                                            <th>Date</th>
+                                            <th>Time</th>
                                             <th>Action</th>
                                             
                                         </tr>
@@ -39,32 +40,27 @@
                                         <tbody>
                                           <?php
 
-$sql_course = "SELECT * from courses";
-$course_result = mysqli_query($link,$sql_course);
-      $count_result = mysqli_num_rows($course_result);
+$sql_event = "SELECT * from events";
+$event_result = mysqli_query($link,$sql_event);
+      $count_result = mysqli_num_rows($event_result);
 
     if($count_result != 0){
-    while($row_course = $course_result->fetch_assoc()) {
-  $course_detail = $row_course["course_detail"];
-  $tutor = $row_course["tutor"];
-    $name = $row_course["course_name"];
-$id = $row_course["id"];
+        foreach ($event_result as $events) {
+            extract($events);
 ?>
                                         <tr>
-                                            <td><?php echo $name ?></td>
-                                            <td><?php echo $course_detail ?></td>
-                                            <td><?php echo $tutor ?></td>
-                                            <td><form action="config/functions.php" method="POST">
-                                              <input type="hidden" name="id" value="<?php echo $id ?>">
-                                              <div class="form-group text-right m-b-0">
-                                                <button class="btn btn-primary waves-effect waves-light" type="submit" id="submit" name="edit_course">
-                                                    Edit
-                                                </button>
-                                                <button class="btn btn-primary waves-effect waves-light" type="submit" id="delete" name="delete_course">
+                                            <td><?php echo $title; ?></td>
+                                            <td><?php echo $venue; ?></td>
+                                            <td><?php echo date('F d, Y',strtotime($event_date)); ?></td>
+                                            <td><?php echo date('h:ia',strtotime($event_time)); ?></td>
+                                            <td>
+                                                <a href="edit_event.php?id=<?= $id; ?>" class="btn btn-primary rounded btn-sm text-dark" type="submit" id="submit" name="edit_event">
+                                                    Edit event
+                                                </a>
+                                                <div class="btn btn-danger btn-sm rounded waves-effect waves-light" data-id="<?= $id; ?>" onclick="deleteEvent(this)" id="deleteBtn">
                                                     Delete
-                                                </button>
-                                            </div>
-                                            </form></td>
+                                                </div>
+                                            </td>
                                             
                                         </tr>
                                         
@@ -113,6 +109,23 @@ $id = $row_course["id"];
                         .appendTo('#datatable-buttons_wrapper .col-md-6:eq(0)');
             } );
 
+        </script>
+
+        <script>
+            function deleteEvent(e){
+                var id = e.dataset.id;
+                var conf = confirm('Are you sure you want to delete this event');
+                if (conf) {
+                    fetch(`delete.php?event=${id}`).then(r => r).then(r => r.text()).then(r => {
+                        if (r == true) {
+                            alert('Event deleted');
+                            window.location.reload();
+                        } else {
+                            alert('Failed to delete event!');
+                        }
+                    })
+                }
+            }
         </script>
 
 

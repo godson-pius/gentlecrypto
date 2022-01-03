@@ -50,11 +50,24 @@
 
                                 </div>
                                 <div class="form-group">
-                                    <label for="userName">Couser Name<span class="text-danger">*</span></label>
+                                    <label for="userName">Course Name<span class="text-danger">*</span></label>
                                     <input type="text" name="course" parsley-trigger="change" required
                                         placeholder="Enter Course Name" class="form-control" id="course">
                                     <i class="fa fa-exclamation-triangle error" id="cos" aria-hidden="true"></i>
                                 </div>
+
+                                <div class="form-group">
+                                    <label for="price">Course Price<span class="text-danger">*</span></label>
+                                    <input type="text" name="price" parsley-trigger="change" required
+                                        placeholder="Enter course price" class="form-control" id="price">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="video">Course Introductory Video<span class="text-danger">*</span></label>
+                                    <input type="text" name="video" parsley-trigger="change" required
+                                        placeholder="Paste video link from YouTube" class="form-control" id="video">
+                                </div>
+
                                 <div class="form-group">
                                     <label for="emailAddress">Tutor's Image</label>
                                     <input type="file" name="fileToUpload" parsley-trigger="change" class="form-control"
@@ -99,6 +112,8 @@
                 var course = document.getElementById("course").value;
                 var tutor = document.getElementById("tutor").value;
                 var detail = document.getElementById("detail").value;
+                var price = document.getElementById("price").value;
+                var video = document.getElementById("video").value;
 
 
 

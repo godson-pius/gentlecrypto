@@ -1,3 +1,7 @@
+<?php require_once("admin/config/db.php"); 
+	$events = getAll('events');
+?>
+
 <?php $page = "Events"; ?>
 <?php include("./includes/header.php"); ?>
 <!-- ... end Header -->
@@ -25,41 +29,28 @@
 			<div class="row sorting-container" id="portfolio-grid" data-layout="masonry" data-isotope='{"masonry": { "columnWidth": ".grid-sizer" }}'>
 				<div class="grid-sizer"></div>
 
-				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-					<div class="crumina-module crumina-event-item">
-						<div class="event-thumb bg-event4" style="background-image: url('img/bg-help.png')">
-							<div class="overlay"></div>
-						</div>
-						<div class="event-content">
-							<h4 class="event-title mb30">Finance Conference</h4>
-							<a href="007_event_details.html" class="btn btn--medium btn--transparent btn--secondary">View More</a>
-						</div>
-					</div>
-				</div>
 
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-					<div class="crumina-module crumina-event-item">
-						<div class="event-thumb bg-event4" style="background-image: url('img/bg-help.png')">
-							<div class="overlay"></div>
-						</div>
-						<div class="event-content">
-							<h4 class="event-title mb30">Crypto Linkup</h4>
-							<a href="007_event_details.html" class="btn btn--medium btn--transparent btn--secondary">View More</a>
-						</div>
-					</div>
-				</div>
+				<?php
+					if (isset($events)) {
+						foreach ($events as $event) {
+							extract($event); 
+							$url_link = str_replace(' ', '-', $title);
+							?>
 
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-					<div class="crumina-module crumina-event-item">
-						<div class="event-thumb bg-event4" style="background-image: url('img/bg-help.png')">
-							<div class="overlay"></div>
-						</div>
-						<div class="event-content">
-							<h4 class="event-title mb30">Defi Meetup</h4>
-							<a href="007_event_details.html" class="btn btn--medium btn--transparent btn--secondary">View More</a>
-						</div>
-					</div>
-				</div>
+								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
+									<div class="crumina-module crumina-event-item">
+										<div class="event-thumb bg-event4" style="background-image: url('img/<?= $event_image; ?>')">
+											<div class="overlay"></div>
+										</div>
+										<div class="event-content">
+											<h4 class="event-title mb30"><?= $title; ?></h4>
+											<a href="event_details.php?event=<?= $url_link; ?>" class="btn btn--medium btn--transparent btn--secondary">View More</a>
+										</div>
+									</div>
+								</div>
+
+							<?php } } else { echo "No Events"; } ?>
+
 
 			</div>
 

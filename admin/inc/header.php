@@ -191,23 +191,23 @@
                         <li>
                             <a href="javascript: void(0);"><i class="ti-shopping-cart"></i> <span> Products </span> <span class="menu-arrow"></span></a>
                             <ul class="nav-second-level" aria-expanded="false">
-                                <li><a href="doctors.php">All Products</a></li>
-                                <li><a href="add-doctor.php">Add Products</a></li>
+                                <li><a href="products.php">All Products</a></li>
+                                <li><a href="add-product.php">Add Products</a></li>
                             </ul>
                         </li>
 
                         <li>
                             <a href="javascript: void(0);"><i class="ti-user"></i> <span> Vendors </span> <span class="menu-arrow"></span></a>
                             <ul class="nav-second-level" aria-expanded="false">
-                                <li><a href="doctors.php">All Vendors</a></li>
+                                <li><a href="#">All Vendors</a></li>
                             </ul>
                         </li>
 
                         <li>
                             <a href="javascript: void(0);"><i class="ti-user"></i> <span> Moderators </span> <span class="menu-arrow"></span></a>
                             <ul class="nav-second-level" aria-expanded="false">
-                                <li><a href="doctors.php">All Moderators</a></li>
-                                <li><a href="doctors.php">Add Moderators</a></li>
+                                <li><a href="#">All Moderators</a></li>
+                                <li><a href="#">Add Moderators</a></li>
                             </ul>
                         </li>
 

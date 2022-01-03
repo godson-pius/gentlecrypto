@@ -33,9 +33,9 @@
 			<a href="./about.php">About Us</a>
 		</li>
 
-		<li class="<?php if($page === "Ebooks") echo 'current-menu-item'; ?>">
+		<!-- <li class="<?php if($page === "Ebooks") echo 'current-menu-item'; ?>">
 			<a href="./ebook.php">Ebooks</a>
-		</li>
+		</li> -->
 
 		<li class="<?php if($page === "Affliate") echo 'current-menu-item'; ?>">
 			<a href="https://docs.google.com/forms/d/e/1FAIpQLSfv-Ndr9nB3kh_BLh9_wt88KqRQVYOQwixukb21d43tvhMvTg/viewform?vc=0&c=0&w=1&flr=0" target="_blank">Affliate programme</a>

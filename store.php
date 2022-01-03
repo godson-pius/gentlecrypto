@@ -1,3 +1,7 @@
+<?php require_once("admin/config/db.php"); 
+	$products = getAll('products');
+?>
+
 <?php $page = "Store"; ?>
 <?php include("./includes/header.php"); ?>
 <!-- ... end Header -->
@@ -24,54 +28,26 @@
 		<div class="container">
 			<div class="row sorting-container" id="portfolio-grid" data-layout="masonry" data-isotope='{"masonry": { "columnWidth": ".grid-sizer" }}'>
 				<div class="grid-sizer"></div>
+				
+				<?php
+					if (isset($products)) {
+						foreach ($products as $product) {
+							extract($product); 
+							$url_link = str_replace(' ', '-', $p_name);
+							?>
+								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
+									<div class="crumina-module crumina-event-item">
+										<div class="event-thumb bg-event4" style="background-image: url('img/<?= $p_image; ?>')">
+											<div class="overlay"></div>
+										</div>
+										<div class="event-content">
+											<h4 class="event-title mb30"><?= $p_name; ?></h4>
+											<a href="product_details.php?product=<?= $url_link; ?>" class="btn btn--medium btn--transparent btn--secondary">Buy Item</a>
+										</div>
+									</div>
+								</div>
 
-				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-					<div class="crumina-module crumina-event-item">
-						<div class="event-thumb bg-event4" style="background-image: url('img/bg-help.png')">
-							<div class="overlay"></div>
-						</div>
-						<div class="event-content">
-							<h4 class="event-title mb30">GentleCrypto Polo</h4>
-							<a href="007_event_details.html" class="btn btn--medium btn--transparent btn--secondary">Buy Item</a>
-						</div>
-					</div>
-				</div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-					<div class="crumina-module crumina-event-item">
-						<div class="event-thumb bg-event4" style="background-image: url('img/bg-help.png')">
-							<div class="overlay"></div>
-						</div>
-						<div class="event-content">
-							<h4 class="event-title mb30">GentleCrypto Polo</h4>
-							<a href="007_event_details.html" class="btn btn--medium btn--transparent btn--secondary">Buy Item</a>
-						</div>
-					</div>
-				</div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-					<div class="crumina-module crumina-event-item">
-						<div class="event-thumb bg-event4" style="background-image: url('img/bg-help.png')">
-							<div class="overlay"></div>
-						</div>
-						<div class="event-content">
-							<h4 class="event-title mb30">GentleCrypto Polo</h4>
-							<a href="007_event_details.html" class="btn btn--medium btn--transparent btn--secondary">Buy Item</a>
-						</div>
-					</div>
-				</div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-					<div class="crumina-module crumina-event-item">
-						<div class="event-thumb bg-event4" style="background-image: url('img/bg-help.png')">
-							<div class="overlay"></div>
-						</div>
-						<div class="event-content">
-							<h4 class="event-title mb30">GentleCrypto Polo</h4>
-							<a href="007_event_details.html" class="btn btn--medium btn--transparent btn--secondary">Buy Item</a>
-						</div>
-					</div>
-				</div>
+					<?php } } else { echo "No Product"; } ?>
 
 
 			</div>

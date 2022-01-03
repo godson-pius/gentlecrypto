@@ -246,180 +246,10 @@
 		</div>
 	</section>
 
-	<section class="bg-dotted-map">
-		<div class="container">
-			<div class="row align-center">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<img class="primary-dots mb30 " src="img/dots.png" alt="dots">
-
-					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
-						<h2 class="heading-title weight-normal">Our Services</h2>
-					</header>
-
-					<section class="">
-						<div class="container">
-							<div class="row sorting-container" id="portfolio-grid" data-layout="masonry"
-								data-isotope='{"masonry": { "columnWidth": ".grid-sizer" }}'>
-								<div class="grid-sizer"></div>
-
-								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-									<div class="crumina-module crumina-event-item">
-										<div class="event-thumb bg-event4"
-											style="background-image: url('img/bg-help.png')">
-											<div class="overlay"></div>
-										</div>
-										<div class="event-content">
-											<h4 class="event-title mb30">Crypto exclusive VIP signals</h4>
-											<p>you can subscribe to our various signal packages in the signal section so
-												that you can maximize your profits from trading on your own. The signals
-												are for those traders seeking to increase their chances of landing
-												themselves in consistent profitable traders.</p>
-											<a href="007_event_details.html"
-												class="btn btn--medium btn--transparent btn--secondary">Know More</a>
-										</div>
-									</div>
-								</div>
-
-								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-									<div class="crumina-module crumina-event-item">
-										<div class="event-thumb bg-event4"
-											style="background-image: url('img/bg-help.png')">
-											<div class="overlay"></div>
-										</div>
-										<div class="event-content">
-											<h4 class="event-title mb30">Crypto currency consultancy</h4>
-											<p>We are open to consultations on issues revolving around crypto currency
-												and any of the digital asset projects. It is entirely free for our
-												students but comes with a fee for those who are none students.
-												You have a question regarding any aspect of digital asset investing or
-												personal finance, then click on the button below to book an appointment
-												with our experts.
-											</p>
-											<a href="007_event_details.html"
-												class="btn btn--medium btn--transparent btn--secondary">Book now</a>
-										</div>
-									</div>
-								</div>
-
-								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-									<div class="crumina-module crumina-event-item">
-										<div class="event-thumb bg-event4"
-											style="background-image: url('img/bg-help.png')">
-											<div class="overlay"></div>
-										</div>
-										<div class="event-content">
-											<h4 class="event-title mb30">Crypto currency coaching/training</h4>
-											<p>enroll with our academy and get to acquire first hand, expert knowledge
-												on what trading is all about, leveraging on our experience in the
-												market. Visit the botton below to see our trading courses
-											</p>
-											<a href="courses.php"
-												class="btn btn--medium btn--transparent btn--secondary">Courses</a>
-										</div>
-									</div>
-								</div>
-
-								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-									<div class="crumina-module crumina-event-item">
-										<div class="event-thumb bg-event4"
-											style="background-image: url('img/bg-help.png')">
-											<div class="overlay"></div>
-										</div>
-										<div class="event-content">
-											<h4 class="event-title mb30">Crypto currency trading</h4>
-											<p>we can help you and trade profitable on the crypto market all you need to
-												do is get your funds to us and we begin.
-											</p>
-											<!-- <a href="courses.php"
-												class="btn btn--medium btn--transparent btn--secondary">Courses</a> -->
-										</div>
-									</div>
-								</div>
-
-								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-									<div class="crumina-module crumina-event-item">
-										<div class="event-thumb bg-event4"
-											style="background-image: url('img/bg-help.png')">
-											<div class="overlay"></div>
-										</div>
-										<div class="event-content">
-											<h4 class="event-title mb30">Crypto currency securities</h4>
-											<p>we can help you keep track with all your crypto currency transactions,
-												acting as a middle man as the case may be, to avoid being scammed or
-												lose of funds
-											</p>
-											<!-- <a href="courses.php"
-												class="btn btn--medium btn--transparent btn--secondary">Courses</a> -->
-										</div>
-									</div>
-								</div>
-
-								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-									<div class="crumina-module crumina-event-item">
-										<div class="event-thumb bg-event4"
-											style="background-image: url('img/bg-help.png')">
-											<div class="overlay"></div>
-										</div>
-										<div class="event-content">
-											<h4 class="event-title mb30">Buying and selling coins</h4>
-											<p>We buy and sell any crypto available to you according to your
-												requirements at a very customer friendly rate
-											</p>
-											<!-- <a href="courses.php"
-												class="btn btn--medium btn--transparent btn--secondary">Courses</a> -->
-										</div>
-									</div>
-								</div>
-
-								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-									<div class="crumina-module crumina-event-item">
-										<div class="event-thumb bg-event4"
-											style="background-image: url('img/bg-help.png')">
-											<div class="overlay"></div>
-										</div>
-										<div class="event-content">
-											<h4 class="event-title mb30">Crypto OTC desk/exchange</h4>
-											<p>Buy and sell coins using our OTC Desk, leveraging on our policy of trust,
-												reliability and swift delivery.
-											</p>
-											<!-- <a href="courses.php"
-												class="btn btn--medium btn--transparent btn--secondary">Courses</a> -->
-										</div>
-									</div>
-								</div>
-
-								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-									<div class="crumina-module crumina-event-item">
-										<div class="event-thumb bg-event4"
-											style="background-image: url('img/bg-help.png')">
-											<div class="overlay"></div>
-										</div>
-										<div class="event-content">
-											<h4 class="event-title mb30">Crypto currency escrow services</h4>
-											<p>Be a part of our escrow services, where we link you to potential buyers
-												and sellers with ease and maximum security.
-											</p>
-											<!-- <a href="courses.php"
-												class="btn btn--medium btn--transparent btn--secondary">Courses</a> -->
-										</div>
-									</div>
-								</div>
-
-
-							</div>
-						</div>
-					</section>
-
-
-				</div>
-			</div>
-		</div>
-	</section>
-
 	<section class="bg-1">
 
 		<div class="container">
-			<div class="row medium-padding120">
+			<div class="row">
 				<div class="crumina-module crumina-featured-block">
 					<div class="text-block">
 						<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
@@ -444,6 +274,203 @@
 						</header>
 					</div>
 				</div>
+			</div>
+			
+		</div>
+</div>
+
+</section>
+
+	<section class="bg-dotted-map">
+		<div class="container medium-padding120">
+			<div class="row align-center">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<img class="primary-dots mb30 " src="img/dots.png" alt="dots">
+
+					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+						<h2 class="heading-title weight-normal">Our Services</h2>
+					</header>
+
+					<section class="">
+						<div class="container">
+							<div class="row sorting-container" id="portfolio-grid" data-layout="masonry"
+								data-isotope='{"masonry": { "columnWidth": ".grid-sizer" }}'>
+								<div class="grid-sizer"></div>
+
+								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
+									<div class="crumina-module crumina-event-item">
+										<div class="event-thumb bg-event4"
+											style="background-image: url('img/bg-help.png')">
+											<div class="overlay"></div>
+										</div>
+										<div class="event-content">
+											<h4 class="event-title mb30">Crypto exclusive VIP signals</h4>
+											<p>
+												<?= substr('you can subscribe to our various signal packages in the signal section so
+												that you can maximize your profits from trading on your own. The signals
+												are for those traders seeking to increase their chances of landing
+												themselves in consistent profitable traders.', 0, 100) ?>....
+											</p>
+											<a href=""
+												class="btn btn--medium btn--transparent btn--secondary">Know More</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
+									<div class="crumina-module crumina-event-item">
+										<div class="event-thumb bg-event4"
+											style="background-image: url('img/consultancy.jpeg')">
+											<div class="overlay"></div>
+										</div>
+										<div class="event-content">
+											<h4 class="event-title mb30">Crypto currency consultancy</h4>
+											<p>
+												<?= substr('We are open to consultations on issues revolving around crypto currency
+												and any of the digital asset projects. It is entirely free for our
+												students but comes with a fee for those who are none students.
+												You have a question regarding any aspect of digital asset investing or
+												personal finance, then click on the button below to book an appointment
+												with our experts', 0, 100) ?>....
+											</p>
+											<a href=""
+												class="btn btn--medium btn--transparent btn--secondary">Know more</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
+									<div class="crumina-module crumina-event-item">
+										<div class="event-thumb bg-event4"
+											style="background-image: url('img/coaching.jpeg')">
+											<div class="overlay"></div>
+										</div>
+										<div class="event-content">
+											<h4 class="event-title mb30">Crypto currency coaching/training</h4>
+											<p>
+												<?= substr('Enroll with our academy and get to acquire first hand, expert knowledge
+												on what trading is all about, leveraging on our experience in the
+												market. Visit the botton below to see our trading courses', 0, 100) ?>....
+											</p>
+
+											<a href=""
+												class="btn btn--medium btn--transparent btn--secondary">Know more</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
+									<div class="crumina-module crumina-event-item">
+										<div class="event-thumb bg-event4"
+											style="background-image: url('img/trading.jpeg')">
+											<div class="overlay"></div>
+										</div>
+										<div class="event-content">
+											<h4 class="event-title mb30">Crypto currency trading</h4>
+											<p>
+												<?= substr('we can help you and trade profitable on the crypto market all you need to
+												do is get your funds to us and we begin.', 0, 100) ?>....
+											</p>
+
+											<a href=""
+												class="btn btn--medium btn--transparent btn--secondary">Know more</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
+									<div class="crumina-module crumina-event-item">
+										<div class="event-thumb bg-event4"
+											style="background-image: url('img/bg-help.png')">
+											<div class="overlay"></div>
+										</div>
+										<div class="event-content">
+											<h4 class="event-title mb30">Crypto currency securities</h4>
+											<p>
+												<?= substr('we can help you keep track with all your crypto currency transactions,
+												acting as a middle man as the case may be, to avoid being scammed or
+												lose of funds', 0, 100) ?>....
+											</p>
+
+											<a href=""
+												class="btn btn--medium btn--transparent btn--secondary">Know more</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
+									<div class="crumina-module crumina-event-item">
+										<div class="event-thumb bg-event4"
+											style="background-image: url('img/buying.jpeg')">
+											<div class="overlay"></div>
+										</div>
+										<div class="event-content">
+											<h4 class="event-title mb30">Buying and selling coins</h4>
+											<p>
+												<?= substr('We buy and sell any crypto available to you according to your
+												requirements at a very customer friendly rate', 0, 100) ?>....
+											</p>
+
+											<a href=""
+												class="btn btn--medium btn--transparent btn--secondary">know more</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
+									<div class="crumina-module crumina-event-item">
+										<div class="event-thumb bg-event4"
+											style="background-image: url('img/desk.jpeg')">
+											<div class="overlay"></div>
+										</div>
+										<div class="event-content">
+											<h4 class="event-title mb30">Crypto OTC desk/exchange</h4>
+											<p>
+												<?= substr('Buy and sell coins using our OTC Desk, leveraging on our policy of trust,
+												reliability and swift delivery.', 0, 100) ?>....
+											</p>
+
+											<a href=""
+												class="btn btn--medium btn--transparent btn--secondary">know more</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
+									<div class="crumina-module crumina-event-item">
+										<div class="event-thumb bg-event4"
+											style="background-image: url('img/bg-help.png')">
+											<div class="overlay"></div>
+										</div>
+										<div class="event-content">
+											<h4 class="event-title mb30">Crypto currency escrow services</h4>
+											<p>
+												<?= substr('Be a part of our escrow services, where we link you to potential buyers
+												and sellers with ease and maximum security.', 0, 100) ?>....
+											</p>
+
+											<a href=""
+												class="btn btn--medium btn--transparent btn--secondary">Know more</a>
+										</div>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+					</section>
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="bg-1">
+
+		<div class="container">
+			<div class="row">
+				
 			</div>
 			<div class="crumina-module crumina-featured-block">
 				<div class="image-block">

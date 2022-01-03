@@ -111,3 +111,9 @@ We have bagged several award of credibility within the crypto and Enterprenurshi
             new google.translate.TranslateElement("lang");
         }
     </script>
+
+	<!-- Flutterwave Api -->
+    <!-- <script src="https://api.ravepay.co/flwv3-pug/getpaidx/api/flwpbf-inline.js"></script> -->
+	<!-- <script src="https://checkout.flutterwave.com/v3.js"></script> -->
+	<!-- <script src="https://api.flutterwave.com/v3/payments"></script> -->
+	<script src="https://js.paystack.co/v1/inline.js"></script> 

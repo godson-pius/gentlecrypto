@@ -63,7 +63,8 @@ $course_result = mysqli_query($link,$sql_course);
   $course_detail = $row_course["course_detail"];
   $tutor = $row_course["tutor"];
     $tutor_image = $row_course["tutor_image"];
-
+	
+	$url_link = str_replace(' ', '-', "course-details.php?course=$course_name");
 ?>
 				<div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 sorting-item">
 					<div class="crumina-module crumina-event-item">
@@ -72,7 +73,7 @@ $course_result = mysqli_query($link,$sql_course);
 						</div>
 						<div class="event-content">
 							<h4 class="event-title mb30"><?php echo $course_name; ?></h4>
-							<a href="#" class="btn btn--medium btn--transparent btn--secondary">View
+							<a href="<?= $url_link; ?>" class="btn btn--medium btn--transparent btn--secondary">View
 								Course</a>
 						</div>
 
@@ -82,7 +83,7 @@ $course_result = mysqli_query($link,$sql_course);
 							<div class="author-block">
 
 								<div class="author-content">
-									<a href="#" class="author-name dk"><?php echo $tutor ?></a>
+									<a href="<?= $url_link; ?>" class="author-name dk"><?php echo $tutor ?></a>
 									<div class="author-prof dk">Tutor</div>
 								</div>
 							</div>
