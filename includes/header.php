@@ -17,7 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i,900," rel="stylesheet">
-	<link rel="icon" href="../img/gentlecrypto.png">
+	<link rel="icon" href="img/main2.png">
 
 
 
