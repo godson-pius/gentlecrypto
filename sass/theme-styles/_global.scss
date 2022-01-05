@@ -1,7 +1,7 @@
 /*------------- #GLOBAL STYLES --------------*/
 
 @font-face{
-  font-family: 'Comfortaa';
+  font-family: 'sans-serif';
   src: url('../fonts/Comfortaa-Bold_0.eot');
   src: url('../fonts/Comfortaa-Bold_0.eot?#iefix')format('embedded-opentype'),
   url('../fonts/Comfortaa-Bold_0.woff') format('woff'),
@@ -38,7 +38,7 @@ body{
   background-image: url("../img/body-bg.png");
   background-color: $body-bg-color;
   color: $body-font-color;
-  font-family: "Roboto', sans-serif";
+  font-family: "sans-serif";
   font-size: $body-font-size;
   font-weight: $body-font-weight;
   line-height: $base-line-height;
