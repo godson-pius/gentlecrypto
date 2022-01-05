@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="language" content="English">
+	<meta name="description" content="This website belongs to Gentlecrypto enterprise, and it's main purpose is to provide efficient services for our students and users.">
+	<meta name="author" content="World Brain Technology">
+	<meta name="keywords" content="Gentlecrypto, Gentlecrypto Academy, Gentlecrypto Enterprise, blockchain, teaching crypto, crypto">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Gentle Crypto | <?= $page; ?></title>
 
