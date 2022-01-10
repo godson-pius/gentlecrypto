@@ -2,11 +2,6 @@
 <?php
 session_start();
 
-// define("HOST", "localhost");
-// define("USER", "root");
-// define("PASSWORD", "");
-// define("DBNAME", "gentlecrypto");
-
 define("HOST", "localhost");
 define("USER", "gentqlhw_gentle");
 define("PASSWORD", "100%gentle");
