@@ -1,6 +1,6 @@
 <?php
   require_once '../admin/config/db.php';
-  //blockUrlHackers('pages-login.php', $_SESSION['admin']);
+  blockUrlHackers('pages-login.php', $_SESSION['user']);
 
 ?>
 <?php require_once 'inc/header.php'; ?>

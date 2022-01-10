@@ -1,10 +1,14 @@
 
 <?php
   require_once '../admin/config/db.php';
-//   if(!(isset($_SESSION["login"]))){
-//     header("location:pages-login.php");
-// }
-  //blockUrlHackers('pages-login.php', $_SESSION['admin']);
+  blockUrlHackers('pages-login.php', $_SESSION['id']);
+
+    $c_user = currentUser($_SESSION["id"]);
+    foreach ($c_user as $user) {
+        extract($user);
+    }
+  
+  
 
 ?>
 <?php require_once 'inc/header.php'; ?>
@@ -20,7 +24,7 @@
 
                         <div class="row">
                             <div class="col-sm-12 text-center">
-                                <h4 class="header-title m-t-0 m-b-20">USERS - DASHBOARD</h4>
+                                <h4 class="header-title m-t-0 m-b-20"><?= $last_name; ?> - DASHBOARD</h4>
                             </div>
                         </div>
 
@@ -34,7 +38,7 @@
 
                                       <div class="col-lg-12 col-sm-12">
                                           <div class="text-center widget-inline-box">
-                                              <h3 class="m-t-10"><i class="text-info mdi mdi-book"></i> <b>6521</b></h3>
+                                              <h3 class="m-t-10"><i class="text-info mdi mdi-book"></i> <b><?= getTotalUserCourse($_SESSION['id']); ?></b></h3>
                                               <p class="text-muted">My Courses</p>
                                           </div>
                                       </div>

@@ -164,14 +164,14 @@ var email = document.getElementById("email").value;
  data: {
   mail:email,
   pass:password,
-  login:"1",
+  loginAdmin:"1",
   rem:remv
  },
  success: function (response) {
 
   if(response.trim() == "success"){
-      alert("Registered Successfully");
-      window.location.href="pages-login.php";
+      alert("Logged In Successfully");
+      window.location.href="index.php";
   }
   else{
     document.getElementById("errb").style.display="block";

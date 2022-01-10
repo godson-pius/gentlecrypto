@@ -247,6 +247,40 @@ $emailcheckresult = mysqli_query($link,$emailcheck);
 
 }
 
+if(isset($_POST["loginAdmin"])){
+  trim(extract($_POST));
+  $emailcheck = "SELECT * from admins where email = '$mail'";
+$emailcheckresult = mysqli_query($link,$emailcheck);
+      $countcheck = mysqli_num_rows($emailcheckresult);
+
+    if($countcheck == 0){
+      echo "This Email Address does not exist";
+    }
+    else{
+      $passcheck = "SELECT * from admins where email = '$mail' && password = MD5('$pass')";
+      $passcheckresult = mysqli_query($link,$passcheck);
+      $countcheck2 = mysqli_num_rows($passcheckresult);
+
+    if($countcheck2 == 0){
+      echo "This Password is Incorrect";
+    }
+    else{
+      $row = mysqli_fetch_array($passcheckresult, MYSQLI_ASSOC);
+        $id = $row["id"];
+
+      session_start();
+      $_SESSION["admin"] = "logged";
+      $_SESSION["adminId"] = $id;
+      if($rem != 0){
+        $time = time() + 86400;
+        setcookie('pass',$pass,$time);
+       }
+      echo "success";
+}
+}
+
+}
+
 function addEvent($post) {
   global $link;
 
@@ -517,6 +551,32 @@ function deleteColumn($table, $id) {
 
   if ($query) {
     return true;
+  } else {
+    return false;
+  }
+}
+
+function getTotalUserCourse($id) {
+  global $link;
+
+  $sql = "SELECT * FROM course_payments WHERE user_id = '$id'";
+  $query = mysqli_query($link, $sql);
+
+  if ($query) {
+      return mysqli_num_rows($query);
+  } else {
+    return false;
+  }
+}
+
+function getTotalNum($table) {
+  global $link;
+
+  $sql = "SELECT * FROM $table";
+  $query = mysqli_query($link, $sql);
+
+  if ($query) {
+    return mysqli_num_rows($query);
   } else {
     return false;
   }
