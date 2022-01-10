@@ -49,8 +49,13 @@
 									</div>
 								</div>
 
-							<?php } } else { echo "No Events"; } ?>
+							<?php } } else { ?>
+								
+								<div style="text-align:center !important;">
+									<h3 style="text-align:center;">NO EVENT AVAILABLE</h3>
+								</div>
 
+							<?php } ?>
 
 			</div>
 
