@@ -31,7 +31,7 @@
 
 
 				<?php
-					if (isset($events)) {
+					if (!empty($events)) {
 						foreach ($events as $event) {
 							extract($event); 
 							$url_link = str_replace(' ', '-', $title);
@@ -50,7 +50,7 @@
 								</div>
 
 							<?php } } else { ?>
-								
+
 								<div style="text-align:center !important;">
 									<h3 style="text-align:center;">NO EVENT AVAILABLE</h3>
 								</div>
