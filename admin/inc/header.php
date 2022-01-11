@@ -51,10 +51,10 @@
                 <div class="topbar-left">
                     <a href="index.html" class="logo">
                         <span>
-                            <img src="assets/images/logo.png" alt="">
+                            <img src="../img/gentlecrypto.png" alt="">
                         </span>
                         <i>
-                            <img src="assets/images/logo_sm.png" alt="">
+                            <img src="../img/main2.png" alt="">
                         </i>
                     </a>
                 </div>
@@ -101,12 +101,12 @@
                         <li class="dropdown notification-list">
                             <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown" href="#" role="button"
                                aria-haspopup="false" aria-expanded="false">
-                                <img src="assets/images/users/avatar-1.jpg" alt="user" class="rounded-circle"> <span class="ml-1">Anderson <i class="mdi mdi-chevron-down"></i> </span>
+                                <img src="assets/images/users/avatar-1.jpg" alt="user" class="rounded-circle"> <span class="ml-1"><?= $first_name . " " . $last_name; ?> <i class="mdi mdi-chevron-down"></i> </span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
                                 <!-- item-->
                                 <div class="dropdown-item noti-title">
-                                    <h6 class="m-0 text-overflow">Israel</h6>
+                                    <h6 class="m-0 text-overflow"><?= $first_name . " " . $last_name; ?></h6>
                                 </div>
 
                                 <!-- item-->
@@ -155,7 +155,7 @@
                         <img src="assets/images/users/avatar-1.jpg" alt="" class="thumb-md rounded-circle">
                     </div>
                     <div class="user-info">
-                        <a href="#">Name of the admin</a>
+                        <a href="#"><?= $first_name . " " . $last_name; ?></a>
                         <p class="m-0 text-muted">Administrator</p>
                     </div>
                 </div>

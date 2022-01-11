@@ -16,7 +16,7 @@
 						<div class="heading-sup-title">Stores</div>
 						<h2 class="heading-title heading--half-colored">Our <span class="weight-bold">Stores</span>
 						</h2>
-						<div class="heading-text">Everyday is a bank account, and time is our currency. No one is rich, no one is poor, we've got 24 hours each</div>
+						<div class="heading-text">Purchase all our company's Branded Materials and Rock Gentlecrypto Enterprise anywhere you go.</div>
 					</header>
 				</div>
 			</div>
