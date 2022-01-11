@@ -2,13 +2,6 @@
 <?php
   require_once 'config/db.php';
   blockUrlHackers('pages-login.php', $_SESSION['adminId']);
-  
-  $current_admin = getSingleColumn('admins', 'id', $_SESSION['adminId']);
-  if (!empty($current_admin)) {
-      foreach ($current_admin as $admin) {
-          extract($admin);
-      }
-  }
 
 ?>
 <?php require_once 'inc/header.php'; ?>

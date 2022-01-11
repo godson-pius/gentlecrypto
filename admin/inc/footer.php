@@ -1,9 +1,9 @@
 <div class="footer">
     <div class="pull-right hide-phone">
-        Users Entered <strong class="text-custom">57%</strong>.
+        Users Entered <strong class="text-custom"><?= getTotalNum('users'); ?>%</strong>.
     </div>
     <div>
-        <strong>Admin</strong> - Copyright © 2017 - 2019
+        <strong>Admin</strong> - Copyright © <?= date('Y'); ?>
     </div>
 </div>
 
