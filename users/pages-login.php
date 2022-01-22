@@ -52,8 +52,8 @@
                             <div class="m-t-40 card-box">
                                 <div class="text-center">
                                     <h2 class="text-uppercase m-t-0 m-b-30">
-                                        <a href="index.html" class="text-success">
-                                            <span><img src="assets/images/logo.png" alt="" height="30"></span>
+                                    <a href="../index.php" class="text-success">
+                                            <span><img src="../img/gentlecrypto.png" alt="" height="30"></span>
                                         </a>
                                     </h2>
                                     <!--<h4 class="text-uppercase font-bold m-b-0">Sign In</h4>-->
@@ -85,12 +85,20 @@
                                             </div>
                                         </div>
 
-                                        <div class="form-group m-b-30">
-                                            <div class="col-12">
+                                        <div class="form-group m-b-30 row">
+                                            <div class="col-6">
                                                 <div class="checkbox checkbox-primary">
                                                     <input id="rem" type="checkbox" name="remember">
                                                     <label for="checkbox5">
                                                         Remember me
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <div class="checkbox checkbox-primary">
+                                                    <label for="checkbox5">
+                                                        Don't have an account? <a href="./pages-register.php">Register</a>
                                                     </label>
                                                 </div>
                                             </div>

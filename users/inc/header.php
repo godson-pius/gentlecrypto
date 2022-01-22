@@ -1,3 +1,13 @@
+<?php
+  require_once '../admin/config/db.php';
+
+    $c_user = currentUser($_SESSION["id"]);
+    foreach ($c_user as $user) {
+        extract($user);
+    }
+
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -51,10 +61,10 @@
                 <div class="topbar-left">
                     <a href="index.html" class="logo">
                         <span>
-                            <img src="assets/images/logo.png" alt="">
+                            <img src="../img/gentlecrypto.png" alt="">
                         </span>
                         <i>
-                            <img src="assets/images/logo_sm.png" alt="">
+                            <img src="../img/main2.png" alt="">
                         </i>
                     </a>
                 </div>
@@ -106,7 +116,7 @@
                             <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
                                 <!-- item-->
                                 <div class="dropdown-item noti-title">
-                                    <h6 class="m-0 text-overflow">Israel</h6>
+                                    <h6 class="m-0 text-overflow"><?= $last_name; ?></h6>
                                 </div>
 
                                 <!-- item-->
@@ -120,12 +130,7 @@
                                 </a>
 
                                 <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <i class="ti-lock"></i> <span>Lock Screen</span>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <a href="logout.php" class="dropdown-item notify-item">
                                     <i class="ti-power-off"></i> <span>Logout</span>
                                 </a>
 
@@ -156,7 +161,7 @@
                     </div>
                     <div class="user-info">
                         <a href="#"><?= $first_name . " " . $last_name; ?></a>
-                        <p class="m-0 text-muted">Administrator</p>
+                        <p class="m-0 text-muted">Welcome</p>
                     </div>
                 </div>
 
@@ -194,10 +199,8 @@
                             <a href="javascript: void(0);"><i class="ti-lock"></i><span> Authentication </span> <span class="menu-arrow"></span></a>
                             <ul class="nav-second-level" aria-expanded="false">
                               <li><a href="profile.php">Profile</a></li>
-                                <li><a href="pages-register.php">Register</a></li>
                                 <li><a href="pages-forget-password.php">Change Password</a></li>
-                                <li><a href="pages-lock-screen.php">Lock-screen</a></li>
-                                <li><a href="pages-lock-screen.php">Logout</a></li>
+                                <li><a href="logout.php">Logout</a></li>
                             </ul>
                         </li>
 

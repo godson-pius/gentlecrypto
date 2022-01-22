@@ -24,12 +24,13 @@
                             <div class="col-12">
                                 <div class="table-responsive">
 
-                                    <table id="datatable-buttons" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                                    <table id="datatable-buttons" class="table table-striped table-bordered text-center" cellspacing="0" width="100%">
                                         <thead>
                                         <tr>
                                             <th>Course Name</th>
                                             <th>Course Details</th>
                                             <th>Tutor</th>
+                                            <th>Purchased date</th>
                                             <th>Action</th>
                                             
                                         </tr>
@@ -37,38 +38,38 @@
 
 
                                         <tbody>
-                                          <?php
-    $user_id = $_SESSION['user'];
-$sql_course = "SELECT * from course_payments WHERE user_id = '$user_id'";
-$course_result = mysqli_query($link,$sql_course);
-      $count_result = mysqli_num_rows($course_result);
 
-    if($count_result != 0){
-    while($row_course = $course_result->fetch_assoc()) {
-  $course_detail = $row_course["course_detail"];
-  $tutor = $row_course["tutor"];
-    $name = $row_course["course_name"];
-$id = $row_course["id"];
-?>
-                                        <tr>
-                                            <td><?php echo $name ?></td>
-                                            <td><?php echo $course_detail ?></td>
-                                            <td><?php echo $tutor ?></td>
-                                            <td><form action="config/functions.php" method="POST">
-                                              <input type="hidden" name="id" value="<?php echo $id ?>">
-                                              <div class="form-group text-right m-b-0">
-                                                <button class="btn btn-primary waves-effect waves-light" type="submit" id="submit" name="edit_course">
-                                                    Edit
-                                                </button>
-                                                <button class="btn btn-primary waves-effect waves-light" type="submit" id="delete" name="delete_course">
-                                                    Delete
-                                                </button>
-                                            </div>
-                                            </form></td>
-                                            
-                                        </tr>
-                                        
-                    <?php } } ?>                   
+                                        <?php
+                                            $userCourses = getAllUserCourse($_SESSION['id']);
+                                            if (!empty($userCourses)) {
+                                                foreach ($userCourses as $course) {
+                                                    extract($course);
+                                                    $url_link = str_replace(' ', '-', "learn.php?course=$course_name");
+                                                    ?>
+                                      <tr>
+                                                            <td>
+                                                                <?= $course_name; ?>
+                                                            </td>
+
+                                                            <td>
+                                                                <?= $course_detail; ?>
+                                                            </td>
+
+                                                            <td>
+                                                                <b><a href="" class="text-dark"><b><?= $tutor; ?></b></a> </b>
+                                                            </td>
+
+                                                            <td>
+                                                                <?= date('d-M-Y', strtotime($date)); ?>
+                                                            </td>
+                                                            
+                                                            <td>
+                                                                <a href="<?= $url_link; ?>" class="btn btn-sm btn-light shadow rounded"><b>Enter course</b></a>
+                                                            </td>
+
+                                                        </tr>
+                                        <?php } } ?>
+                               
                      </tbody>
                                     </table>
                                 </div>

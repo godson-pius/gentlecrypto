@@ -39,8 +39,8 @@
                             <div class="m-t-40 card-box">
                                 <div class="text-center">
                                     <h2 class="text-uppercase m-t-0 m-b-30">
-                                        <a href="index.html" class="text-success">
-                                            <span><img src="assets/images/logo.png" alt="" height="30"></span>
+                                        <a href="../index.php" class="text-success">
+                                            <span><img src="../img/gentlecrypto.png" alt="" height="30"></span>
                                         </a>
                                     </h2>
                                     <!--<h4 class="text-uppercase font-bold m-b-0">Sign In</h4>-->

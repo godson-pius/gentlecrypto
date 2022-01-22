@@ -3,13 +3,6 @@
   require_once '../admin/config/db.php';
   blockUrlHackers('pages-login.php', $_SESSION['id']);
 
-    $c_user = currentUser($_SESSION["id"]);
-    foreach ($c_user as $user) {
-        extract($user);
-    }
-  
-  
-
 ?>
 <?php require_once 'inc/header.php'; ?>
 
@@ -63,49 +56,49 @@
                                 <div class="card-box">
                                     <h6 class="m-t-0">My Courses</h6>
                                     <div class="table-responsive">
-                                        <table class="table m-0 table-hover mails table-actions-bar">
+                                        <table class="table m-0 table-hover mails table-actions-bar text-center">
                                             <thead>
                                             <tr>
-                                                <th style="min-width: 95px;">
-                                                    <div class="checkbox checkbox-primary checkbox-single m-r-15">
-                                                        <input id="action-checkbox" type="checkbox">
-                                                        <label for="action-checkbox"></label>
-                                                    </div>
-                                                </th>
                                                 <th>Name</th>
-                                                <th>Email</th>
-                                                <th>Speciality</th>
+                                                <th>Course Video</th>
+                                                <th>Course Tutor</th>
                                                 <th>Date registered</th>
+                                                <th>Action</th>
                                             </tr>
                                             </thead>
 
                                             <tbody>
-                                            <tr>
-                                                <td>
-                                                    <div class="checkbox checkbox-primary m-r-15">
-                                                        <input id="checkbox2" type="checkbox">
-                                                        <label for="checkbox2"></label>
-                                                    </div>
 
-                                                </td>
+                                            <?php 
+                                                $userCourses = getAllUserCourse($_SESSION['id']);
+                                                if (!empty($userCourses)) {
+                                                    foreach ($userCourses as $course) {
+                                                        extract($course);
+                                                        $url_link = str_replace(' ', '-', "learn.php?course=$course_name");?>
+                                                        <tr>
+                                                            <td>
+                                                                <?= $course_name; ?>
+                                                            </td>
 
-                                                <td>
-                                                    Tomaslau
-                                                </td>
+                                                            <td>
+                                                                <a target="_blank" href="<?= $course_video; ?>" class="btn btn-sm btn-warning rounded-pill shadow">Course Video</a>
+                                                                <!-- <embed src="<?= $course_video; ?>" frameborder="0"></embed> -->
+                                                            </td>
 
-                                                <td>
-                                                    <a href="#" class="text-muted">tomaslau@dummy.com</a>
-                                                </td>
+                                                            <td>
+                                                                <b><a href="" class="text-dark"><b><?= $tutor; ?></b></a> </b>
+                                                            </td>
 
-                                                <td>
-                                                    <b><a href="" class="text-dark"><b>Surgeon</b></a> </b>
-                                                </td>
+                                                            <td>
+                                                                <?= date('d-M-Y', strtotime($created_at)); ?>
+                                                            </td>
+                                                            
+                                                            <td>
+                                                                <a href="<?= $url_link; ?>" class="btn btn-sm btn-light shadow rounded"><b>Enter course</b></a>
+                                                            </td>
 
-                                                <td>
-                                                    01/11/2003
-                                                </td>
-
-                                            </tr>
+                                                        </tr>
+                                            <?php } } ?>
 
                                             </tbody>
                                         </table>

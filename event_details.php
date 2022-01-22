@@ -92,9 +92,9 @@
 				<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
 					<header class="crumina-module crumina-heading heading--h3 heading--with-decoration">
 						<h3 class="heading-title">Event description</h3>
-						<div class="heading-text">
-              <?= $content; ?>
-						</div>
+						<p class="post__text">
+              				<?= $content; ?>
+						</p>
 					</header>
 					
 			

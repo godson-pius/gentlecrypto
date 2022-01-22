@@ -9,7 +9,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
-					<img class="responsive-width-50" src="img/main2.png" alt="image">
+					<img class="responsive-width-50" src="img/bluegentle.png" alt="image">
 				</div>
 				<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
 					<header class="crumina-module crumina-heading heading--h1 heading--with-decoration">
@@ -217,6 +217,12 @@
 	<section class="medium-padding120 responsive-align-center">
 		<div class="container">
 			<div class="row">
+
+			
+			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt30">
+					<img class="responsive-width-50" src="img/phone.png" alt="phone">
+				</div>
+				
 				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
 						<div class="heading-sup-title">Welcome</div>
@@ -237,10 +243,6 @@
 					</p>
 
 
-				</div>
-
-				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt30">
-					<img class="responsive-width-50" src="img/phone.png" alt="phone">
 				</div>
 			</div>
 		</div>
@@ -300,6 +302,26 @@
 								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
 									<div class="crumina-module crumina-event-item">
 										<div class="event-thumb bg-event4"
+											style="background-image: url('img/coaching.jpeg')">
+											<div class="overlay"></div>
+										</div>
+										<div class="event-content">
+											<h4 class="event-title mb30">Crypto currency coaching/training</h4>
+											<p>
+												<?= substr('Enroll with our academy and get to acquire first hand, expert knowledge
+												on what trading is all about, leveraging on our experience in the
+												market. Visit the botton below to see our trading courses', 0, 100) ?>....
+											</p>
+
+											<a href="services.php?service=ccct"
+												class="btn btn--medium btn--transparent btn--secondary">Know more</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
+									<div class="crumina-module crumina-event-item">
+										<div class="event-thumb bg-event4"
 											style="background-image: url('img/bg-help.png')">
 											<div class="overlay"></div>
 										</div>
@@ -311,7 +333,7 @@
 												are for those traders seeking to increase their chances of landing
 												themselves in consistent profitable traders.', 0, 100) ?>....
 											</p>
-											<a href=""
+											<a href="services.php?service=cevs"
 												class="btn btn--medium btn--transparent btn--secondary">Know More</a>
 										</div>
 									</div>
@@ -333,27 +355,7 @@
 												personal finance, then click on the button below to book an appointment
 												with our experts', 0, 100) ?>....
 											</p>
-											<a href=""
-												class="btn btn--medium btn--transparent btn--secondary">Know more</a>
-										</div>
-									</div>
-								</div>
-
-								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-									<div class="crumina-module crumina-event-item">
-										<div class="event-thumb bg-event4"
-											style="background-image: url('img/coaching.jpeg')">
-											<div class="overlay"></div>
-										</div>
-										<div class="event-content">
-											<h4 class="event-title mb30">Crypto currency coaching/training</h4>
-											<p>
-												<?= substr('Enroll with our academy and get to acquire first hand, expert knowledge
-												on what trading is all about, leveraging on our experience in the
-												market. Visit the botton below to see our trading courses', 0, 100) ?>....
-											</p>
-
-											<a href=""
+											<a href="services.php?service=ccc"
 												class="btn btn--medium btn--transparent btn--secondary">Know more</a>
 										</div>
 									</div>
@@ -372,7 +374,7 @@
 												do is get your funds to us and we begin.', 0, 100) ?>....
 											</p>
 
-											<a href=""
+											<a href="services.php?service=cct"
 												class="btn btn--medium btn--transparent btn--secondary">Know more</a>
 										</div>
 									</div>
@@ -392,7 +394,7 @@
 												lose of funds', 0, 100) ?>....
 											</p>
 
-											<a href=""
+											<a href="services.php?service=ccs"
 												class="btn btn--medium btn--transparent btn--secondary">Know more</a>
 										</div>
 									</div>
@@ -411,7 +413,7 @@
 												requirements at a very customer friendly rate', 0, 100) ?>....
 											</p>
 
-											<a href=""
+											<a href="services.php?service=basc"
 												class="btn btn--medium btn--transparent btn--secondary">know more</a>
 										</div>
 									</div>
@@ -430,7 +432,7 @@
 												reliability and swift delivery.', 0, 100) ?>....
 											</p>
 
-											<a href=""
+											<a href="services.php?service=code"
 												class="btn btn--medium btn--transparent btn--secondary">know more</a>
 										</div>
 									</div>
@@ -449,7 +451,7 @@
 												and sellers with ease and maximum security.', 0, 100) ?>....
 											</p>
 
-											<a href=""
+											<a href="services.php?service=cces"
 												class="btn btn--medium btn--transparent btn--secondary">Know more</a>
 										</div>
 									</div>

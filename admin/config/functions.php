@@ -324,7 +324,7 @@ function addEvent($post) {
   }
 
   if (!empty($content)) {
-    $content = sanitize($content);
+    $content = $content;
   } else {
     $errors[] = 'Content is required';
   }
@@ -375,7 +375,7 @@ function addProduct($post) {
   }
 
   if (!empty($details)) {
-    $details = sanitize($details);
+    $details = $details;
   } else {
     $errors[] = 'Product details is required';
   }
@@ -559,7 +559,7 @@ function deleteColumn($table, $id) {
 function getTotalUserCourse($id) {
   global $link;
 
-  $sql = "SELECT * FROM course_payments WHERE user_id = '$id'";
+  $sql = "SELECT * FROM course_payments WHERE user_id = '$id' AND approve = 1";
   $query = mysqli_query($link, $sql);
 
   if ($query) {
@@ -577,6 +577,32 @@ function getTotalNum($table) {
 
   if ($query) {
     return mysqli_num_rows($query);
+  } else {
+    return false;
+  }
+}
+
+function getAllUserCourse($id) {
+  global $link;
+
+  $sql = "SELECT * FROM courses INNER JOIN course_payments ON courses.course_id = course_payments.course_id WHERE course_payments.user_id = '$id' AND course_payments.approve = 1";
+  $query = mysqli_query($link, $sql);
+
+  if (mysqli_num_rows($query) > 0) {
+      return $query;
+  } else {
+    return false;
+  }
+}
+
+function getCourseLesson($id) {
+  global $link;
+
+  $sql = "SELECT * FROM lessons INNER JOIN courses ON lessons.course_id = courses.course_id WHERE courses.course_id = '$id'";
+  $query = mysqli_query($link, $sql);
+
+  if (mysqli_num_rows($query) > 0) {
+      return $query;
   } else {
     return false;
   }
