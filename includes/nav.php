@@ -48,5 +48,9 @@
 		<li class="<?php if($page === "Contact") echo 'current-menu-item'; ?>">
 			<a href="./contacts.php">Contacts Us</a>
 		</li>
+
+		<li class="<?php if($page === "Faq") echo 'current-menu-item'; ?>">
+			<a href="./faq.php">Faq</a>
+		</li>
 	</ul>
 </nav>

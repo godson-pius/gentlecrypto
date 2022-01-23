@@ -52,6 +52,8 @@ We have bagged several award of credibility within the crypto and Enterprenurshi
 							</a>
 						</li>
 					</ul>
+					<a href="terms.php" class="logo-title">Terms and conditions</a> |
+					<a href="privacy.php" class="logo-title">Privacy Policy</a>
 				</div>
 
 			</div>

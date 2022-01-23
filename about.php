@@ -205,59 +205,85 @@
 				</div>
 			</div>
 		</section>
+	</section>
 
-		
-		<!-- Footer -->
-		<?php include("./includes/footer.php"); ?>
-		<!-- ... end Footer -->
+	<section class="subsidiaries">
+		<div class="container">
+			<div class="row align-center">
+				<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12">
+					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+						<h2 class="heading-title heading--half-colored">About Us</h2>
+					</header>
+				</div>
+			</div>
+
+			<!-- About us -->
+			<p class="">Gentlecrypto trading academy is a result oriented crypto currency coaching and mentorship platform, a
+				subsidiary of the Gentlecrypto enterprises, where we have structured step by step guide on everything
+				you need to know concerning trading crypto assets successfully as an independent trader using our
+				flexible yet exclusive training modules within the space of 5 weeks. <br> <br>
+				We provide one-on-one dedicated mentorship on how to get started and master the art of trading crypto
+				currency using our easily accessible consultancy Services. <br> <br>
+				Our courses are real time course that will earn you real money from your own room, only by applying the
+				strategies we have taken our time to explain during the training. <br> <br>
+				We provide weekly alert on how to trade crypto currencies, and key crypto currency trading set ups
+				strengthened by fundamental & technical analysis for trading opportunities and entries.
+			</p>
+		</div>
+	</section>
 
 
-		<script src="js/method-assign.js"></script>
+	<!-- Footer -->
+	<?php include("./includes/footer.php"); ?>
+	<!-- ... end Footer -->
 
-		<!-- jQuery first, then Other JS. -->
 
-		<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/method-assign.js"></script>
 
-		<script src="js/js-plugins/leaflet.js"></script>
-		<script src="js/js-plugins/MarkerClusterGroup.js"></script>
-		<script src="js/js-plugins/crum-mega-menu.js"></script>
-		<script src="js/js-plugins/waypoints.js"></script>
-		<script src="js/js-plugins/jquery-circle-progress.js"></script>
-		<script src="js/js-plugins/segment.js"></script>
-		<script src="js/js-plugins/bootstrap.js"></script>
-		<script src="js/js-plugins/imagesLoaded.js"></script>
-		<script src="js/js-plugins/jquery.matchHeight.js"></script>
-		<script src="js/js-plugins/jquery-countTo.js"></script>
-		<script src="js/js-plugins/Headroom.js"></script>
-		<script src="js/js-plugins/jquery.magnific-popup.js"></script>
-		<script src="js/js-plugins/popper.min.js"></script>
-		<script src="js/js-plugins/particles.js"></script>
-		<script src="js/js-plugins/perfect-scrollbar.js"></script>
-		<script src="js/js-plugins/jquery.datetimepicker.full.js"></script>
-		<script src="js/js-plugins/svgxuse.js"></script>
-		<script src="js/js-plugins/select2.js"></script>
-		<script src="js/js-plugins/smooth-scroll.js"></script>
-		<script src="js/js-plugins/sharer.js"></script>
-		<script src="js/js-plugins/isotope.pkgd.min.js"></script>
-		<script src="js/js-plugins/ajax-pagination.js"></script>
-		<script src="js/js-plugins/swiper.min.js"></script>
-		<script src="js/js-plugins/material.min.js"></script>
-		<script src="js/js-plugins/orbitlist.js"></script>
-		<script src="js/js-plugins/highstock.js"></script>
-		<script src="js/js-plugins/bootstrap-datepicker.js"></script>
-		<script src="js/js-plugins/TimeCircles.js"></script>
-		<script src="js/js-plugins/ion.rangeSlider.js"></script>
+	<!-- jQuery first, then Other JS. -->
 
-		<!-- FontAwesome 5.x.x JS -->
+	<script src="js/jquery-3.3.1.js"></script>
 
-		<script defer src="fonts/fontawesome-all.js"></script>
+	<script src="js/js-plugins/leaflet.js"></script>
+	<script src="js/js-plugins/MarkerClusterGroup.js"></script>
+	<script src="js/js-plugins/crum-mega-menu.js"></script>
+	<script src="js/js-plugins/waypoints.js"></script>
+	<script src="js/js-plugins/jquery-circle-progress.js"></script>
+	<script src="js/js-plugins/segment.js"></script>
+	<script src="js/js-plugins/bootstrap.js"></script>
+	<script src="js/js-plugins/imagesLoaded.js"></script>
+	<script src="js/js-plugins/jquery.matchHeight.js"></script>
+	<script src="js/js-plugins/jquery-countTo.js"></script>
+	<script src="js/js-plugins/Headroom.js"></script>
+	<script src="js/js-plugins/jquery.magnific-popup.js"></script>
+	<script src="js/js-plugins/popper.min.js"></script>
+	<script src="js/js-plugins/particles.js"></script>
+	<script src="js/js-plugins/perfect-scrollbar.js"></script>
+	<script src="js/js-plugins/jquery.datetimepicker.full.js"></script>
+	<script src="js/js-plugins/svgxuse.js"></script>
+	<script src="js/js-plugins/select2.js"></script>
+	<script src="js/js-plugins/smooth-scroll.js"></script>
+	<script src="js/js-plugins/sharer.js"></script>
+	<script src="js/js-plugins/isotope.pkgd.min.js"></script>
+	<script src="js/js-plugins/ajax-pagination.js"></script>
+	<script src="js/js-plugins/swiper.min.js"></script>
+	<script src="js/js-plugins/material.min.js"></script>
+	<script src="js/js-plugins/orbitlist.js"></script>
+	<script src="js/js-plugins/highstock.js"></script>
+	<script src="js/js-plugins/bootstrap-datepicker.js"></script>
+	<script src="js/js-plugins/TimeCircles.js"></script>
+	<script src="js/js-plugins/ion.rangeSlider.js"></script>
 
-		<script src="js/main.js"></script>
+	<!-- FontAwesome 5.x.x JS -->
 
-		<!-- SVG icons loader -->
-		<script src="js/svg-loader.js"></script>
-		<!-- /SVG icons loader -->
+	<script defer src="fonts/fontawesome-all.js"></script>
 
-		</body>
+	<script src="js/main.js"></script>
 
-		</html>
+	<!-- SVG icons loader -->
+	<script src="js/svg-loader.js"></script>
+	<!-- /SVG icons loader -->
+
+	</body>
+
+	</html>

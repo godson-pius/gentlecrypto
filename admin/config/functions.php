@@ -607,3 +607,34 @@ function getCourseLesson($id) {
     return false;
   }
 }
+
+function update_brand($post, $name) {
+  global $link;
+
+  $errors = [];
+  extract($post);
+
+  if (!empty($info)) {
+    $info = $info;
+  } else {
+    $errors[] = 'Content is required';
+  }
+
+  if (!$errors) {
+    if ($name === "terms") {
+      $sql = "UPDATE brand_infos SET terms = '$info'";
+    } else if ($name === "policy") {
+      $sql = "UPDATE brand_infos SET policy = '$info'";
+    }
+
+    $query = mysqli_query($link, $sql);
+
+    if ($query) {
+      return true;
+    } else {
+      return false;
+    }
+  } else {
+    return $errors;
+  }
+}

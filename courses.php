@@ -4,16 +4,15 @@
 
 <!-- ... end Header -->
 <style type="text/css">
-<<<<<<< Updated upstream
-	.dk {
+	<<<<<<< Updated upstream .dk {
 		color: black !important;
-=======
-	.dk{
-		color: ghostwhite; !important;
->>>>>>> Stashed changes
-		font-weight: bolder;
 
-	}
+		=======.dk {
+			color: ghostwhite;
+			 !important;
+			>>>>>>>Stashed changes font-weight: bolder;
+
+		}
 </style>
 
 <div class="main-content-wrapper">
@@ -26,7 +25,8 @@
 						<h2 class="heading-title heading--half-colored">Upcoming <span
 								class="weight-bold">Courses</span>
 						</h2>
-						<div class="heading-text">Our trading courses will teach, guide and correct you through the beautiful yet complex world of crypto currency trading.</div>
+						<div class="heading-text">Our trading courses will teach, guide and correct you through the
+							beautiful yet complex world of crypto currency trading.</div>
 					</header>
 				</div>
 			</div>
@@ -34,9 +34,9 @@
 				<div class="col-lg-4 col-lg-offset-4 col-md-12 col-sm-12 col-xs-12">
 					<div class="input-with-btn-inline content-frm">
 						<form class="subsFrm" method="POST">
-						<input id='email' name="email" placeholder="Your Email Address" type="email" value="">
-						<button id="subscribeBtn" class="btn btn--large btn--green-light">Subscribe</button>
-					</form>
+							<input id='email' name="email" placeholder="Your Email Address" type="email" value="">
+							<button id="subscribeBtn" class="btn btn--large btn--green-light">Subscribe</button>
+						</form>
 					</div>
 					<div class="status"></div>
 				</div>
@@ -159,10 +159,27 @@ else{
 				</div>
 			</div>
 		</div>
-		<div class="container align-center" style="margin-top: 30px;">
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium aliquam soluta, necessitatibus
-				quisquam id quas at rerum optio magnam quaerat voluptatibus quibusdam ea adipisci harum iste praesentium
-				minima fugiat laboriosam.</p>
+		<div class="container" style="margin-top: 30px;">
+			<div class=" align-center">
+				<h2 class="heading-title heading--half-colored text-center">Course <span
+						class="weight-bold">Benefit.</span></h2>
+			</div>
+
+			<h4><?= ucwords('Live Education'); ?></h4>
+			<p>Can be learnt on any device, Self learn opportunity, Easy to understand terms Informative and exciting.
+			</p>
+			<hr>
+
+			<h4><?= ucwords('Live trading room'); ?></h4>
+			<p>Observe experts in our community trading, Watch us trade in real time and with real money</p>
+			<hr>
+
+			<h4><?= ucwords('Signal group'); ?></h4>
+			<p>As a student in our academy, you are entitled to one week free profitable signal, from which you can choose to pay to be part of our premium signal group</p> <hr>
+
+			<h4><?= ucwords('General student’s community'); ?></h4>
+			<p>24/7 support from members, Genuine and authentic updates, Have crypto knowledge at your finger tips</p>
+			<hr>
 		</div>
 	</section>
 
@@ -210,52 +227,55 @@ else{
 
 <!-- FontAwesome 5.x.x JS -->
 <script>
-$(document).ready(function(){
-    $('#subscribeBtn').on('click', function(){
-        // Remove previous status message
-        $('.status').html('');
-		
-        // Email and name regex
-        var regEmail = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i;
-       
-		
-        // Get input values
-        var email = $('#email').val();
-		
-        // Validate input fields
-        if(email.trim() == '' ){
-            alert('Please enter your email.');
-            $('#email').focus();
-            return false;
-        }else if(email.trim() != '' && !regEmail.test(email)){
-            alert('Please enter a valid email.');
-            $('#email').focus();
-            return false;
-        }else{
-            // Post subscription form via Ajax
-            $.ajax({
-                type:'POST',
-                url:'subscription.php',
-                dataType: "json",
-                data:{subscribe:1,email:email},
-                beforeSend: function () {
-                    $('#subscribeBtn').attr("disabled", "disabled");
-                    $('.content-frm').css('opacity', '.5');
-                },
-                success:function(data){
-                    if(data.status == 'ok'){
-                        $('#subsFrm')[0].reset();
-                        $('.status').html('<p class="success">'+data.msg+'</p>');
-                    }else{
-                        $('.status').html('<p class="error">'+data.msg+'</p>');
-                    }
-                    $('#subscribeBtn').removeAttr("disabled");
-                    $('.content-frm').css('opacity', '');
-                }
-            });
-        }
-    });
-});
+	$(document).ready(function () {
+		$('#subscribeBtn').on('click', function () {
+			// Remove previous status message
+			$('.status').html('');
+
+			// Email and name regex
+			var regEmail = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i;
+
+
+			// Get input values
+			var email = $('#email').val();
+
+			// Validate input fields
+			if (email.trim() == '') {
+				alert('Please enter your email.');
+				$('#email').focus();
+				return false;
+			} else if (email.trim() != '' && !regEmail.test(email)) {
+				alert('Please enter a valid email.');
+				$('#email').focus();
+				return false;
+			} else {
+				// Post subscription form via Ajax
+				$.ajax({
+					type: 'POST',
+					url: 'subscription.php',
+					dataType: "json",
+					data: {
+						subscribe: 1,
+						email: email
+					},
+					beforeSend: function () {
+						$('#subscribeBtn').attr("disabled", "disabled");
+						$('.content-frm').css('opacity', '.5');
+					},
+					success: function (data) {
+						if (data.status == 'ok') {
+							$('#subsFrm')[0].reset();
+							$('.status').html('<p class="success">' + data.msg + '</p>');
+						} else {
+							$('.status').html('<p class="error">' + data.msg + '</p>');
+						}
+						$('#subscribeBtn').removeAttr("disabled");
+						$('.content-frm').css('opacity', '');
+					}
+				});
+			}
+		});
+	});
 </script>
 <script defer src="fonts/fontawesome-all.js"></script>
 

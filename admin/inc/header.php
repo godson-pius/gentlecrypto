@@ -214,6 +214,14 @@
                             </ul>
                         </li>
 
+                        <!-- <li>
+                            <a href="javascript: void(0);"><i class="ti-info"></i> <span> Update Brand Info </span> <span class="menu-arrow"></span></a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li><a href="brand-info.php?info=terms">Terms and conditions</a></li>
+                                <li><a href="brand-info.php?info=policy">Privacy Policy</a></li>
+                            </ul>
+                        </li> -->
+
                         <li>
                             <a href="messages.php"><i class="ti-comments"></i> <span> Messages </span></a>
                         </li>

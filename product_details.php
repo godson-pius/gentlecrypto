@@ -43,12 +43,12 @@
 
 						<div class="author-block">
 							<div class="avatar avatar60 team-img"
-								style="background-image: url('tutor_images/<?= $tutor_image; ?>'); width: 60px; height: 60px; background-position: center; background-repeat: no-repeat; background-size: cover;">
+								style="background-image: url('tutor_images/<?= $tutor_image; ?>'); width: 60px; height: 60px; background-position: center; background-repeat: no-repeat; background-size: contain;">
 
 							</div>
 							<div class="author-content">
-								<div class="author-prof">Admin</div>
-								<a href="#" class="author-name">Posted by admin</a>
+								<div class="author-prof">Product</div>
+								<a href="#" class="author-name">Posted by Gentlecrypto</a>
 							</div>
 						</div>
 					</div>
