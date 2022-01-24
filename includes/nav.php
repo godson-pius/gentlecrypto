@@ -33,6 +33,10 @@
 			<a href="./about.php">About Us</a>
 		</li>
 
+		<li class="menu-item-has-children <?php if($page === "Ebooks") echo 'current-menu-item'; ?>">
+			<a href="./ebook.php">Ebooks</a>
+		</li>
+
 		<!-- <li class="<?php if($page === "Ebooks") echo 'current-menu-item'; ?>">
 			<a href="./ebook.php">Ebooks</a>
 		</li> -->
@@ -49,8 +53,8 @@
 			<a href="./contacts.php">Contacts Us</a>
 		</li>
 
-		<li class="<?php if($page === "Faq") echo 'current-menu-item'; ?>">
+		<!-- <li class="<?php if($page === "Faq") echo 'current-menu-item'; ?>">
 			<a href="./faq.php">Faq</a>
-		</li>
+		</li> -->
 	</ul>
 </nav>

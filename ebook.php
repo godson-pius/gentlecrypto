@@ -9,10 +9,10 @@
 			<div class="row align-center">
 				<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12">
 					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
-						<div class="heading-sup-title">Ebooks</div>
-						<h2 class="heading-title heading--half-colored">Our <span class="weight-bold">Ebooks</span>
+						<div class="heading-sup-title">eBooks</div>
+						<h2 class="heading-title heading--half-colored">Our <span class="weight-bold">eBooks</span>
 						</h2>
-						<div class="heading-text">Learn how to trade the crypto currency market by digesting the different pages of our eBook, which is currently having a competitive edge over other crypto currency trading eBooks out there.</div>
+						<div class="heading-text">Learn how to trade the crypto currency market by digesting the different pages of our eBook, which is currently having a competitive edge over other crypto currency trading eBooks out there. </div>
 					</header>
 				</div>
 			</div>
