@@ -67,8 +67,7 @@
 						<div class="post-thumb">
 
 							<div class=""
-								style="background-image: url('img/<?= $p_image; ?>'); width: 1543px; height: 505px; background-position: center; background-repeat: no-repeat; background-size: cover;">
-
+								style="background-image: url('img/<?= $p_image; ?>'); width: 100%; height: 351px; background-position: center; background-repeat: no-repeat; background-size: cover;">
 							</div>
 
 						</div>
@@ -218,7 +217,7 @@
 
 													<div class="author-block">
 														<div class="avatar avatar60">
-															<img src="img/<?= $event['event_image']; ?>" alt="avatar">
+															<img src="img/<?= $event['event_image']; ?>" alt="avatarss">
 														</div>
 													</div>
 												</div>

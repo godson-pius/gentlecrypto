@@ -20,7 +20,7 @@
 
 
 <div class="main-content-wrapper">
-	<section data-settings="particles-1" class="main-section crumina-flying-balls particles-js bg-1 medium-padding120">
+	<section data-settings="particles-1" class="main-section crumina-flying-balls particles-js bg-1">
 		<div class="container">
 			<div class="row align-center mb60">
 				<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12">
@@ -73,7 +73,7 @@
 										<svg class="woox-icon icon-telephone">
 											<use xlink:href="#icon-telephone"></use>
 										</svg>
-										080 678 76776 77
+										+234 903 493 1935
 									</div>
 								</div>
 
@@ -112,7 +112,7 @@
 						</a>
 					</div>
 
-					<a href="#" class="btn btn--x-large btn--primary btn--transparent btn--with-icon btn--icon-left full-width mb60 mt60">
+					<a href="./terms.php" target="_blank" class="btn btn--x-large btn--primary btn--transparent btn--with-icon btn--icon-left full-width mb60 mt60">
 						<svg class="woox-icon icon-adobe-reader-symbol"><use xlink:href="#icon-adobe-reader-symbol"></use></svg>
 						Company Presentation
 					</a>

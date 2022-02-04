@@ -6,22 +6,48 @@
 <div class="main-content-wrapper">
 	<section data-settings="particles-1" class="main-section crumina-flying-balls particles-js bg-1">
 		<div class="container">
-			<div class="row medium-padding120 align-center">
+			<div class="row align-center">
 				<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12">
 					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
-						<div class="heading-sup-title">Meet The Team</div>
-						<h2 class="heading-title heading--half-colored">Our professionals</h2>
+						<div class="heading-sup-title">Gentlecrypto</div>
+						<h2 class="heading-title heading--half-colored">About Us</h2>
 						<div class="heading-text">Talent wins games, but teamwork and intelligence win championships
 						</div>
 					</header>
-					<a data-scroll href="#traders" class="btn btn--large btn--primary btn--transparent">Our Team</a>
+					<a data-scroll href="#history" class="btn btn--large btn--primary btn--transparent">Get to know us!</a>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section>
+
+	<section class="subsidiaries align-center" id="history">
 		<div class="container">
+			<!-- About us -->
+			<p class="">Gentlecrypto trading academy is a result oriented crypto currency coaching and mentorship platform, a
+				subsidiary of the Gentlecrypto enterprises, where we have structured step by step guide on everything
+				you need to know concerning trading crypto assets successfully as an independent trader using our
+				flexible yet exclusive training modules within the space of 5 weeks. 
+				We provide one-on-one dedicated mentorship on how to get started and master the art of trading crypto
+				currency using our easily accessible consultancy Services. 
+				Our courses are real time course that will earn you real money from your own room, only by applying the
+				strategies we have taken our time to explain during the training. 
+				We provide weekly alert on how to trade crypto currencies, and key crypto currency trading set ups
+				strengthened by fundamental & technical analysis for trading opportunities and entries.
+			</p>
+		</div>
+	</section>
+
+	<div class="row align-center mt100">
+	<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12">
+					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+						<h2 class="heading-title heading--half-colored">Meet the team</h2>
+					</header>
+				</div>
+	</div>
+
+	<section>
+		<div class="container mt100">
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30">
 					<div class="author-block author-block--column hover-shadow-left-top">
@@ -205,31 +231,6 @@
 				</div>
 			</div>
 		</section>
-	</section>
-
-	<section class="subsidiaries">
-		<div class="container">
-			<div class="row align-center">
-				<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12">
-					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
-						<h2 class="heading-title heading--half-colored">About Us</h2>
-					</header>
-				</div>
-			</div>
-
-			<!-- About us -->
-			<p class="">Gentlecrypto trading academy is a result oriented crypto currency coaching and mentorship platform, a
-				subsidiary of the Gentlecrypto enterprises, where we have structured step by step guide on everything
-				you need to know concerning trading crypto assets successfully as an independent trader using our
-				flexible yet exclusive training modules within the space of 5 weeks. <br> <br>
-				We provide one-on-one dedicated mentorship on how to get started and master the art of trading crypto
-				currency using our easily accessible consultancy Services. <br> <br>
-				Our courses are real time course that will earn you real money from your own room, only by applying the
-				strategies we have taken our time to explain during the training. <br> <br>
-				We provide weekly alert on how to trade crypto currencies, and key crypto currency trading set ups
-				strengthened by fundamental & technical analysis for trading opportunities and entries.
-			</p>
-		</div>
 	</section>
 
 
