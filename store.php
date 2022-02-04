@@ -42,7 +42,7 @@
 										</div>
 										<div class="event-content">
 											<h4 class="event-title mb30"><?= $p_name; ?></h4>
-											<a href="product_details.php?product=<?= $url_link; ?>" class="btn btn--medium btn--transparent btn--secondary">Buy Item</a>
+											<a href="product_details.php?product=<?= $url_link; ?>" class="btn btn--medium btn--transparent btn--secondary">View Item</a>
 										</div>
 									</div>
 								</div>
