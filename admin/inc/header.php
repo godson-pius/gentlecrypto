@@ -178,8 +178,15 @@
                             <a href="javascript: void(0);"><i class="ti-book"></i> <span> Courses </span> <span class="menu-arrow"></span></a>
                             <ul class="nav-second-level" aria-expanded="false">
                                 <li><a href="courses.php">All Courses</a></li>
-                                <li><a href="add-lesson.php">Add Lessons</a></li>
                                 <li><a href="add-course.php">Add Courses</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);"><i class="ti-blackboard"></i> <span> Lessons </span> <span class="menu-arrow"></span></a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li><a href="lessons.php">All Lessons</a></li>
+                                <li><a href="add-lesson.php">Add Lessons</a></li>
                             </ul>
                         </li>
 
