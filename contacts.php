@@ -41,21 +41,21 @@
 					<div>
 						<header class="crumina-module crumina-heading heading--h3 heading--with-decoration">
 							<h3 class="heading-title heading--half-colored">Contact <b>details</b></h3>
-							<div class="heading-text">Odio aenean sed adipiscing placerat in egestas erat imperdiet.</div>
+							<div class="heading-text">Do well to contact us, anytime.</div>
 						</header>
 
 						<div class="contact-item">
 							<h4 class="contact-item-title">Find us</h4>
 							<div class="info-wrap">
-								<div class="info">795 South Park Avenue,</div>
-								<span>Melbourne, Australia</span>
+								<div class="info">Enugu,</div>
+								<span>Nigeria</span>
 							</div>
 						</div>
 
 						<div class="contact-item" data-mh="equal-block">
 						<h4 class="contact-item-title">Contact us</h4>
 						<div class="info-wrap">
-							<div class="info">Phone: <span>+234 90 3493 1935</span></div>
+							<div class="info">Phone: <span>+234 903 493 1935</span></div>
 							<div class="info">Email: <a href="mailto:support@gentlecrypto.io">support@gentlecrypto.io</a></div>
 						</div>
 						<ul class="socials socials--double-icons">
