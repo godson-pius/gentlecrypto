@@ -64,8 +64,8 @@ $course_result = mysqli_query($link,$sql_course);
   $tutor = $row_course["tutor"];
     $tutor_image = $row_course["tutor_image"];
 	
-	$url_link = str_replace(' ', '-', "course-details.php?course=$course_name");
-	$url_link = str_replace("'", "/", "course-details.php?course=$course_name");
+	$url_link1 = str_replace(' ', '-', "course-details.php?course=$course_name");
+	$url_link = str_replace("'", "/", "$url_link1");
 ?>
 				<div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 sorting-item">
 					<div class="crumina-module crumina-event-item">
