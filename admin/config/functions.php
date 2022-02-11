@@ -278,13 +278,13 @@ function addEvent($post) {
   $errors = [];
   extract($post);
 
-  $title = str_replace("'", "&apos;", "$title");
-  $venue = str_replace("'", "&apos;", "$venue");
+
   $content = str_replace("'", "&apos;", "$content");
 
   if (!empty($title)) {
     if (!check_duplicate('events', 'title', sanitize($title))) {
       $title = sanitize($title);
+      $title = str_replace("'", "&apos;", "$title");
     } else {
       $errors[] = 'Event already exists';
     }
@@ -306,6 +306,7 @@ function addEvent($post) {
 
   if (!empty($venue)) {
     $venue = sanitize($venue);
+    $venue = str_replace("'", "&apos;", "$venue");
   } else {
     $errors[] = 'Venue is required';
   }
