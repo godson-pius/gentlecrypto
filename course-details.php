@@ -3,6 +3,7 @@
   if (isset($_GET['course'])) {
     $name = $_GET['course'];
     $name = str_replace('-', ' ', $name);
+    $name = str_replace('/', "'", $name);
 
     $get_course = getSingleCourse($name);
 
