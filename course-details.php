@@ -129,7 +129,7 @@
 						<div class="post__content">
 
 							<header class="crumina-module crumina-heading heading--h4 heading--with-decoration">
-								<h4 class="heading-title"><?= strtoupper($course_name); ?></h4>
+								<h4 class="heading-title"><?= ucfirst($course_name); ?></h4>
 							</header>
 							<p class="post__text">
 								<?= $course_detail; ?>
@@ -157,7 +157,8 @@
 								if (!empty($courses)) {
 									foreach ($courses as $sCourse) {
 										$course_name = $sCourse['course_name'];	
-										$url_link = str_replace(' ', '-', "course-details.php?course=$course_name"); ?>
+										$url_link1 = str_replace(' ', '-', "course-details.php?course=$course_name");
+										$url_link = str_replace("&apos;", "/", "$url_link1"); ?>
 
 							<ul class="latest-news-list">
 								<li>
