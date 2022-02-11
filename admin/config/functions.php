@@ -9,7 +9,6 @@ function isset_file($name) {
 if(isset($_POST["add_course"])){
     trim(extract($_POST));
 
-    // $course = str_replace("'", "&apos;", "$course");
     $tutor = str_replace("'", "&apos;", "$tutor");
     $detail = str_replace("'", "&apos;", "$detail");
 
@@ -35,6 +34,7 @@ if(isset($_POST["add_course"])){
 
     if (!check_duplicate('courses', 'course_name', sanitize($course))) {
       $course_name = sanitize($course);
+      $course_name = str_replace("'", "&apos;", "$course_name");
     } else {
       echo ("<script LANGUAGE='JavaScript'>
       window.alert('Course already exists!');
