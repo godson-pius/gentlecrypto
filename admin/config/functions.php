@@ -351,6 +351,7 @@ function addProduct($post) {
   if (!empty($p_name)) {
     if (!check_duplicate('products', 'p_name', sanitize($p_name))) {
       $p_name = sanitize($p_name);
+      $p_name = str_replace("'", "&apos;", "$p_name");
     } else {
       $errors[] = 'Product already exists';
     }
@@ -431,12 +432,12 @@ function editProduct($post, $id) {
 
   extract($post);
 
-  $p_name = str_replace("'", "&apos;", "$p_name");
-  $p_details = str_replace("'", "&apos;", "$p_details");
-
   $p_name = sanitize($p_name);
   $p_price = sanitize($p_price);
   $p_details = sanitize($details);
+
+  $p_name = str_replace("'", "&apos;", "$p_name");
+  $p_details = str_replace("'", "&apos;", "$p_details");
 
   if (isset($_FILES['image'])) {
     $image = sanitize($_FILES['image']['name']);
