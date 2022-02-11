@@ -5,23 +5,11 @@ function isset_file($name) {
     return (isset($_FILES[$name]) && $_FILES[$name]['error'] != UPLOAD_ERR_NO_FILE);
 }
 
-// function addCourse($post) {
-//   trim(extract($_POST));
-//   $target_dir = "../../tutor_images/";
-
-//   // Allow certain file formats
-//   if ($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
-//   && $imageFileType != "gif" ) {
-    
-//     $uploadOk = 0;
-//   }
-// }
-
 //function that handles the add course page
 if(isset($_POST["add_course"])){
     trim(extract($_POST));
 
-    $course = str_replace("'", "&apos;", "$course");
+    // $course = str_replace("'", "&apos;", "$course");
     $tutor = str_replace("'", "&apos;", "$tutor");
     $detail = str_replace("'", "&apos;", "$detail");
 
