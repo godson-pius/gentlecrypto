@@ -5,102 +5,102 @@ function isset_file($name) {
     return (isset($_FILES[$name]) && $_FILES[$name]['error'] != UPLOAD_ERR_NO_FILE);
 }
 
+// function addCourse($post) {
+//   trim(extract($_POST));
+//   $target_dir = "../../tutor_images/";
+
+//   // Allow certain file formats
+//   if ($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
+//   && $imageFileType != "gif" ) {
+    
+//     $uploadOk = 0;
+//   }
+// }
+
 //function that handles the add course page
 if(isset($_POST["add_course"])){
-  trim(extract($_POST));
+    trim(extract($_POST));
 
+    $course = str_replace("'", "&#39;", "$course");
+    $tutor = str_replace("'", "&apos;", "$tutor");
+    $detail = str_replace("'", "&apos;", "$detail");
 
-$target_dir = "../../tutor_images/";
+  $target_dir = "../../tutor_images/";
 
-if(isset_file('fileToUpload')) {
-  $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
-  $imgName = basename($_FILES["fileToUpload"]["name"]);
-$uploadOk = 1;
- $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+  if(isset_file('fileToUpload')) {
+    $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+    $imgName = basename($_FILES["fileToUpload"]["name"]);
+  $uploadOk = 1;
+  $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 
-$check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
-  if($check !== false) {
-    $uploadOk = 1;
-  } 
-  else {
+  $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
+    if($check !== false) {
+      $uploadOk = 1;
+    } 
+    else {
+      echo ("<script LANGUAGE='JavaScript'>
+      window.alert('Please upload only an Image');
+      window.location.href='../add-course.php';
+      </script>");
+      $uploadOk = 0;
+    }
+
+    if (!check_duplicate('courses', 'course_name', sanitize($course))) {
+      $course_name = sanitize($course);
+    } else {
+      echo ("<script LANGUAGE='JavaScript'>
+      window.alert('Course already exists!');
+      window.location.href='../add-course.php';
+      </script>");
+    }
+    
+
+  // Allow certain file formats
+  if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
+  && $imageFileType != "gif" ) {
     echo ("<script LANGUAGE='JavaScript'>
-    window.alert('Please upload only an Image');
-    window.location.href='../add-course.php';
-    </script>");
+      window.alert('Please Upload only an image File');
+      window.location.href='../add-course.php';
+      </script>");
     $uploadOk = 0;
   }
 
-  if (!check_duplicate('courses', 'course_name', sanitize($course))) {
-    $course_name = sanitize($course);
-  } else {
-    echo ("<script LANGUAGE='JavaScript'>
-    window.alert('Course already exists!');
-    window.location.href='../add-course.php';
-    </script>");
-  }
+  // Check if $uploadOk is set to 0 by an error
+  if ($uploadOk == 1){
+    if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
 
+      $sql_query = "INSERT INTO courses(course_name,course_detail,course_price,course_video,tutor,tutor_image) VALUES('$course_name','$detail','$price', '$video','$tutor','$imgName')";
 
-// Check if file already exists
-if (file_exists($target_file)) {
-  $sql_query = "INSERT INTO courses(course_name,course_detail,course_price,course_video,tutor,tutor_image) VALUES('$course_name','$detail','$price', '$video','$tutor','$imgName')";
-  if(mysqli_query($link,$sql_query)){
-     echo ("<script LANGUAGE='JavaScript'>
-    window.alert('Course Added Successfully');
-    window.location.href='../add-course.php';
-    </script>");
-  }
-  else{
-    echo ("<script LANGUAGE='JavaScript'>
-    window.alert('Sorry an Error occured try again!');
-    window.location.href='../add-course.php';
-    </script>");
-  } 
-}
+    if(mysqli_query($link, $sql_query)){
 
-// Allow certain file formats
-if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
-&& $imageFileType != "gif" ) {
-  echo ("<script LANGUAGE='JavaScript'>
-    window.alert('Please Upload only an image File');
-    window.location.href='../add-course.php';
-    </script>");
-  $uploadOk = 0;
-}
+      echo ("<script LANGUAGE='JavaScript'>
+      window.alert('Course Added Successfully');
+      window.location.href='../add-course.php';
+      </script>");
+    }
+    else{
+      echo ("<script LANGUAGE='JavaScript'>
+      window.alert('Sorry an Error occured try again!');
+      window.location.href='../add-course.php';
+      </script>");
+    }
+    }
+    else {
+      echo ("<script LANGUAGE='JavaScript'>
+      window.alert('Sorry an Error occured try again!');
+      window.location.href='../add-course.php';
+      </script>");
+    }
 
-// Check if $uploadOk is set to 0 by an error
-if ($uploadOk == 1){
-  if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-
-    $sql_query = "INSERT INTO courses(course_name,course_detail,course_price,course_video,tutor,tutor_image) VALUES('$course','$detail','$price', '$video','$tutor','$imgName')";
-  if(mysqli_query($link,$sql_query)){
-     echo ("<script LANGUAGE='JavaScript'>
-    window.alert('Course Added Successfully');
-    window.location.href='../add-course.php';
-    </script>");
+    
   }
-  else{
-    echo ("<script LANGUAGE='JavaScript'>
-    window.alert('Sorry an Error occured try again!');
-    window.location.href='../add-course.php';
-    </script>");
+    else{
+      echo ("<script LANGUAGE='JavaScript'>
+      window.alert('Sorry an Error occured try again!');
+      window.location.href='../add-course.php';
+      </script>");
+    } 
   }
-  }
-   else {
-    echo ("<script LANGUAGE='JavaScript'>
-    window.alert('Sorry an Error occured try again!');
-    window.location.href='../add-course.php';
-    </script>");
-  }
-
-  
-}
-  else{
-    echo ("<script LANGUAGE='JavaScript'>
-    window.alert('Sorry an Error occured try again!');
-    window.location.href='../add-course.php';
-    </script>");
-  } 
-}
 
 }
 
@@ -110,6 +110,9 @@ if ($uploadOk == 1){
 //function that handles the add Lesson page
 if(isset($_POST["add_lesson"])){
   trim(extract($_POST));
+
+  $detail = str_replace("'", "&apos;", "$detail");
+  $topic = str_replace("'", "&apos;", "$topic");
 
 
 $target_dir = "../../lesson_videos/";
@@ -173,7 +176,7 @@ if ($uploadOk == 1){
 // for deleting a course
 if(isset($_POST["delete_course"])){
   extract($_POST);
-  $sql = "DELETE FROM courses where id = $id";
+  $sql = "DELETE FROM courses WHERE id = '$id'";
   if(mysqli_query($link, $sql)){
      echo ("<script LANGUAGE='JavaScript'>
     window.alert('Course Deleted Successfully');
@@ -287,6 +290,10 @@ function addEvent($post) {
   $errors = [];
   extract($post);
 
+  $title = str_replace("'", "&apos;", "$title");
+  $venue = str_replace("'", "&apos;", "$venue");
+  $content = str_replace("'", "&apos;", "$content");
+
   if (!empty($title)) {
     if (!check_duplicate('events', 'title', sanitize($title))) {
       $title = sanitize($title);
@@ -350,6 +357,9 @@ function addProduct($post) {
   $errors = [];
   extract($post);
 
+  $p_name = str_replace("'", "&apos;", "$p_name");
+  $details = str_replace("'", "&apos;", "$details");
+
   if (!empty($p_name)) {
     if (!check_duplicate('products', 'p_name', sanitize($p_name))) {
       $p_name = sanitize($p_name);
@@ -405,6 +415,9 @@ function editEvent($post, $id) {
   $time = sanitize($time);
   $venue = sanitize($venue);
 
+  $title = str_replace("'", "&apos;", "$title");
+  $venue = str_replace("'", "&apos;", "$venue");
+
   if (isset($_FILES['image'])) {
     $image = sanitize($_FILES['image']['name']);
     $imageTmp = sanitize($_FILES['image']['tmp_name']);
@@ -429,6 +442,9 @@ function editProduct($post, $id) {
   global $link;
 
   extract($post);
+
+  $p_name = str_replace("'", "&apos;", "$p_name");
+  $p_details = str_replace("'", "&apos;", "$p_details");
 
   $p_name = sanitize($p_name);
   $p_price = sanitize($p_price);
