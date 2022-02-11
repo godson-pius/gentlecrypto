@@ -345,7 +345,6 @@ function addProduct($post) {
   $errors = [];
   extract($post);
 
-  $p_name = str_replace("'", "&apos;", "$p_name");
   $details = str_replace("'", "&apos;", "$details");
 
   if (!empty($p_name)) {

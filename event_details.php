@@ -2,7 +2,9 @@
 	
   if (isset($_GET['event'])) {
     $title = $_GET['event'];
-    $title = str_replace('-', ' ', $title);
+
+    $title1 = str_replace('-', ' ', $title);
+    $title = str_replace('/', '&apos;', $title1);
 
     $get_event = getSingleEvent($title);
 

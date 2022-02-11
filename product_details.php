@@ -2,7 +2,9 @@
 	
   if (isset($_GET['product'])) {
     $name = $_GET['product'];
-    $name = str_replace('-', ' ', $name);
+
+    $name1 = str_replace('-', ' ', $name);
+    $name = str_replace('/', '&apos;', $name1);
 
     $get_product = getSingleProduct($name);
 
@@ -125,7 +127,7 @@
 						<div class="post__content">
 
 							<header class="crumina-module crumina-heading heading--h4 heading--with-decoration">
-								<h4 class="heading-title"><?= strtoupper($p_name); ?></h4>
+								<h4 class="heading-title"><?= ucfirst($p_name); ?></h4>
 							</header>
 							<p class="post__text">
 								<?= $p_details; ?>
@@ -153,7 +155,8 @@
 								if (!empty($products)) {
 									foreach ($products as $sProduct) {
 										$p_name = $sProduct['p_name'];	
-										$url_link = str_replace(' ', '-', "product_details.php?product=$p_name"); ?>
+										$url_link1 = str_replace(' ', '-', "product_details.php?product=$p_name");
+										$url_link = str_replace('&apos;', '/', "$url_link1"); ?>
 
 							<ul class="latest-news-list">
 								<li>

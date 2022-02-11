@@ -33,7 +33,8 @@
 					if (isset($products)) {
 						foreach ($products as $product) {
 							extract($product); 
-							$url_link = str_replace(' ', '-', $p_name);
+							$url_link1 = str_replace(' ', '-', $p_name);
+							$url_link = str_replace("&apos;", "/", $url_link1);
 							?>
 								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
 									<div class="crumina-module crumina-event-item">
