@@ -21,7 +21,7 @@ function isset_file($name) {
 if(isset($_POST["add_course"])){
     trim(extract($_POST));
 
-    $course = str_replace("'", "&#39;", "$course");
+    $course = str_replace("'", "&apos;", "$course");
     $tutor = str_replace("'", "&apos;", "$tutor");
     $detail = str_replace("'", "&apos;", "$detail");
 
