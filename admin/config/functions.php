@@ -161,10 +161,14 @@ if ($uploadOk == 1){
 
 }
 
+if(isset($_POST['edit_course'])) {
+  extract($_POST);
+}
+
 // for deleting a course
 if(isset($_POST["delete_course"])){
   extract($_POST);
-  $sql = "DELETE FROM courses WHERE id = '$id'";
+  $sql = "DELETE FROM courses WHERE course_id = '$id'";
   if(mysqli_query($link, $sql)){
      echo ("<script LANGUAGE='JavaScript'>
     window.alert('Course Deleted Successfully');
@@ -446,6 +450,37 @@ function editProduct($post, $id) {
   }
 
   $sql = "UPDATE products SET p_name = '$p_name', p_price = '$p_price', p_details = '$p_details', p_image = '$image', updated_at = now() WHERE id = '$id'";
+
+  $query = mysqli_query($link, $sql);
+
+  if ($query) {
+    return true;
+  } else {
+    return false;
+  }
+  
+}
+
+function editCourse($post, $id) {
+  global $link;
+
+  extract($post);
+
+  $tutor = sanitize($tutor);
+  $course = sanitize($course);
+  $cprice = sanitize($price);
+
+  $tutor = str_replace("'", "&apos;", "$tutor");
+  $course = str_replace("'", "&apos;", "$course");
+  $detail = str_replace("'", "&apos;", "$detail");
+
+  if (isset($_FILES['fileToUpload'])) {
+    $image = sanitize($_FILES['fileToUpload']['name']);
+    $imageTmp = sanitize($_FILES['fileToUpload']['tmp_name']);
+    move_uploaded_file($imageTmp, "../img/$image");
+  }
+
+  $sql = "UPDATE courses SET course_name = '$course', course_detail = '$detail', course_price = '$cprice', course_video = '$video', tutor = '$tutor', tutor_image = '$image' WHERE course_id = '$id'";
 
   $query = mysqli_query($link, $sql);
 

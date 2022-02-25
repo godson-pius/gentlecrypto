@@ -22,7 +22,7 @@
 				<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12">
 					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
 						<div class="heading-sup-title">Courses</div>
-						<h2 class="heading-title heading--half-colored">Upcoming <span
+						<h2 class="heading-title heading--half-colored">All <span
 								class="weight-bold">Courses</span>
 						</h2>
 						<div class="heading-text">Our trading courses will teach, guide and correct you through the
@@ -30,23 +30,28 @@
 					</header>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-4 col-lg-offset-4 col-md-12 col-sm-12 col-xs-12">
-					<div class="input-with-btn-inline content-frm">
-						<form class="subsFrm" method="POST">
-							<input id='email' name="email" placeholder="Your Email Address" type="email" value="">
-							<button id="subscribeBtn" class="btn btn--large btn--green-light">Subscribe</button>
-						</form>
-					</div>
-					<div class="status"></div>
-				</div>
-			</div>
+
 		</div>
 	</section>
 
 
+	<div class="container text-center" style="text-align: center !important;">
+		<p class="text-center">Gentlecrypto trading academy is a result oriented crypto currency coaching and mentorship
+					platform, a subsidiary of the Gentlecrypto enterprises, where we have structured step by step
+					guide on everything you need to know concerning trading crypto assets successfully as an
+					independent trader using our flexible yet exclusive training modules within the space of 5 weeks
+					We provide one-on-one dedicated mentorship on how to get started and master the art of trading
+					crypto currency using our easily accessible consultancy opportunities. Our courses are real time
+					course that will earn you real money from your own room, only by applying the strategies we have
+					taken our time to explain during the training. We provide weekly alert on how to trade crypto
+					currencies, and key crypto currency trading set ups strengthened by fundamental & technical
+					analysis for trading opportunities and entries.</p>
+	</div>
+
+
 	<section class="medium-padding120">
 		<div class="container">
+		<h3>Courses available</h3>
 			<div class="row sorting-container" id="portfolio-grid" data-layout="masonry"
 				data-isotope='{"masonry": { "columnWidth": ".grid-sizer" }}'>
 				<div class="grid-sizer"></div>
@@ -233,6 +238,20 @@ else{
             <hr>
 		</div>
 	</section>
+
+	<div class="container" style="margin-top: 30px;">
+	<div class="row">
+				<div class="col-lg-4 col-lg-offset-4 col-md-12 col-sm-12 col-xs-12">
+					<div class="input-with-btn-inline content-frm">
+						<form class="subsFrm" method="POST">
+							<input id='email' name="email" placeholder="Your Email Address" type="email" value="">
+							<button id="subscribeBtn" class="btn btn--large btn--green-light">Subscribe</button>
+						</form>
+					</div>
+					<div class="status"></div>
+				</div>
+			</div>
+	</div>
 
 </div>
 <!-- Footer -->

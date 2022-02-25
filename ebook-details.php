@@ -1,8 +1,29 @@
 <?php require_once("admin/config/db.php"); 
-	$events = getAll('events');
+
+	if ($_GET['ebook'] === 'fastlane') {
+		$title = "Crypto fastlane Ebook ";
+		$description = "
+        Get the Ebook today <br /><br/> 
+        Crypto Fastlane is a simplied Ebook on how to get started in the world of crypto at the fastest time possible; it is more like a short cut to the vast world of crypto and blockchain technology.
+        It is a detailed guide with precision on current trends in the industry and how best you can begin to amass wealth for yourself at the shortest time possible.<br /><br/> 
+        It is imperative to stay updated as it concerns the world of crypto and blockchain technology in today’s fast changing world, you sure need a fast lane in other to match the speed at which the world is advancing. Read this book today, to understand how to speed up your progress in the crypto space. 
+        It is free for the first 20 persons to fill the form
+        Some chapter includes<br /><br/> 
+        
+        <h6>You can pre-order your copy today by filling the form below.</h6>
+        
+		";
+
+	} else if ($_GET['service'] === 'cevs') {
+		$title = "Crypto exclusive VIP signals";
+		$description = "
+
+		";
+
+	}
 ?>
 
-<?php $page = "Events"; ?>
+<?php $page = "Home"; ?>
 <?php include("./includes/header.php"); ?>
 <!-- ... end Header -->
 
@@ -13,76 +34,37 @@
 			<div class="row align-center">
 				<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12">
 					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
-						<div class="heading-sup-title">Upcoming Events</div>
-						<h2 class="heading-title heading--half-colored">Our <span class="weight-bold">Events</span>
+						<div class="heading-sup-title">Gentlecrypto Service</div>
+						<h2 class="heading-title heading--half-colored">.<span class="weight-bold"><?= $title; ?></span>
 						</h2>
-						<div class="heading-text">Everyday is a bank account, and time is our currency. No one is rich, no one is poor, we've got 24 hours each</div>
+						<div class="heading-text">Learn to acquire</div>
 					</header>
-				</div>
-			</div>
-		</div> 
-	</section>
-
-
-	<section class="">
-		<div class="container">
-			<div class="row sorting-container" id="portfolio-grid" data-layout="masonry" data-isotope='{"masonry": { "columnWidth": ".grid-sizer" }}'>
-				<div class="grid-sizer"></div>
-
-
-				<?php
-					if (!empty($events)) {
-						foreach ($events as $event) {
-							extract($event); 
-							$url_link1 = str_replace(' ', '-', $title);
-							$url_link = str_replace('&apos;', '/', $url_link1);
-							?>
-
-								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-									<div class="crumina-module crumina-event-item">
-										<div class="event-thumb bg-event4" style="background-image: url('img/<?= $event_image; ?>')">
-											<div class="overlay"></div>
-										</div>
-										<div class="event-content">
-											<h4 class="event-title mb30"><?= $title; ?></h4>
-											<a href="event_details.php?event=<?= $url_link; ?>" class="btn btn--medium btn--transparent btn--secondary">View More</a>
-										</div>
-									</div>
-								</div>
-
-							<?php } } else { ?>
-
-								<div style="text-align:center !important;">
-									<h3 style="text-align:center;">NO EVENT AVAILABLE</h3>
-								</div>
-
-							<?php } ?>
-
-			</div>
-
-			<div class="row align-center">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<a href="#" class="btn btn--large btn--transparent btn--dark-lighter" id="load-more-button" data-load-link="events-to-load.html" data-container="portfolio-grid">Load More</a>
 				</div>
 			</div>
 		</div>
 	</section>
 
-</div>
 
-<div class="container" style="margin-top: 30px;">
-	<div class="row">
-				<div class="col-lg-4 col-lg-offset-4 col-md-12 col-sm-12 col-xs-12">
-					<div class="input-with-btn-inline content-frm">
-						<form class="subsFrm" method="POST">
-							<input id='email' name="email" placeholder="Your Email Address" type="email" value="">
-							<button id="subscribeBtn" class="btn btn--large btn--green-light">Subscribe</button>
-						</form>
-					</div>
-					<div class="status"></div>
-				</div>
+	<section class="">
+		<div class="container">
+
+
+
+
+
+			<div style="">
+				<p style=""><?= ucfirst($description); ?></p>
 			</div>
-	</div>
+
+
+
+		</div>
+		<hr>
+</div>
+</section>
+
+
+</div>
 <!-- Footer -->
 <?php include("./includes/footer.php"); ?>
 <!-- ... end Footer -->
@@ -135,4 +117,5 @@
 <!-- /SVG icons loader -->
 
 </body>
+
 </html>

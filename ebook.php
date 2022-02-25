@@ -31,32 +31,8 @@
 							<div class="overlay"></div>
 						</div>
 						<div class="event-content">
-							<h4 class="event-title mb30">Finance Conference</h4>
-							<a href="007_event_details.html" class="btn btn--medium btn--transparent btn--secondary">View More</a>
-						</div>
-					</div>
-				</div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-					<div class="crumina-module crumina-event-item">
-						<div class="event-thumb bg-event4" style="background-image: url('img/bg-help.png')">
-							<div class="overlay"></div>
-						</div>
-						<div class="event-content">
-							<h4 class="event-title mb30">Crypto Linkup</h4>
-							<a href="007_event_details.html" class="btn btn--medium btn--transparent btn--secondary">View More</a>
-						</div>
-					</div>
-				</div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-					<div class="crumina-module crumina-event-item">
-						<div class="event-thumb bg-event4" style="background-image: url('img/bg-help.png')">
-							<div class="overlay"></div>
-						</div>
-						<div class="event-content">
-							<h4 class="event-title mb30">Defi Meetup</h4>
-							<a href="007_event_details.html" class="btn btn--medium btn--transparent btn--secondary">View More</a>
+							<h4 class="event-title mb30">Crypto fastlane Ebook </h4>
+							<a href="ebook-details.php?ebook=fastlane" class="btn btn--medium btn--transparent btn--secondary">Coming Soon</a>
 						</div>
 					</div>
 				</div>
@@ -71,6 +47,19 @@
 		</div>
 	</section>
 
+	<div class="container" style="margin-top: 50px;">
+	<div class="row">
+				<div class="col-lg-4 col-lg-offset-4 col-md-12 col-sm-12 col-xs-12">
+					<div class="input-with-btn-inline content-frm">
+						<form class="subsFrm" method="POST">
+							<input id='email' name="email" placeholder="Your Email Address" type="email" value="">
+							<button id="subscribeBtn" class="btn btn--large btn--green-light">Subscribe</button>
+						</form>
+					</div>
+					<div class="status"></div>
+				</div>
+			</div>
+	</div>
 </div>
 <!-- Footer -->
 <?php include("./includes/footer.php"); ?>

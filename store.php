@@ -14,7 +14,7 @@
 				<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12">
 					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
 						<div class="heading-sup-title">Stores</div>
-						<h2 class="heading-title heading--half-colored">Our <span class="weight-bold">Stores</span>
+						<h2 class="heading-title heading--half-colored">Gentlecrypto <span class="weight-bold">Store</span>
 						</h2>
 						<div class="heading-text">Purchase all our company's Branded Materials and Rock Gentlecrypto Enterprise anywhere you go.</div>
 					</header>
@@ -23,9 +23,38 @@
 		</div>
 	</section>
 
+	<div class="container text-center">
+		<p class="text-center">
+		<h6>First ever crypto gear shop from Africa</h6> <br><br>
+		Gentlecrypto stores is your one-stop shop for all things crypto, it is designed by crypto enthusiasts for crypto enthusiasts. <br><br>
+		We sell top quality crypto, blockchain and tech branded clothing, accessories and materials. 
+		The products in our store are custom made and they ranges from crypto apparels such as crypto branded shirts, NFT branded polos, Track suits, crypto branded hoodies etc.<br><br>
+		Scroll through our collections and preorder any item of your choice.<br><br>
+		This is an online store for anything crypto, we believe in preaching crypto using what we wear.<br><br>
+		We hope that the spread of our branded crypto merchandise and our customers wearing them in public places will help spread crypto and blockchain recognition and adoption across the globe.<br><br>
+		Join us in spreading the crypto gospel to your local communities and the world at large.<br><br>
+		Note: A percentage of earnings from our store are sent to Gentlecrypto Foundation <br><br>
+		<h6>Features</h6>
+		High quality <br>
+		Fast delivery time <br>
+		Simple and Timeless Designs <br>
+		Bespoke materials  <br>
+		Environmental friendly <br>
+		Cloth for all occasions  <br>
+		Payment methods <br>
+		Our crypto clothing and fashion store, accepts payments in both fiat and crypto <br>
+		<h6>7% off when paying with crypto</h6>
+
+		Put email sub at the bottom of the store area
+		Join our mailing list to be informed about new products and other important news(link to email subscription)
+
+		</p>
+	</div>
+
 
 	<section class="">
 		<div class="container">
+
 			<div class="row sorting-container" id="portfolio-grid" data-layout="masonry" data-isotope='{"masonry": { "columnWidth": ".grid-sizer" }}'>
 				<div class="grid-sizer"></div>
 				

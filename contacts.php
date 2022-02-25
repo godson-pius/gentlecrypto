@@ -47,7 +47,7 @@
 						<div class="contact-item">
 							<h4 class="contact-item-title">Find us</h4>
 							<div class="info-wrap">
-								<div class="info">Enugu,</div>
+								<div class="info">Enugu State,</div>
 								<span>Nigeria</span>
 							</div>
 						</div>
@@ -55,9 +55,17 @@
 						<div class="contact-item" data-mh="equal-block">
 						<h4 class="contact-item-title">Contact us</h4>
 						<div class="info-wrap">
-							<div class="info">Phone: <span>+234 903 493 1935</span></div>
+							<div class="info">Calls Only: <span>+234 8128 681 924</span></div>
+							<div class="info">Whatsapp: <span>+234 9034 931 935</span></div>
 							<div class="info">Email: <a href="mailto:support@gentlecrypto.io">support@gentlecrypto.io</a></div>
 						</div>
+						<hr>
+
+						<h4 class="contact-item-title">Work Hours</h4>
+						<div class="info-wrap">
+						<div class="info"><span>Mon-Fri: 8AM-5PM</span></div>
+						</div>
+
 						<ul class="socials socials--double-icons">
 							<li class="social-item">
 								<a href="https://twitter.com/GentleCrypto?s=09">
@@ -97,7 +105,7 @@
 			<div class="row pb120">
 				<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
 					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
-						<h2 class="heading-title heading--half-colored">please get in touch</h2>
+						<h2 class="heading-title heading--half-colored">Get in touch</h2>
 					</header>
 				</div>
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

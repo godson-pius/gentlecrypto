@@ -169,7 +169,7 @@
 							</div>
 							<div class="event-content">
 								<h4 class="event-title mb30">Gentlecrypto Trading Academy</h4>
-								<a href="007_event_details.html"
+								<a href="subsidiary.php?sub=gta"
 									class="btn btn--medium btn--transparent btn--secondary">View more</a>
 							</div>
 						</div>
@@ -182,7 +182,7 @@
 							</div>
 							<div class="event-content">
 								<h4 class="event-title mb30">Gentlecrypto stores</h4>
-								<a href="007_event_details.html"
+								<a href="#"
 									class="btn btn--medium btn--transparent btn--secondary">View more</a>
 							</div>
 						</div>
@@ -195,33 +195,7 @@
 							</div>
 							<div class="event-content">
 								<h4 class="event-title mb30">Gentlecrypto Foundation</h4>
-								<a href="007_event_details.html"
-									class="btn btn--medium btn--transparent btn--secondary">View more</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-						<div class="crumina-module crumina-event-item">
-							<div class="event-thumb bg-event4" style="background-image: url('img/bg-help.png')">
-								<div class="overlay"></div>
-							</div>
-							<div class="event-content">
-								<h4 class="event-title mb30">Gentlecrypto Escrow</h4>
-								<a href="007_event_details.html"
-									class="btn btn--medium btn--transparent btn--secondary">View more</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="shadow col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-						<div class="crumina-module crumina-event-item">
-							<div class="event-thumb bg-event4" style="background-image: url('img/bg-help.png')">
-								<div class="overlay"></div>
-							</div>
-							<div class="event-content">
-								<h4 class="event-title mb30">Gentlecrypto Signals</h4>
-								<a href="007_event_details.html"
+								<a href="subsidiary.php?sub=gf"
 									class="btn btn--medium btn--transparent btn--secondary">View more</a>
 							</div>
 						</div>

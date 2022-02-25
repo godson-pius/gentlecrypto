@@ -23,76 +23,6 @@
 		</div>
 	</section>
 
-	<section>
-		<div class="container">
-			<div class="row">
-				<div id="details" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<div class="crumina-module crumina-module-slider crumina-slider--info-boxes">
-						<div class="swiper-btn-wrap">
-							<div class="swiper-btn-next">
-								<svg class="woox-icon icon-line-arrow-right">
-									<use xlink:href="#icon-line-arrow-right"></use>
-								</svg>
-							</div>
-
-							<div class="swiper-btn-prev">
-								<svg class="woox-icon icon-line-arrow-left">
-									<use xlink:href="#icon-line-arrow-left"></use>
-								</svg>
-							</div>
-						</div>
-
-						<div class="swiper-container auto-height" data-show-items="5" data-prev-next="1">
-							<div class="swiper-wrapper">
-								<script type="text/javascript"
-									src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script>
-								<div id="coinmarketcap-widget-coin-price-block"
-									coins="1,1027,825,1839,3408,5994,5426,6636,3890,52,4687" currency="USD" theme="dark"
-									transparent="true" show-symbol-logo="true"></div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-
-			</div>
-
-		</div>
-</div>
-</section>
-
-<section class="medium-padding120 responsive-align-center">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt30">
-				<img class="responsive-width-50" src="img/phone.png" alt="phone">
-			</div>
-
-			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-				<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
-					<div class="heading-sup-title">Welcome</div>
-					<h2 class="heading-title weight-normal">Desk of the
-						<span class="weight-bold">CEO</span></h2>
-				</header>
-
-				<p>Gentlecrypto trading academy is a result oriented crypto currency coaching and mentorship
-					platform, a subsidiary of the Gentlecrypto enterprises, where we have structured step by step
-					guide on everything you need to know concerning trading crypto assets successfully as an
-					independent trader using our flexible yet exclusive training modules within the space of 5 weeks
-					We provide one-on-one dedicated mentorship on how to get started and master the art of trading
-					crypto currency using our easily accessible consultancy opportunities. Our courses are real time
-					course that will earn you real money from your own room, only by applying the strategies we have
-					taken our time to explain during the training. We provide weekly alert on how to trade crypto
-					currencies, and key crypto currency trading set ups strengthened by fundamental & technical
-					analysis for trading opportunities and entries.
-				</p>
-
-
-			</div>
-		</div>
-	</div>
-</section>
-
 <section class="bg-1">
 
 	<div class="container">
@@ -375,6 +305,37 @@
 		</div>
 	</div>
 
+	<section class=" responsive-align-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt30">
+				<img class="responsive-width-50" src="img/phone.png" alt="phone">
+			</div>
+
+			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+				<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+					<div class="heading-sup-title">Welcome</div>
+					<h2 class="heading-title weight-normal">Get to know the
+						<span class="weight-bold">CEO</span></h2>
+				</header>
+
+				<p>
+				Igwenagu Emmanuel, is the founder and CEO of Gentlecrypto Enterprise, an award-winning Business conglomerate, crypto currency Trading, mentorship and Consulting Company. <br>
+Over the years he has acquired in-depth knowledge in Business development and consulting, sales and marketing, financial literacy and management, coupled with years of Experience in the art of digital asset trading across multiple exchanges.<br>
+Through his company Gentlecrypto Enterprise, he has successfully mentored persons globally in several fields of life ranging from Crypto trading, Business, leadership and sustainable development Goals (SDGs) of the United Nations.<br>
+Across all the social media platforms, He has mentored more than 2000 persons and still counting, in the complex world of crypto currency trading both locally and Abroad, showing them how to stay profitable in the market and in the long run attain Financial Freedom.<br>
+Through his vast knowledge in the world of crypto and blockchain tech, He renders consulting services to individuals who wish to tap from his wealth of knowledge<br>
+His crypto currency Academy, have trained more than 60 successful traders in 2021 alone and still counting.
+The testimonies we receive regularly from our numerous clienteles ranging from students and Angel investor, places Him on an unmatched level when it comes to crypto trading, Coaching and mentorship
+
+				</p>
+
+
+			</div>
+		</div>
+	</div>
+</section>
+
 	<div class="row pb100 medium-padding120">
 		<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
 			<h2 class="heading-title heading--half-colored" style="text-align: center; width: 100%;">Our
@@ -407,21 +368,6 @@
 								<div class="swiper-slide">
 									<a class="clients-item" href="#">
 										<img src="img/tfi.png" class="" alt="logo">
-									</a>
-								</div>
-								<div class="swiper-slide">
-									<a class="clients-item" href="#">
-										<img src="img/client3.png" class="" alt="logo">
-									</a>
-								</div>
-								<div class="swiper-slide">
-									<a class="clients-item" href="#">
-										<img src="img/client4.png" class="" alt="logo">
-									</a>
-								</div>
-								<div class="swiper-slide">
-									<a class="clients-item" href="#">
-										<img src="img/client5.png" class="" alt="logo">
 									</a>
 								</div>
 							</div>
@@ -646,6 +592,19 @@
 
 </section>
 
+<div class="container" style="margin-top: 30px;">
+	<div class="row">
+				<div class="col-lg-4 col-lg-offset-4 col-md-12 col-sm-12 col-xs-12">
+					<div class="input-with-btn-inline content-frm">
+						<form class="subsFrm" method="POST">
+							<input id='email' name="email" placeholder="Your Email Address" type="email" value="">
+							<button id="subscribeBtn" class="btn btn--large btn--green-light">Subscribe</button>
+						</form>
+					</div>
+					<div class="status"></div>
+				</div>
+			</div>
+	</div>
 
 
 

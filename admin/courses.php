@@ -48,7 +48,7 @@ $course_result = mysqli_query($link,$sql_course);
   $course_detail = $row_course["course_detail"];
   $tutor = $row_course["tutor"];
     $name = $row_course["course_name"];
-$id = $row_course["id"];
+$id = $row_course["course_id"];
 ?>
                                         <tr>
                                             <td><?php echo $name ?></td>
@@ -57,9 +57,9 @@ $id = $row_course["id"];
                                             <td><form action="config/functions.php" method="POST">
                                               <input type="hidden" name="id" value="<?php echo $id ?>">
                                               <div class="form-group text-right m-b-0">
-                                                <button class="btn btn-primary waves-effect waves-light" type="submit" id="submit" name="edit_course">
+                                                <a href="edit-course.php?course=<?= $id; ?>" class="btn btn-primary waves-effect waves-light">
                                                     Edit
-                                                </button>
+                                                </a>
                                                 <button class="btn btn-primary waves-effect waves-light" type="submit" id="delete" name="delete_course">
                                                     Delete
                                                 </button>
