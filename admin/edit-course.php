@@ -58,9 +58,9 @@
                 <div class="col-lg-12">
                     <div class="p-20 m-b-20">
 
-                        <h4 class="header-title m-t-0">ADD A COURSE</h4>
+                        <h4 class="header-title m-t-0">EDIT COURSE</h4>
                         <p class="text-muted font-13 m-b-10">
-                            Give detailed Informations
+                            Edit course
                         </p>
 
                         <div class="m-b-20">
