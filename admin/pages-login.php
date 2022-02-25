@@ -3,7 +3,14 @@
 
   require_once 'config/db.php';
   if(isset($_SESSION["login"])){
-    header("location:index.php");
+      if($_SESSION["login"] == "admin"){
+        header("admin_dashboard:index.php");
+      }
+      
+      else{
+        header("location:account.php");
+      }
+   
 }
 
 
@@ -35,14 +42,17 @@
 .error{
     color:red;
     display:none;
+    
 }
 </style>
     </head>
 
 
     <body>
-
+<div id="spin" style="width:100%; height: 600px; background-color:rgb(000,000,000,0.4); display:none; position:absolute;Z-index:1000; text-align:center">
+<i class="fa fa-spinner fa-pulse" style="font-size:50px; text-align:center; color:blue; margin-top:250px"></i></div>
         <section>
+
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
@@ -104,7 +114,8 @@
 
                                     </form>
 
-                                    <div class="clearfix"></div>
+                                    <div class="clearfix" style="float:right">No account yet? 
+                                    <a href="pages-register.php">Register</a></div>
 
                                 </div>
                             </div>
@@ -132,6 +143,7 @@
         <script src="assets/js/jquery.core.js"></script>
         <script src="assets/js/jquery.app.js"></script>
 <script>
+    var res = "";
 function validate(){
 var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
@@ -158,6 +170,7 @@ var email = document.getElementById("email").value;
     if(!(rem.checked)){
        remv = 1;
     }
+    document.getElementById("spin").style.display="block";
     $.ajax({
  type: 'post',
  url: 'config/functions.php',
@@ -169,19 +182,40 @@ var email = document.getElementById("email").value;
  },
  success: function (response) {
 
+<<<<<<< HEAD
   if(response.trim() == "success"){
       alert("Logged In Successfully");
       window.location.href="index.php";
+=======
+  if(response.trim() == "Adminsuccess"){
+    setTimeout('hidemsg();', 2000);
+      window.location.href="admin_dashboard.php";
+  }
+  else if(response.trim() == "Adminsuccess"){
+    setTimeout('hidemsg();', 2000);
+      window.location.href="account.php";
+>>>>>>> c9257f683ca529491759374b9a9004ceb83678ac
   }
   else{
-    document.getElementById("errb").style.display="block";
-      msg.innerHTML = response;
+      res = response;
+    setTimeout('hidespin();', 2000);
       return false;
   }
  }
+ 
  });
     return false;
 }
+function hidemsg(){
+    document.getElementById("spin").style.display="none"
+}
+
+function hidespin(){
+    document.getElementById("spin").style.display="none";
+    document.getElementById("errb").style.display="block";
+    document.getElementById("this").innerHTML = res;
+}
+
 </script>
     </body>
 </html>

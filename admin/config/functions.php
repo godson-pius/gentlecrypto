@@ -211,7 +211,34 @@ $emailcheckresult = mysqli_query($link,$emailcheck);
       $countcheck = mysqli_num_rows($emailcheckresult);
 
     if($countcheck == 0){
-      echo "This Email Address does not exist";
+      $emailcheck2 = "SELECT * from admins where email = '$mail'";
+      $emailcheckresult2 = mysqli_query($link,$emailcheck2);
+            $countcheck2 = mysqli_num_rows($emailcheckresult2);
+            if($countcheck == 0){
+              echo "This Email does not exist";
+            }
+            else{
+              $passcheck = "SELECT * from admins where email = '$mail' && password = MD5('$pass')";
+              $passcheckresult = mysqli_query($link,$passcheck);
+              $countcheck2 = mysqli_num_rows($passcheckresult);
+        
+            if($countcheck2 == 0){
+              echo "This Password is Incorrect";
+            }
+            else{
+              $row = mysqli_fetch_array($passcheckresult, MYSQLI_ASSOC);
+                $id = $row["id"];
+        
+              session_start();
+              $_SESSION["login"] = "admin";
+              $_SESSION["id"] = $id;
+              if($rem != 0){
+                $time = time() + 86400;
+                setcookie('pass',$pass,$time);
+               }
+              echo "Adminsuccess";
+        }
+        }
     }
     else{
       $passcheck = "SELECT * from users where email = '$mail' && password = MD5('$pass')";
@@ -228,6 +255,7 @@ $emailcheckresult = mysqli_query($link,$emailcheck);
       session_start();
       $_SESSION["user"] = "logged";
       $_SESSION["id"] = $id;
+      
       if($rem != 0){
         $time = time() + 86400;
         setcookie('pass',$pass,$time);

@@ -1,3 +1,16 @@
+<?php
+session_start();
+if(isset($_SESSION["login"])){
+    if($_SESSION["login"] == "admin"){
+      header("admin_dashboard:index.php");
+    }
+    
+    else{
+      header("location:account.php");
+    }
+ 
+}
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -28,7 +41,9 @@
 
 
     <body>
-
+    <div id="spin" style="width:100%; height: 900px; background-color:rgb(000,000,000,0.4); display:none;  position:absolute;Z-index:1000; text-align:center">
+<i class="fa fa-spinner fa-pulse" style="font-size:50px; text-align:center; color:blue; margin-top:300px"></i></div>
+  
         <section>
             <div class="container">
                 <div class="row">
@@ -122,8 +137,8 @@
 
                                     </form>
 
-                                    <div class="clearfix"></div>
-
+                                    <div class="clearfix" style="float:right">Already hava an account? 
+                                    <a href="pages-login.php">Login</a></div>
                                 </div>
                             </div>
                             <!-- end card-box-->
@@ -221,7 +236,7 @@
         document.getElementById("et").style.display="none";
     }
 
-    
+    document.getElementById("spin").style.display="block";
     $.ajax({
  type: 'post',
  url: 'config/functions.php',
@@ -235,12 +250,12 @@
  success: function (response) {
 
   if(response.trim() == "success"){
-      alert("Registered Successfully");
+    setTimeout('hidemsg();', 2000);
       window.location.href="pages-login.php";
   }
   else{
-    document.getElementById("errb").style.display="block";
-      msg.innerHTML = response;
+   res = response;
+    setTimeout('hidespin();', 2000);
       return false;
   }
  }
@@ -323,6 +338,18 @@ function checkit(){
             strengthBadge2.style.display = 'none'
         }
     });
+
+
+    function hidemsg(){
+    document.getElementById("spin").style.display="none";
+    alert("Registered Successfully");
+}
+
+function hidespin(){
+    document.getElementById("spin").style.display="none";
+    document.getElementById("errb").style.display="block";
+    document.getElementById("this").innerHTML = res;
+}
 </script>
     </body>
 </html>

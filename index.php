@@ -348,6 +348,11 @@
 					</div>
 				</div>
 
+<<<<<<< HEAD
+=======
+					<p style="line-height: 1.87">Gentlecrypto trading academy is a result oriented crypto currency coaching and mentorship platform, a subsidiary of the Gentlecrypto enterprises, where we have structured step by step guide on everything you need to know concerning trading crypto assets successfully as an independent trader using our flexible yet exclusive training modules within the space of 5 weeks We provide one-on-one dedicated mentorship on how to get started and master the art of trading crypto currency using our easily accessible consultancy opportunities. Our courses are real time course that will earn you real money from your own room, only by applying the strategies we have taken our time to explain during the training. We provide weekly alert on how to trade crypto currencies, and key crypto currency trading set ups strengthened by fundamental & technical analysis for trading opportunities and entries.
+					</p>
+>>>>>>> c9257f683ca529491759374b9a9004ceb83678ac
 
 			</div>
 		</div>

@@ -239,6 +239,10 @@
                               <li><a href="profile.php">Profile</a></li>
                                 <li><a href="pages-register.php">Register</a></li>
                                 <li><a href="pages-forget-password.php">Change Password</a></li>
+<<<<<<< HEAD
+=======
+                                <li><a href="pages-lock-screen.php">Lock-screen</a></li>
+>>>>>>> c9257f683ca529491759374b9a9004ceb83678ac
                                 <li><a href="logout.php">Logout</a></li>
                             </ul>
                         </li>

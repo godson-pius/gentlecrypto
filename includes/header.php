@@ -16,7 +16,13 @@
 	<link rel="stylesheet" type="text/css" href="css/widgets.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 
+<<<<<<< HEAD
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i,900," rel="stylesheet">
+=======
+	<!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i,900," rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+>>>>>>> c9257f683ca529491759374b9a9004ceb83678ac
 	<link rel="icon" href="img/main2.png">
 
 
