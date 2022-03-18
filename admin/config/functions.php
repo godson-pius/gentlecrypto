@@ -143,14 +143,14 @@ if ($uploadOk == 1){
   }
   else{
     echo ("<script LANGUAGE='JavaScript'>
-    window.alert('Sorry an Error occured try again!');
+    window.alert('Sorry an Error occured try again!Query');
     window.location.href='../add-lesson.php';
     </script>");
   }
   }
    else {
     echo ("<script LANGUAGE='JavaScript'>
-    window.alert('Sorry an Error occured try again!');
+    window.alert('Sorry an Error occured try again!File');
     window.location.href='../add-lesson.php';
     </script>");
   }
@@ -534,7 +534,7 @@ function getSingleProduct($name) {
 function getSingleCourse($name) {
   global $link;
 
-  $sql = "SELECT * FROM courses WHERE course_name = '$name'";
+  $sql = "SELECT * FROM courses WHERE course_name = $name";
   $query = mysqli_query($link, $sql);
 
   if (mysqli_num_rows($query) > 0) {

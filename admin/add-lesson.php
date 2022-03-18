@@ -78,7 +78,7 @@
                                             <div class="form-group">
                                                
                                                     <?php
-                                                    $course_select_query = "SELECT * FROM courses order by id DESC";
+                                                    $course_select_query = "SELECT * FROM courses order by course_id DESC";
                                                     $course_select_result = mysqli_query($link,$course_select_query);
                                                     $count_courses = mysqli_num_rows($course_select_result);
                                                     if($count_courses != 0){
@@ -86,14 +86,17 @@
                                                     ?>
                                                      <label for="course">Select Course<span class="text-danger">*</span></label>
                                                 <select name="course" style="color: black !important;" class="form-control">
+                                                <option value="" disabled selected>Select course</option>
                                                     <?php 
                                                     while($course_rows = $course_select_result->fetch_assoc()){
-                                                        $course_id = $course_rows["id"];
+                                                        $course_id = $course_rows["course_id"];
                                                         $course_name = $course_rows["course_name"];
+
+                                                        $c_name = str_replace("&amp;", "&", $course_name);
 
 
                                                     ?>
-                                                    <option style="color: black !important;" value="<?php echo $course_id ?>"><?php echo $course_name ?></option>
+                                                    <option style="color: black !important;" value="<?php echo $course_id; ?>"><?php echo $course_name ?></option>
 
                                                     <?php 
                                                     }
@@ -129,9 +132,12 @@
                                                 <i class="fa fa-exclamation-triangle error" id="detail_error" aria-hidden="true"></i>
                                             </div>
 
-                                                  <div class="filebutton bg-primary" style="display:flex !important;">Upload Lesson Video<span class="fa fa-plus">
-<span id="fil"><input type="file" id="file" name="fileToUpload"></span>
-                                                </span></div>
+                                                 <div id="chooseFile" class="rounded bg-primary p-2 text-light" style="width: 300px; cursor: pointer">
+                                                    Choose Video
+                                                 </div>
+                                                 <input type="file" id="fileToUpload" name="fileToUpload" style="display: none">
+                                                <progress id="progressBar" style="width: 300px; display: none" class="mt-3 p-3"></progress>
+                                                <span id="selected" class="mt-3"></span>
                                                 <i class="fa fa-exclamation-triangle error" id="video_error" aria-hidden="true"></i>
                                             </div>
                                             
@@ -244,6 +250,28 @@ else{
 }
  
 
+ </script>
+
+ <script>
+     var progressBar = document.getElementById("progressBar");
+     var file = document.getElementById("fileToUpload")
+
+     document.getElementById("chooseFile").addEventListener("click", () => {
+         file.click()
+         progressBar.style.display = "block"
+     })
+
+     file.addEventListener("change", (e) => {
+        console.clear()
+        console.log(e.target.files[0].name)
+        document.getElementById("selected").innerHTML = `The file selected is (${e.target.files[0].name})`
+        progressBar.style.display = "none"
+     })
+
+
+     
+
+    
  </script>
 
 <?php require_once 'inc/footer.php'; ?>
