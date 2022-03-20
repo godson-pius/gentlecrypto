@@ -6,20 +6,29 @@
     $name1 = str_replace('-', ' ', $name);
     $name = str_replace("/", "&apos;", $name1);
 
-    $get_course = getSingleCourse($name);
+    // $get_course = getSingleCourse("$name");
+	$sql = "SELECT * FROM courses WHERE course_name = '$name'";
+	$query = mysqli_query($link, $sql);
 
-    if (isset($get_course)) {
-      foreach ($get_course as $course) {
-        extract($course);
-      }
-    }
+	if (mysqli_num_rows($query) > 0) {
+		$row = mysqli_fetch_assoc($query);
+		extract($row);
+	} else {
+		return false;
+	}
+
+    // if (isset($get_course)) {
+    //   foreach ($get_course as $course) {
+    //     extract($course);
+    //   }
+    // }
 
 	if (isset($_SESSION['id'])) {
 		$check = check_duplicate_purchase('course_payments', 'user_id', $_SESSION['id'], 'course_id', $id);
 	}
   }
 
-  $courses = getAllFromTable('courses', 5);
+//   $courses = getAllFromTable('courses', 5);
   $events = getAllFromTable('events', 10);
 ?>
 

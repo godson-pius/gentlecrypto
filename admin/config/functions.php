@@ -5,6 +5,9 @@ function isset_file($name) {
     return (isset($_FILES[$name]) && $_FILES[$name]['error'] != UPLOAD_ERR_NO_FILE);
 }
 
+// echo "dd";
+// echo getSingleCourse("Advanced Class");
+
 //function that handles the add course page
 if(isset($_POST["add_course"])){
     trim(extract($_POST));
@@ -534,11 +537,12 @@ function getSingleProduct($name) {
 function getSingleCourse($name) {
   global $link;
 
-  $sql = "SELECT * FROM courses WHERE course_name = $name";
+  $sql = "SELECT * FROM courses WHERE course_name = '$name'";
   $query = mysqli_query($link, $sql);
 
   if (mysqli_num_rows($query) > 0) {
-    return $query;
+    $row = mysqli_fetch_assoc($query);
+    return $row;
   } else {
     return false;
   }
