@@ -232,7 +232,7 @@ $emailcheckresult = mysqli_query($link,$emailcheck);
       $row = mysqli_fetch_array($passcheckresult, MYSQLI_ASSOC);
         $id = $row["id"];
 
-      session_start();
+      // session_start();
       $_SESSION["user"] = "logged";
       $_SESSION["id"] = $id;
       if($rem != 0){
@@ -266,7 +266,7 @@ $emailcheckresult = mysqli_query($link,$emailcheck);
       $row = mysqli_fetch_array($passcheckresult, MYSQLI_ASSOC);
         $id = $row["id"];
 
-      session_start();
+      // session_start();
       $_SESSION["admin"] = "logged";
       $_SESSION["adminId"] = $id;
       if($rem != 0){
@@ -629,7 +629,7 @@ function getTotalNum($table) {
 function getAllUserCourse($id) {
   global $link;
 
-  $sql = "SELECT * FROM courses INNER JOIN course_payments ON courses.course_id = course_payments.course_id WHERE course_payments.user_id = '$id' AND course_payments.approve = 1";
+  $sql = "SELECT * FROM courses INNER JOIN course_payments ON courses.course_id = course_payments.course_id WHERE course_payments.user_id = $id AND course_payments.approve = 1";
   $query = mysqli_query($link, $sql);
 
   if (mysqli_num_rows($query) > 0) {

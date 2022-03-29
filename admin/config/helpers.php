@@ -20,7 +20,7 @@ function executeQuery($statement)
 {
     global $link;
 
-    $sql = "$statement";
+    $sql = $statement;
     $query = mysqli_query($link, $sql);
 
     if (mysqli_num_rows($query) > 0) {

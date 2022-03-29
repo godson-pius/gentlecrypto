@@ -2,6 +2,10 @@
   require_once '../admin/config/db.php';
   blockUrlHackers('pages-login.php', $_SESSION['user']);
 
+  if (isset($_SESSION['id'])) {
+      $userId = $_SESSION['id'];
+  }
+
 ?>
 <?php require_once 'inc/header.php'; ?>
 
@@ -40,11 +44,12 @@
                                         <tbody>
 
                                         <?php
-                                            $userCourses = getAllUserCourse($_SESSION['id']);
+                                            $userCourses = getAllUserCourse($userId);
                                             if (!empty($userCourses)) {
                                                 foreach ($userCourses as $course) {
                                                     extract($course);
-                                                    $url_link = str_replace(' ', '-', "learn.php?course=$course_name");
+                                                    $url_link1 = str_replace(' ', '-', "learn.php?course=$course_name");
+	                                                $url_link = str_replace("&apos;", "/", "$url_link1");
                                                     ?>
                                       <tr>
                                                             <td>

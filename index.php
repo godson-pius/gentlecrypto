@@ -423,8 +423,7 @@ The testimonies we receive regularly from our numerous clienteles ranging from s
 											<svg class="woox-icon icon-quote-icon2 quote quote-close">
 												<use xlink:href="#icon-quote-icon2"></use>
 											</svg>
-											It's been awesome class with GentleCrypto trading academy, the beginners
-											class was a good one. Unto the advanced class we go.
+											<img src="img/404-bg.png" width="500" alt="">
 										</h6>
 									</div>
 

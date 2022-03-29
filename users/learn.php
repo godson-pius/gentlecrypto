@@ -4,16 +4,21 @@
 
   if (isset($_GET['course'])) {
     $name = $_GET['course'];
-    $name = str_replace('-', ' ', $name);
 
-    $get_course = getSingleCourse($name);
+    $name1 = str_replace('-', ' ', $name);
+    $name = str_replace("/", "&apos;", $name1);
 
-    if (isset($get_course)) {
-      foreach ($get_course as $course) {
-        extract($course);
-      }
-    }
-  }
+    // $get_course = getSingleCourse("$name");
+	$sql = "SELECT * FROM courses WHERE course_name = '$name'";
+	$query = mysqli_query($link, $sql);
+
+	if (mysqli_num_rows($query) > 0) {
+		$row = mysqli_fetch_assoc($query);
+		extract($row);
+	} else {
+		return false;
+	}
+}
 
 ?>
 <?php require_once 'inc/header.php'; ?>
@@ -42,7 +47,7 @@
                             extract($lesson); ?>
                 
                 <div class="col-lg-4 mb-2">
-                    <video style="width: inherit;" controls src="../lesson_videos/<?= $video; ?>" controlsList="nodownload" title="Lesson player">
+                    <video style="width: inherit; height: 200px" controls src="../lesson_videos/<?= $video; ?>" controlsList="nodownload" title="Lesson player">
                     </video>
                 </div>
 

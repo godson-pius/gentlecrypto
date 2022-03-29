@@ -23,8 +23,22 @@
     //   }
     // }
 
+	// $courseId = $row['course_id'];
+	// echo "<script>alert('$courseId')</script>";
+
+	
+	
 	if (isset($_SESSION['id'])) {
-		$check = check_duplicate_purchase('course_payments', 'user_id', $_SESSION['id'], 'course_id', $id);
+		$userId = $_SESSION['id'];
+		
+		$check = check_duplicate_purchase('course_payments', 'user_id', $userId, 'course_id', $course_id);
+
+		$sql = "SELECT * FROM course_payments WHERE user_id = $userId AND course_id = $course_id";
+		$query = mysqli_query($link, $sql);
+
+		if (mysqli_num_rows($query) > 0) {
+			$check = $query;
+		}
 	}
   }
 
@@ -331,8 +345,8 @@
 				alert('Hi <?= $last_name; ?>, You already purchased this course.');
 			<?php } else { ?>
 				let price = <?= $course_price; ?>;
-		let user_id = <?= $user['id']; ?>;
-		let course_id = <?= $course['id']; ?>;
+		let user_id = <?= $id; ?>;
+		let course_id = <?= $course_id; ?>;
 
 		let handler = PaystackPop.setup({
 			key: API_publicKey, // Replace with your public key
