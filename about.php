@@ -57,7 +57,7 @@
 							</div>
 						</div>
 						<div class="author-content">
-							<a href="#" class="h6 author-name">Bashar Zakari Saka</a>
+							<a href="#" class="h6 author-name">Ugwu Chikezie Desmond</a>
 							<div class="author-prof">Head of Escrow Services</div>
 						</div>
 					</div>
@@ -98,7 +98,7 @@
 							</div>
 						</div>
 						<div class="author-content">
-							<a href="#" class="h6 author-name">Odumejemba Ventura J. Kosisochukwu</a>
+							<a href="#" class="h6 author-name">Orji Daniel</a>
 							<div class="author-prof">Head of communications</div>
 						</div>
 					</div>
@@ -109,12 +109,57 @@
 						<div class="avatar avatar320">
 							<!-- <img src="img/author1-320.jpg" alt="avatar"> -->
 							<div class="avatar avatar320 team-img"
-								style="background-image: url('img/head-of-marketing.jpeg');">
+								style="background-image: url('img/head-of-marketing.jpg');">
 							</div>
 						</div>
 						<div class="author-content">
-							<a href="#" class="h6 author-name">Jessica</a>
+							<a href="#" class="h6 author-name">Wiscobus Ignatius Ntukuyoh</a>
 							<div class="author-prof">Head of Sales and Marketing</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30">
+					<div class="author-block author-block--column hover-shadow-left-top">
+						<div class="avatar avatar320">
+							<!-- <img src="img/author1-320.jpg" alt="avatar"> -->
+							<div class="avatar avatar320 team-img"
+								style="background-image: url('img/graphics.jpg');">
+							</div>
+						</div>
+						<div class="author-content">
+							<a href="#" class="h6 author-name">Anabuike Jeremiah</a>
+							<div class="author-prof">Head of Graphics Designs</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30">
+					<div class="author-block author-block--column hover-shadow-left-top">
+						<div class="avatar avatar320">
+							<!-- <img src="img/author1-320.jpg" alt="avatar"> -->
+							<div class="avatar avatar320 team-img"
+								style="background-image: url('img/content.jpg');">
+							</div>
+						</div>
+						<div class="author-content">
+							<a href="#" class="h6 author-name">Izu Ukaozor</a>
+							<div class="author-prof">Head of content creation</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30">
+					<div class="author-block author-block--column hover-shadow-left-top">
+						<div class="avatar avatar320">
+							<!-- <img src="img/author1-320.jpg" alt="avatar"> -->
+							<div class="avatar avatar320 team-img"
+								style="background-image: url('img/product.jpg');">
+							</div>
+						</div>
+						<div class="author-content">
+							<a href="#" class="h6 author-name">Hassan Ayatullah Opeyemi</a>
+							<div class="author-prof">Product Manager</div>
 						</div>
 					</div>
 				</div>
@@ -145,6 +190,24 @@
 	</section>
 	<hr>
 
+	<section class="subsidiaries">
+		<div class="container">
+			<div class="row align-center">
+				<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12">
+					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+						<h2 class="heading-title heading--half-colored">Our Core Value</h2>
+					</header>
+				</div>
+				<div class="container">
+				<img src="img/values.jpg" style="border-radius: 10px; margin-top: 10px" alt="">
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+
+	<hr>
 	<section class="subsidiaries">
 		<div class="container">
 			<div class="row medium-padding120 align-center">
