@@ -36,7 +36,18 @@
 
 	} else if ($_GET['service'] === 'ccc') {
 		$title = "Crypto currency consultancy";
-		$description = "We are open to consultations on issues revolving around crypto currency and any of the digital asset projects. It is entirely free for our students but comes with a fee for those who are none students.";
+		$description = "We are open to consultations on issues revolving around crypto currency and any of the digital asset projects. It is entirely free for our students but comes with a fee for those who are none students. <br /> <br />  <h4>What can I expect</h4> <br />
+		1. A brief conversation about how Gentlecrypto Enterprise can help you with any of your issues.<br />
+		
+		2. Live product demonstration with insight into how to get the most benefit from Gentlecrypto Enterprise<br />
+		
+		3. Any questions you have about Gentlecrypto Enterprise answered<br />
+		
+		3. A thorough counselling on investment decisions and choices <br />
+		
+		4. No commitment required
+		Our demonstrations are 100% live.<br />
+		Our demonstrations are 100% live so – you get a product overview that suits your needs and we can answer any questions you have during the demonstration.";
 
 	} else if ($_GET['service'] === 'ccc') {
 		$title = "Crypto currency consultancy";
@@ -153,7 +164,7 @@
 
 			<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script><div id="coinmarketcap-widget-coin-price-block" coins="1,1027,825" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
 
-				<a  class='btn btn-primary' href='https://api.whatsapp.com/send?phone=09034931935' style="margin-top: 10px;">Contact us via Whatapp</a>
+				<a  class='btn btn-primary' href='https://api.whatsapp.com/send?phone=+2349034931935' style="margin-top: 10px;">Contact us via Whatapp</a>
 			
 
 		</div>
@@ -161,6 +172,33 @@
 	
 </section>
 
+<?php } else if ($_GET['service'] === 'cevs') { ?>
+	<div class="container">
+		<h3>Futures</h3>
+
+		<div class="row">
+			<div class="col-lg-4">
+				<img src="./img/signals/photo5832364626904463044.jpg" alt="">
+			</div>
+			<div class="col-lg-4">
+				<img src="./img/signals/photo5832364626904463046.jpg" alt="">
+			</div>
+			<div class="col-lg-4">
+				<img src="./img/signals/photo5832364626904463045.jpg" alt="">
+			</div>
+		</div>
+		<hr>
+
+		<h3>Signal Room</h3>
+		<div class="row">
+			<div class="col-lg-6">
+				<img src="./img/signals/photo5832364626904463047.jpg" alt="">
+			</div>
+			<div class="col-lg-6">
+				<img src="./img/signals/photo5832364626904463048.jpg" alt="">
+			</div>
+		</div>
+	</div>
 <?php } ?>
 
 </div>

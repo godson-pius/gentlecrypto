@@ -423,7 +423,10 @@ The testimonies we receive regularly from our numerous clienteles ranging from s
 											<svg class="woox-icon icon-quote-icon2 quote quote-close">
 												<use xlink:href="#icon-quote-icon2"></use>
 											</svg>
-											<img src="img/404-bg.png" width="500" alt="">
+											I really want to appreciate GentleCrypto Trading Academy for this great
+											training. I find it well prepared and helpful. I've gained a strong
+											knowledge of crypto trading.
+											<!-- <img src="img/404-bg.png" width="500" alt=""> -->
 										</h6>
 									</div>
 

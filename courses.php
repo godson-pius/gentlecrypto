@@ -74,7 +74,7 @@ $course_result = mysqli_query($link,$sql_course);
 ?>
 				<div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 sorting-item">
 					<div class="crumina-module crumina-event-item">
-						<div class="event-thumb bg-event4">
+						<div class="event-thumb bg-event4" style="background-image: url('tutor_images/<?php echo $tutor_image ?>')">
 							<div class="overlay"></div>
 						</div>
 						<div class="event-content">
@@ -102,8 +102,8 @@ $course_result = mysqli_query($link,$sql_course);
 
 			<div class="row align-center">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<a href="#" class="btn btn--large btn--transparent btn--dark-lighter" id="load-more-button"
-						data-load-link="events-to-load.html" data-container="portfolio-grid">Load More Courses</a>
+					<!-- <a href="#" class="btn btn--large btn--transparent btn--dark-lighter" id="load-more-button"
+						data-load-link="events-to-load.html" data-container="portfolio-grid">Load More Courses</a> -->
 				</div>
 			</div>
 			<?php

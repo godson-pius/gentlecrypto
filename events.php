@@ -62,7 +62,7 @@
 
 			<div class="row align-center">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<a href="#" class="btn btn--large btn--transparent btn--dark-lighter" id="load-more-button" data-load-link="events-to-load.html" data-container="portfolio-grid">Load More</a>
+					<!-- <a href="#" class="btn btn--large btn--transparent btn--dark-lighter" id="load-more-button" data-load-link="events-to-load.html" data-container="portfolio-grid">Load More</a> -->
 				</div>
 			</div>
 		</div>
