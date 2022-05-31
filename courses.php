@@ -18,7 +18,7 @@
 <div class="main-content-wrapper">
 	<section data-settings="particles-1" class="main-section crumina-flying-balls particles-js bg-1 medium-padding120">
 		<div class="container">
-			<div class="row align-center mb60">
+			<div class="row align-center">
 				<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12">
 					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
 						<div class="heading-sup-title">Courses</div>

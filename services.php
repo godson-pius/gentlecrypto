@@ -54,12 +54,14 @@
 		$description = "We are open to consultations on issues revolving around crypto currency and any of the digital asset projects. It is entirely free for our students but comes with a fee for those who are none students. You have a question regarding any aspect of digital asset investing or personal finance, then do well to <a href='courses.php'>contact us!</a>";
 
 	} else if ($_GET['service'] === 'cct') {
-		$title = "Crypto currency trading";
-		$description = "we can help you and trade profitable on the crypto market all you need to do is get your funds to us and we begin";
+		// $title = "Crypto currency trading";
+		$title = "Coming Soon";
+		// $description = "we can help you and trade profitable on the crypto market all you need to do is get your funds to us and we begin";
+		$description = ".";
 
 	} else if ($_GET['service'] === 'ccs') {
 		$title = "Crypto currency securities";
-		$description = "we can help you keep track with all your crypto currency transactions, acting as a middle man as the case may be, to avoid being scammed or lose of funds";
+		$description = "Leveraging on our years of experience in the world of crypto currency transactions and deep knowledge in blockchain technology, we will help you track and also monitor your crypto currency exchange activities, acting as middlemen as the case may be, to avoid being scammed of your hard earn money. <br /> Book an appointment today <a class='btn btn-primary' href='https://wa.me/2349034931935' />Book Here</a>";
 
 	} else if ($_GET['service'] === 'basc') {
 		$title = "Buying and selling coins";

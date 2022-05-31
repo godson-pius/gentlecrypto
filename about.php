@@ -232,7 +232,7 @@
 							</div>
 							<div class="event-content">
 								<h4 class="event-title mb30">Gentlecrypto Trading Academy</h4>
-								<a href="subsidiary.php?sub=gta"
+								<a href="courses.php"
 									class="btn btn--medium btn--transparent btn--secondary">View more</a>
 							</div>
 						</div>
@@ -244,8 +244,8 @@
 								<div class="overlay"></div>
 							</div>
 							<div class="event-content">
-								<h4 class="event-title mb30">Gentlecrypto stores</h4>
-								<a href="#"
+								<h4 class="event-title mb30">Gentlecrypto store</h4>
+								<a href="store.php" target="_blank"
 									class="btn btn--medium btn--transparent btn--secondary">View more</a>
 							</div>
 						</div>

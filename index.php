@@ -156,7 +156,7 @@
 
 							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
 								<div class="crumina-module crumina-event-item">
-									<div class="event-thumb bg-event4" style="background-image: url('img/bg-help.png')">
+									<div class="event-thumb bg-event4" style="background-image: url('img/security.jpeg')">
 										<div class="overlay"></div>
 									</div>
 									<div class="event-content">
@@ -211,7 +211,7 @@
 
 							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
 								<div class="crumina-module crumina-event-item">
-									<div class="event-thumb bg-event4" style="background-image: url('img/bg-help.png')">
+									<div class="event-thumb bg-event4" style="background-image: url('img/escrow.jpeg')">
 										<div class="overlay"></div>
 									</div>
 									<div class="event-content">
@@ -250,7 +250,7 @@
 
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 sorting-item">
 					<div class="crumina-module crumina-event-item">
-						<div class="event-thumb bg-event4" style="background-image: url('img/bg-help.png')">
+						<div class="event-thumb bg-event4" style="background-image: url('img/offline.jpeg')">
 							<div class="overlay"></div>
 						</div>
 						<div class="event-content">
@@ -265,7 +265,7 @@
 
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 sorting-item">
 					<div class="crumina-module crumina-event-item">
-						<div class="event-thumb bg-event4" style="background-image: url('img/bg-help.png')">
+						<div class="event-thumb bg-event4" style="background-image: url('img/online.jpeg')">
 							<div class="overlay"></div>
 						</div>
 						<div class="event-content">
@@ -423,16 +423,14 @@ The testimonies we receive regularly from our numerous clienteles ranging from s
 											<svg class="woox-icon icon-quote-icon2 quote quote-close">
 												<use xlink:href="#icon-quote-icon2"></use>
 											</svg>
-											I really want to appreciate GentleCrypto Trading Academy for this great
-											training. I find it well prepared and helpful. I've gained a strong
-											knowledge of crypto trading.
+											I highly recommend Gentlecrypto Enterprise for your crypto trading trainings. Indeed Emmanuel is really doing a great job at Gentlecrypto Enterprise, no wonder our company Techo Craft is currently in partnership with His Academy to educate some of our interested student on all about crypto trading
 											<!-- <img src="img/404-bg.png" width="500" alt=""> -->
 										</h6>
 									</div>
 
 									<div class="author-content">
-										<a href="#" class="author-name">A Divine Martins</a>
-										<div class="author-prof">Student</div>
+										<a href="#" class="author-name">Mr Eze Christian</a>
+										<div class="author-prof">CEO Techocraft</div>
 									</div>
 
 									<ul class="rait-stars">
