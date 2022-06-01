@@ -91,7 +91,7 @@
 	<div class="container">
 		<div class="header-content-wrapper">
 			<a href="index.php" class="">
-				<img src="img/gentlecrypto.png" width="160px" alt="Woox">
+				<img src="img/gentlecrypto.png" width="100px" style="margin-left:-10px" alt="Woox">
 			</a>
 
 			<?php include("./includes/nav.php"); ?>

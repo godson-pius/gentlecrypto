@@ -32,7 +32,7 @@
                                             <th>Lesson Details</th>
                                             <th>Video</th>
                                             <th>Date Uploaded</th>
-                                            <!-- <th>Action</th> -->
+                                            <th>Action</th>
                                             
                                         </tr>
                                         </thead>
@@ -60,14 +60,14 @@ $lesson_result = mysqli_query($link,$sql_lesson);
                             </td>
                             <!-- <td><?php echo $video; ?></td> -->
                             <td><?php echo date('F d, Y',strtotime($date_added)); ?></td>
-                            <!-- <td>
+                            <td>
                                 <a href="edit_event.php?id=<?= $id; ?>" class="btn btn-primary rounded btn-sm text-dark" type="submit" id="submit" name="edit_event">
-                                    Edit event
+                                    Edit Lesson
                                 </a>
                                 <div class="btn btn-danger btn-sm rounded waves-effect waves-light" data-id="<?= $id; ?>" onclick="deleteEvent(this)" id="deleteBtn">
                                     Delete
                                 </div>
-                            </td> -->
+                            </td>
                             
                         </tr>
                                         

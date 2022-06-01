@@ -28,7 +28,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="crumina-module crumina-featured-block">
-				<div class="text-block">
+<div class="col-lg-6">
+					<div class="">
 					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
 						<h2 class="heading-title weight-normal">Our
 							<span class="weight-bold">Vision</span></h2>
@@ -39,7 +40,9 @@
 						</div>
 					</header>
 				</div>
-				<div class="text-block">
+</div>
+<div class="col-lg-6">
+					<div class="">
 					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
 						<h2 class="heading-title weight-normal">Our
 							<span class="weight-bold">Mission</span></h2>
@@ -50,6 +53,7 @@
 						</div>
 					</header>
 				</div>
+</div>
 			</div>
 		</div>
 
@@ -294,7 +298,7 @@
 			<div class="image-block">
 				<img src="img/pc.png" alt="phone">
 			</div>
-			<div class="text-block">
+			<div class="">
 				<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
 					<h2 class="heading-title weight-normal">Greatest
 						<span class="weight-bold">Quote</span></h2>
