@@ -495,6 +495,37 @@ function editCourse($post, $id) {
   
 }
 
+function editLesson($post, $id) {
+  global $link;
+
+  extract($post);
+
+  $date = $date;
+  $course = sanitize($course);
+  $topic = sanitize($topic);
+  $detail = sanitize($detail);
+
+  $topic = str_replace("'", "&apos;", "$topic");
+  $detail = str_replace("'", "&apos;", "$detail");
+
+  if (isset($_FILES['fileToUpload'])) {
+    $video = sanitize($_FILES['fileToUpload']['name']);
+    $videoTmp = sanitize($_FILES['fileToUpload']['tmp_name']);
+    move_uploaded_file($videoTmp, "../lesson_videos/$video");
+  }
+
+  $sql = "UPDATE lessons SET course_id = $course, lesson_detail = '$detail', topic = '$topic', video = '$video', price = '$price' WHERE id = $id";
+
+  $query = mysqli_query($link, $sql);
+
+  if ($query) {
+    return true;
+  } else {
+    return false;
+  }
+  
+}
+
 function getAll($table) {
   global $link;
 

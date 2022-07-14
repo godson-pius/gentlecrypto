@@ -17,7 +17,7 @@
 							<span class="weight-bold">Enterprise</span></h1>
 						<h3 class="c-primary">...Satisfying your priorities</h3>
 					</header>
-					<a data-scroll href="about.php" class="btn btn--large btn--transparent btn--secondary">Details</a>
+					<a data-scroll href="./users/pages-register.php" class="btn btn--large btn--transparent btn--secondary">Get Started</a>
 				</div>
 			</div>
 		</div>

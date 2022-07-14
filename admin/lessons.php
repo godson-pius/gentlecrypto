@@ -61,12 +61,12 @@ $lesson_result = mysqli_query($link,$sql_lesson);
                             <!-- <td><?php echo $video; ?></td> -->
                             <td><?php echo date('F d, Y',strtotime($date_added)); ?></td>
                             <td>
-                                <a href="edit_event.php?id=<?= $id; ?>" class="btn btn-primary rounded btn-sm text-dark" type="submit" id="submit" name="edit_event">
+                                <a href="edit_lesson.php?id=<?= $id; ?>" class="btn btn-primary rounded btn-sm text-dark" type="submit" id="submit" name="edit_lesson">
                                     Edit Lesson
                                 </a>
-                                <div class="btn btn-danger btn-sm rounded waves-effect waves-light" data-id="<?= $id; ?>" onclick="deleteEvent(this)" id="deleteBtn">
-                                    Delete
-                                </div>
+                                <a href="delete-lesson.php?id=<?= $id; ?>" class="btn btn-danger rounded btn-sm text-dark" type="submit" id="submit" name="edit_lesson">
+                                    Delete Lesson
+                                </a>
                             </td>
                             
                         </tr>

@@ -52,3 +52,14 @@ function check_duplicate_purchase($table, $field, $sanitized_value, $field2, $sa
         return false;
     }
 }
+
+function get_course_name($id) {
+    $sql = "SELECT course_name FROM courses WHERE course_id = $id";
+    $result = executeQuery($sql);
+
+    if ($result) {
+        return $result;
+    } else {
+        return false;
+    }
+}

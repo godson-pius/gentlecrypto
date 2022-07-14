@@ -60,7 +60,7 @@ $id = $row_course["course_id"];
                                                 <a href="edit-course.php?course=<?= $id; ?>" class="btn btn-primary waves-effect waves-light">
                                                     Edit
                                                 </a>
-                                                <button class="btn btn-primary waves-effect waves-light" type="submit" id="delete" name="delete_course">
+                                                <button class="btn btn-danger waves-effect waves-light" type="submit" id="delete" name="delete_course">
                                                     Delete
                                                 </button>
                                             </div>
