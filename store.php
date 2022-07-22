@@ -44,10 +44,8 @@
 		Payment methods <br>
 		Our crypto clothing and fashion store, accepts payments in both fiat and crypto <br>
 		<h6>7% off when paying with crypto</h6>
-
-		Put email sub at the bottom of the store area
-		Join our mailing list to be informed about new products and other important news(link to email subscription)
-
+		To be informed about our new products and Other important News regarding upcoming products from our store.
+Join our mailing list
 		</p>
 	</div>
 

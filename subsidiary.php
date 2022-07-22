@@ -46,7 +46,6 @@
         
         We also accept fiat using the payment platforms accepted by our company <br />
         Paystack: <br />
-        Payoneer: 
         
 		";
 

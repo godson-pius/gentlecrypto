@@ -3,20 +3,17 @@
 <?php include("./includes/header.php"); ?>
 
 <!-- ... end Header -->
-<style type="text/css">
-	<<<<<<< Updated upstream .dk {
-		color: black !important;
 
-		=======.dk {
-			color: ghostwhite;
-			 !important;
-			>>>>>>>Stashed changes font-weight: bolder;
-
-		}
+<style>
+	.dk {
+		color: ghostwhite;
+		 !important;
+		font-weight: bolder;
+	}
 </style>
 
 <div class="main-content-wrapper">
-	<section data-settings="particles-1" class="main-section crumina-flying-balls particles-js bg-1 medium-padding120">
+	<section data-settings="particles-1" class="main-section crumina-flying-balls particles-js bg-1">
 		<div class="container">
 			<div class="row align-center">
 				<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12">
@@ -34,9 +31,21 @@
 		</div>
 	</section>
 
+	<div class="row" style="padding-right: 95px; padding-left: 95px;">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+<article class="hentry post post-standard has-post-thumbnail">
+	<div class="post-thumb">
+		
+		<iframe width="1543" height="505" src="https://youtu.be/PpvAxCL2opY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	</div>
+</article>
+</div>
+	</div>
 
 	<div class="container text-center" style="text-align: center !important;">
-		<p class="text-center">Gentlecrypto trading academy is a result oriented crypto currency coaching and mentorship
+		<p style="font-size: 20px" class="text-center">Gentlecrypto trading academy is a result oriented crypto currency coaching and mentorship
 					platform, a subsidiary of the Gentlecrypto enterprises, where we have structured step by step
 					guide on everything you need to know concerning trading crypto assets successfully as an
 					independent trader using our flexible yet exclusive training modules within the space of 5 weeks
@@ -239,19 +248,47 @@ else{
 		</div>
 	</section>
 
-	<div class="container" style="margin-top: 30px;">
-	<div class="row">
-				<div class="col-lg-4 col-lg-offset-4 col-md-12 col-sm-12 col-xs-12">
-					<div class="input-with-btn-inline content-frm">
-						<form class="subsFrm" method="POST">
-							<input id='email' name="email" placeholder="Your Email Address" type="email" value="">
-							<button id="subscribeBtn" class="btn btn--large btn--green-light">Subscribe</button>
-						</form>
-					</div>
-					<div class="status"></div>
+	<div class="container" style="margin-top: 50px;">
+			<div class=" align-center">
+				<h2 class="heading-title heading--half-colored text-center"><span class="weight-bold">TESTIMONIES.</span></h2>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6">
+					<img class="testimony" src="./img/testimonies/a.jpg" alt="testimony">
+				</div>
+				<div class="col-lg-6">
+					<img class="testimony" src="./img/testimonies/b.jpg" alt="testimony">
+				</div>
+				<div class="col-lg-6">
+					<img class="testimony" src="./img/testimonies/c.jpg" alt="testimony">
+				</div>
+				<div class="col-lg-6">
+					<img class="testimony" src="./img/testimonies/d.jpg" alt="testimony">
+				</div>
+				<div class="col-lg-6">
+					<img class="testimony" src="./img/testimonies/e.jpg" alt="testimony">
+				</div>
+				<div class="col-lg-6">
+					<img class="testimony" src="./img/testimonies/g.jpg" alt="testimony">
+				</div>
+				<div class="col-lg-6">
+					<img class="testimony" src="./img/testimonies/h.jpg" alt="testimony">
+				</div>
+				<div class="col-lg-6">
+					<img class="testimony" src="./img/testimonies/i.jpg" alt="testimony">
+				</div>
+				<div class="col-lg-6">
+					<img class="testimony" src="./img/testimonies/j.jpg" alt="testimony">
+				</div>
+				<div class="col-lg-6">
+					<img class="testimony" src="./img/testimonies/k.jpg" alt="testimony">
 				</div>
 			</div>
-	</div>
+            <hr>
+		</div>
+
+	<?php include("./includes/subscriber.php"); ?>
 
 </div>
 <!-- Footer -->
@@ -296,57 +333,7 @@ else{
 <script src="js/js-plugins/ion.rangeSlider.js"></script>
 
 <!-- FontAwesome 5.x.x JS -->
-<script>
-	$(document).ready(function () {
-		$('#subscribeBtn').on('click', function () {
-			// Remove previous status message
-			$('.status').html('');
 
-			// Email and name regex
-			var regEmail = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i;
-
-
-			// Get input values
-			var email = $('#email').val();
-
-			// Validate input fields
-			if (email.trim() == '') {
-				alert('Please enter your email.');
-				$('#email').focus();
-				return false;
-			} else if (email.trim() != '' && !regEmail.test(email)) {
-				alert('Please enter a valid email.');
-				$('#email').focus();
-				return false;
-			} else {
-				// Post subscription form via Ajax
-				$.ajax({
-					type: 'POST',
-					url: 'subscription.php',
-					dataType: "json",
-					data: {
-						subscribe: 1,
-						email: email
-					},
-					beforeSend: function () {
-						$('#subscribeBtn').attr("disabled", "disabled");
-						$('.content-frm').css('opacity', '.5');
-					},
-					success: function (data) {
-						if (data.status == 'ok') {
-							$('#subsFrm')[0].reset();
-							$('.status').html('<p class="success">' + data.msg + '</p>');
-						} else {
-							$('.status').html('<p class="error">' + data.msg + '</p>');
-						}
-						$('#subscribeBtn').removeAttr("disabled");
-						$('.content-frm').css('opacity', '');
-					}
-				});
-			}
-		});
-	});
-</script>
 <script defer src="fonts/fontawesome-all.js"></script>
 
 <script src="js/main.js"></script>

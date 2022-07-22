@@ -596,23 +596,8 @@ The testimonies we receive regularly from our numerous clienteles ranging from s
 
 </section>
 
-<div class="container" style="margin-top: 30px;">
-	<div class="row">
-				<div class="col-lg-4 col-lg-offset-4 col-md-12 col-sm-12 col-xs-12">
-					<div class="input-with-btn-inline content-frm">
-						<form class="subsFrm" method="POST">
-							<input id='email' name="email" placeholder="Your Email Address" type="email" value="">
-							<button id="subscribeBtn" class="btn btn--large btn--green-light">Subscribe</button>
-						</form>
-					</div>
-					<div class="status"></div>
-				</div>
-			</div>
-	</div>
+<?php include("./includes/subscriber.php"); ?>
 
-
-
-</div>
 <!-- Footer -->
 <?php include("./includes/footer.php"); ?>
 

@@ -15,7 +15,7 @@
 		Stay in the comfort of your room and make money from trading and investing in crypto<br />
 		
 		Crypto is not scam, the only scam in crypto is not acquiring the knowledge and hoping to make money trading the market. <br /><br />
-		To be part of this power pack crypto course, all you have to do is to purchase any of the packages in the course area <a class='btn btn-primary' href='courses.php'>Courses</a>
+		To be part of this power pack crypto course, all you have to do is to purchase any of the packages. Click the link below. <br> <a class='btn btn-primary' href='courses.php'>Courses</a>
 		";
 
 	} else if ($_GET['service'] === 'cevs') {
@@ -47,7 +47,7 @@
 		
 		4. No commitment required
 		Our demonstrations are 100% live.<br />
-		Our demonstrations are 100% live so – you get a product overview that suits your needs and we can answer any questions you have during the demonstration.";
+		Our demonstrations are 100% live so – you get a product overview that suits your needs and we can answer any questions you have during the demonstration. <br /> <b>Connect with our chief consultant</b> <a class='btn btn-primary' href='https://api.whatsapp.com/send?phone=09034931935'>click here</a>"; 
 
 	} else if ($_GET['service'] === 'ccc') {
 		$title = "Crypto currency consultancy";

@@ -24,7 +24,7 @@
 	<section class="subsidiaries align-center" id="history">
 		<div class="container">
 			<!-- About us -->
-			<p class="">Gentlecrypto trading academy is a result oriented crypto currency coaching and mentorship platform, a
+			<p style="font-size: 20px" class="">Gentlecrypto trading academy is a result oriented crypto currency coaching and mentorship platform, a
 				subsidiary of the Gentlecrypto enterprises, where we have structured step by step guide on everything
 				you need to know concerning trading crypto assets successfully as an independent trader using our
 				flexible yet exclusive training modules within the space of 5 weeks. 
@@ -240,7 +240,7 @@
 
 					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
 						<div class="crumina-module crumina-event-item">
-							<div class="event-thumb bg-event4" style="background-image: url('img/bg-help.png')">
+							<div class="event-thumb bg-event4" style="background-image: url('img/store.jpeg')">
 								<div class="overlay"></div>
 							</div>
 							<div class="event-content">

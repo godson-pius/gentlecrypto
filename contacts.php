@@ -1,3 +1,19 @@
+<?php require_once("admin/config/db.php"); 
+	if (isset($_POST['send']) && !empty($_POST['email']) && !empty($_POST['message']) && !empty($_POST['name'])) {
+		$name = $_POST['name'];
+		$email = $_POST['email'];
+		$message = $_POST['message'];
+		$subject = $_POST['subject'];
+		$query = "INSERT INTO messages (name, email, subject, messages) VALUES ('$name', '$email', '$subject', '$message')";
+		$result = mysqli_query($link, $query);
+		if ($result) {
+			echo "<script>alert('Message sent successfully');</script>";
+		} else {
+			echo "<script>alert('Message not sent');</script>";
+		}
+	}
+?>
+
 <?php $page = "Contact"; ?>
 <?php include("./includes/header.php"); ?>
 
@@ -12,7 +28,7 @@
 					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
 						<div class="heading-sup-title">CONTACTS</div>
 						<h2 class="heading-title heading--half-colored">Contact informations</h2>
-						<div class="heading-text">GentleCrypto Enterprise giving you the best! Do well to contact us for anything.</div>
+						<div class="heading-text">We take your feedback, reports and opinions as a top priority. If you have any, please contact us on any of preferred channel via our social media or write to us below as we will take the needed time to attend to all messages</div>
 					</header>
 					<a data-scroll href="#details" class="btn btn--large btn--primary">Contact Details</a>
 				</div>
@@ -22,7 +38,7 @@
 
 	<section>
 		<div class="container-fluid">
-			<div class="row medium-padding120">
+			<div class="row">
 				<div id="details" class="col-lg-8 col-md-6 col-sm-12 col-xs-12 no-padding" data-mh="equal-block">
 
 					<div class="crumina-module crumina-map height-730" id="map">
@@ -109,12 +125,12 @@
 					</header>
 				</div>
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<form class="contact-form crumina-submit" method="post" data-nonce="crumina-submit-form-nonce" data-type="standard" action="modules/forms/submit.php">
+					<form class="contact-form" method="post" action="">
 						<div class="row">
 							<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 								<div class="form-group label-floating">
 									<label class="input-label control-label">What is your name? <abbr class="required" title="required">*</abbr></label>
-									<input name="name" class="form-control input--squared input--dark" type="text" value="Peter Spenser">
+									<input name="name" class="form-control input--squared input--dark" type="text">
 								</div>
 								<div class="form-group label-floating">
 									<label class="input-label control-label">Your email address <abbr class="required" title="required">*</abbr></label>
@@ -130,7 +146,7 @@
 									<label class="input-label control-label">Write your message here</label>
 									<textarea name="message" class="form-control input--squared input--dark height-170" placeholder=""></textarea>
 								</div>
-								<button class="btn btn--large btn--primary">Send a Message</button>
+								<button name="send" class="btn btn--large btn--primary">Send a Message</button>
 							</div>
 						</div>
 					</form>

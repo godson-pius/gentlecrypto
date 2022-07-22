@@ -230,6 +230,10 @@
                         </li> -->
 
                         <li>
+                            <a href="subscribers.php"><i class="ti-email"></i> <span> Subscribers </span></a>
+                        </li>
+
+                        <li>
                             <a href="messages.php"><i class="ti-comments"></i> <span> Messages </span></a>
                         </li>
 

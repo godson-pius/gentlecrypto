@@ -24,3 +24,25 @@ if (isset($_GET['event'])) {
         echo false;
     }
 }
+
+if (isset($_GET['subscriber'])) {
+    $id = $_GET['subscriber'];
+
+    $response = deleteColumn('subscribers', $id);
+    if ($response === true) {
+        echo true;
+    } else {
+        echo false;
+    }
+}
+
+if (isset($_GET['message'])) {
+    $id = $_GET['message'];
+
+    $response = deleteColumn('messages', $id);
+    if ($response === true) {
+        echo true;
+    } else {
+        echo false;
+    }
+}

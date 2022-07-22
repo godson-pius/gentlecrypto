@@ -52,7 +52,7 @@
 
 
 <div class="main-content-wrapper">
-	<section data-settings="particles-1" class="main-section crumina-flying-balls particles-js bg-1 medium-padding120">
+	<section data-settings="particles-1" class="main-section crumina-flying-balls particles-js bg-1 ">
 		<div class="container">
 			<div class="row align-center">
 				<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12">
@@ -86,16 +86,16 @@
 		</div>
 	</section>
 
-	<section class="medium-padding120">
+	<section class="">
 		<div class="container">
-			<div class="row pb60">
+			<div class="row">
 
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-					<article class="hentry post post-standard has-post-thumbnail video">
+					<article class="hentry post post-standard has-post-thumbnail">
 						<div class="post-thumb">
 							
-							<iframe width="1543" height="505" src="<?php echo ($course_video) ? $course_video : 'https://www.youtube.com/embed/cx816XUw4XA';  ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<iframe width="1543" height="505" src="<?php echo ($course_video) ? $course_video : 'https://youtu.be/PpvAxCL2opY';  ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 						</div>
 					</article>

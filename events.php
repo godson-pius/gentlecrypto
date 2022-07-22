@@ -16,17 +16,19 @@
 						<div class="heading-sup-title">Upcoming Events</div>
 						<h2 class="heading-title heading--half-colored">Our <span class="weight-bold">Events</span>
 						</h2>
-						<div class="heading-text">Everyday is a bank account, and time is our currency. No one is rich, no one is poor, we've got 24 hours each</div>
+						<div class="heading-text">Everyday is a bank account, and time is our currency. No one is rich,
+							no one is poor, we've got 24 hours each</div>
 					</header>
 				</div>
 			</div>
-		</div> 
+		</div>
 	</section>
 
 
 	<section class="">
 		<div class="container">
-			<div class="row sorting-container" id="portfolio-grid" data-layout="masonry" data-isotope='{"masonry": { "columnWidth": ".grid-sizer" }}'>
+			<div class="row sorting-container" id="portfolio-grid" data-layout="masonry"
+				data-isotope='{"masonry": { "columnWidth": ".grid-sizer" }}'>
 				<div class="grid-sizer"></div>
 
 
@@ -38,25 +40,26 @@
 							$url_link = str_replace('&apos;', '/', $url_link1);
 							?>
 
-								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
-									<div class="crumina-module crumina-event-item">
-										<div class="event-thumb bg-event4" style="background-image: url('img/<?= $event_image; ?>')">
-											<div class="overlay"></div>
-										</div>
-										<div class="event-content">
-											<h4 class="event-title mb30"><?= $title; ?></h4>
-											<a href="event_details.php?event=<?= $url_link; ?>" class="btn btn--medium btn--transparent btn--secondary">View More</a>
-										</div>
-									</div>
-								</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
+					<div class="crumina-module crumina-event-item">
+						<div class="event-thumb bg-event4" style="background-image: url('img/<?= $event_image; ?>')">
+							<div class="overlay"></div>
+						</div>
+						<div class="event-content">
+							<h4 class="event-title mb30"><?= $title; ?></h4>
+							<a href="event_details.php?event=<?= $url_link; ?>"
+								class="btn btn--medium btn--transparent btn--secondary">View More</a>
+						</div>
+					</div>
+				</div>
 
-							<?php } } else { ?>
+				<?php } } else { ?>
 
-								<div style="text-align:center !important;">
-									<h3 style="text-align:center;">NO EVENT AVAILABLE</h3>
-								</div>
+				<div style="text-align:center !important;">
+					<h3 style="text-align:center;">NO EVENT AVAILABLE</h3>
+				</div>
 
-							<?php } ?>
+				<?php } ?>
 
 			</div>
 
@@ -70,19 +73,8 @@
 
 </div>
 
-<div class="container" style="margin-top: 30px;">
-	<div class="row">
-				<div class="col-lg-4 col-lg-offset-4 col-md-12 col-sm-12 col-xs-12">
-					<div class="input-with-btn-inline content-frm">
-						<form class="subsFrm" method="POST">
-							<input id='email' name="email" placeholder="Your Email Address" type="email" value="">
-							<button id="subscribeBtn" class="btn btn--large btn--green-light">Subscribe</button>
-						</form>
-					</div>
-					<div class="status"></div>
-				</div>
-			</div>
-	</div>
+<?php include("./includes/subscriber.php"); ?>
+
 <!-- Footer -->
 <?php include("./includes/footer.php"); ?>
 <!-- ... end Footer -->
@@ -135,4 +127,5 @@
 <!-- /SVG icons loader -->
 
 </body>
+
 </html>

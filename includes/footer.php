@@ -72,7 +72,7 @@ We have bagged several award of credibility within the crypto and Enterprenurshi
 						<img src="img/wbtlogo.png" alt="ThemeFire">
 						<div class="design-wrap">
 							<div class="sup-title">developed by</div>
-							<a href="https://worldbraintechnology.com" target="_blank" class="logo-title">World Brain Technology</a>
+							<a href="https://worldbraintechnology.com" target="_blank" class="logo-title">World Brain Technology Ltd</a>
 						</div>
 					</div>
 
