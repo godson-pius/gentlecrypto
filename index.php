@@ -25,8 +25,9 @@
 	</section>
 
 	<div class="container mb-3">
-		<b>Your Fastlane into the world of crypto and Blockchain Technology.</b> Let us walk you by the hand through the dynamic world of Crypto currency Trading, Mentorship, Investment and
-		utility.
+		<h3 style="color: #ffba00"><?= strtoupper('Your Fastlane into the world of crypto and Blockchain Technology.'); ?></h3>
+		<p style="font-size: 22px; color: #fff;">Let us walk you by the hand through the dynamic world of Crypto currency Trading, Mentorship, Investment and
+		utility.</p>
 	</div>
 
 	<section class="bg-1">
@@ -53,7 +54,7 @@
 							<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
 								<h2 class="heading-title weight-normal">Our
 									<span class="weight-bold">Mission</span></h2>
-								<div class="heading-text">building a community of successful independent digital asset
+								<div class="heading-text">Building a community of successful independent digital asset
 									traders
 									Our academy strategically places our students ahead of others when it comes to
 									crypto

@@ -24,7 +24,7 @@
 	<section class="subsidiaries align-center" id="history">
 		<div class="container">
 			<!-- About us -->
-			<p style="font-size: 20px" class="">We are a Diversified Conglomerate concerned with delivering services in Multi-Sectorial Industries , so as to meet the day to day needs of the common man within Africa and Beyond. We operate in Area of Financial Education, Crypto Education and Investing, Blockchain Technology, E-commerce and Enterprenurial Advancement in Africa and Beyond
+			<p style="font-size: 20px" class="">We are a Diversified Conglomerate concerned with delivering services in Multi-Sectorial Industries , so as to meet the day to day needs of the common man within Africa and Beyond. <br /> We operate in Area of Financial Education, Crypto Education and Investing, Blockchain Technology, E-commerce and Enterprenurial Advancement in Africa and Beyond
 			</p>
 			<!-- <p style="font-size: 20px" class="">Gentlecrypto trading academy is a result oriented crypto currency coaching and mentorship platform, a
 				subsidiary of the Gentlecrypto enterprises, where we have structured step by step guide on everything
