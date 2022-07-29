@@ -37,7 +37,9 @@
 <article class="hentry post post-standard has-post-thumbnail">
 	<div class="post-thumb">
 		
-		<iframe width="1543" height="505" src="https://youtu.be/PpvAxCL2opY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<!-- <iframe width="1543" height="505" src="https://youtu.be/PpvAxCL2opY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+			<iframe width="1543" height="505" src="https://www.youtube.com/embed/PpvAxCL2opY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 	</div>
 </article>

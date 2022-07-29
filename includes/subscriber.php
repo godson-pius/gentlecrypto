@@ -34,7 +34,7 @@
 	</div>  
 
     <div class="text-center mx-auto mt-5 container">
-    <p style="margin-top: 10px;">On a monthly basis, you'll get any of the following as our subscriber. <b> (1). Monthly VIP trading newsletter (2). Trading plan and journal templates (3). Tools on how to execute your trading strategy (4). Discover our trading styles (5). Business updates (6). Updates concerning upcoming events from our company </b></p>
+    <p style="margin-top: 10px;">On a monthly basis, you'll get any of the following as our subscriber. <br /><b> (1). Monthly VIP trading newsletter <br />(2). Trading plan and journal templates <br />(3). Tools on how to execute your trading strategy <br />(4). Discover our trading styles <br />(5). Business updates <br />(6). Updates concerning upcoming events from our company </b></p>
                     <!-- <ul>
                         <li>Monthly VIP trading newsletter</li>
                         <li>Trading plan and journal templates</li>

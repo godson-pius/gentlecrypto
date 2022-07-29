@@ -17,48 +17,56 @@
 							<span class="weight-bold">Enterprise</span></h1>
 						<h3 class="c-primary">...Satisfying your priorities</h3>
 					</header>
-					<a data-scroll href="./users/pages-register.php" class="btn btn--large btn--transparent btn--secondary">Get Started</a>
+					<a data-scroll href="./users/pages-register.php"
+						class="btn btn--large btn--transparent btn--secondary">Get Started</a>
 				</div>
 			</div>
 		</div>
 	</section>
 
-<section class="bg-1">
+	<div class="container mb-3">
+		<b>Your Fastlane into the world of crypto and Blockchain Technology.</b> Let us walk you by the hand through the dynamic world of Crypto currency Trading, Mentorship, Investment and
+		utility.
+	</div>
 
-	<div class="container">
-		<div class="row">
-			<div class="crumina-module crumina-featured-block">
-<div class="col-lg-6">
-					<div class="">
-					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
-						<h2 class="heading-title weight-normal">Our
-							<span class="weight-bold">Vision</span></h2>
-						<div class="heading-text">We are looking at pioneering blockchain adoption among African
-							companies and businesses in multi-sectorial corporations by creating sustainable
-							solutions to basic human needs within Africa and beyond through leveraging on the power
-							of blockchain and artificial intelligence.
+	<section class="bg-1">
+
+		<div class="container">
+			<div class="row">
+				<div class="crumina-module crumina-featured-block">
+					<div class="col-lg-6">
+						<div class="">
+							<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+								<h2 class="heading-title weight-normal">Our
+									<span class="weight-bold">Vision</span></h2>
+								<div class="heading-text">We are looking at pioneering blockchain adoption among African
+									companies and businesses in multi-sectorial corporations by creating sustainable
+									solutions to basic human needs within Africa and beyond through leveraging on the
+									power
+									of blockchain and artificial intelligence.
+								</div>
+							</header>
 						</div>
-					</header>
-				</div>
-</div>
-<div class="col-lg-6">
-					<div class="">
-					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
-						<h2 class="heading-title weight-normal">Our
-							<span class="weight-bold">Mission</span></h2>
-						<div class="heading-text">building a community of successful independent digital asset
-							traders
-							Our academy strategically places our students ahead of others when it comes to crypto
-							currency trading and coaching.
+					</div>
+					<div class="col-lg-6">
+						<div class="">
+							<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+								<h2 class="heading-title weight-normal">Our
+									<span class="weight-bold">Mission</span></h2>
+								<div class="heading-text">building a community of successful independent digital asset
+									traders
+									Our academy strategically places our students ahead of others when it comes to
+									crypto
+									currency trading and coaching.
+								</div>
+							</header>
 						</div>
-					</header>
+					</div>
 				</div>
-</div>
 			</div>
-		</div>
 
-	</div>
-	</div>
+		</div>
+</div>
 
 </section>
 
@@ -160,7 +168,8 @@
 
 							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
 								<div class="crumina-module crumina-event-item">
-									<div class="event-thumb bg-event4" style="background-image: url('img/security.jpeg')">
+									<div class="event-thumb bg-event4"
+										style="background-image: url('img/security.jpeg')">
 										<div class="overlay"></div>
 									</div>
 									<div class="event-content">
@@ -310,35 +319,46 @@
 	</div>
 
 	<section class=" responsive-align-center">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt30">
-				<img class="responsive-width-50" src="img/phone.png" alt="phone">
-			</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt30">
+					<img class="responsive-width-50" src="img/phone.png" alt="phone">
+				</div>
 
-			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-				<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
-					<div class="heading-sup-title">Welcome</div>
-					<h2 class="heading-title weight-normal">Get to know the
-						<span class="weight-bold">CEO</span></h2>
-				</header>
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+						<div class="heading-sup-title">Welcome</div>
+						<h2 class="heading-title weight-normal">Get to know the
+							<span class="weight-bold">CEO</span></h2>
+					</header>
 
-				<p>
-				Igwenagu Emmanuel, is the founder and CEO of Gentlecrypto Enterprise, an award-winning Business conglomerate, crypto currency Trading, mentorship and Consulting Company. <br>
-Over the years he has acquired in-depth knowledge in Business development and consulting, sales and marketing, financial literacy and management, coupled with years of Experience in the art of digital asset trading across multiple exchanges.<br>
-Through his company Gentlecrypto Enterprise, he has successfully mentored persons globally in several fields of life ranging from Crypto trading, Business, leadership and sustainable development Goals (SDGs) of the United Nations.<br>
-Across all the social media platforms, He has mentored more than 2000 persons and still counting, in the complex world of crypto currency trading both locally and Abroad, showing them how to stay profitable in the market and in the long run attain Financial Freedom.<br>
-Through his vast knowledge in the world of crypto and blockchain tech, He renders consulting services to individuals who wish to tap from his wealth of knowledge<br>
-His crypto currency Academy, have trained more than 60 successful traders in 2021 alone and still counting.
-The testimonies we receive regularly from our numerous clienteles ranging from students and Angel investor, places Him on an unmatched level when it comes to crypto trading, Coaching and mentorship
+					<p>
+						Igwenagu Emmanuel, is the founder and CEO of Gentlecrypto Enterprise, an award-winning Business
+						conglomerate, crypto currency Trading, mentorship and Consulting Company. <br>
+						Over the years he has acquired in-depth knowledge in Business development and consulting, sales
+						and marketing, financial literacy and management, coupled with years of Experience in the art of
+						digital asset trading across multiple exchanges.<br>
+						Through his company Gentlecrypto Enterprise, he has successfully mentored persons globally in
+						several fields of life ranging from Crypto trading, Business, leadership and sustainable
+						development Goals (SDGs) of the United Nations.<br>
+						Across all the social media platforms, He has mentored more than 2000 persons and still
+						counting, in the complex world of crypto currency trading both locally and Abroad, showing them
+						how to stay profitable in the market and in the long run attain Financial Freedom.<br>
+						Through his vast knowledge in the world of crypto and blockchain tech, He renders consulting
+						services to individuals who wish to tap from his wealth of knowledge<br>
+						His crypto currency Academy, have trained more than 60 successful traders in 2021 alone and
+						still counting.
+						The testimonies we receive regularly from our numerous clienteles ranging from students and
+						Angel investor, places Him on an unmatched level when it comes to crypto trading, Coaching and
+						mentorship
 
-				</p>
+					</p>
 
 
+				</div>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
 
 	<div class="row pb100 medium-padding120">
 		<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
@@ -427,7 +447,11 @@ The testimonies we receive regularly from our numerous clienteles ranging from s
 											<svg class="woox-icon icon-quote-icon2 quote quote-close">
 												<use xlink:href="#icon-quote-icon2"></use>
 											</svg>
-											I highly recommend Gentlecrypto Enterprise for your crypto trading trainings. Indeed Emmanuel is really doing a great job at Gentlecrypto Enterprise, no wonder our company Techo Craft is currently in partnership with His Academy to educate some of our interested student on all about crypto trading
+											I highly recommend Gentlecrypto Enterprise for your crypto trading
+											trainings. Indeed Emmanuel is really doing a great job at Gentlecrypto
+											Enterprise, no wonder our company Techo Craft is currently in partnership
+											with His Academy to educate some of our interested student on all about
+											crypto trading
 											<!-- <img src="img/404-bg.png" width="500" alt=""> -->
 										</h6>
 									</div>

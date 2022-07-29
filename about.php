@@ -24,7 +24,9 @@
 	<section class="subsidiaries align-center" id="history">
 		<div class="container">
 			<!-- About us -->
-			<p style="font-size: 20px" class="">Gentlecrypto trading academy is a result oriented crypto currency coaching and mentorship platform, a
+			<p style="font-size: 20px" class="">We are a Diversified Conglomerate concerned with delivering services in Multi-Sectorial Industries , so as to meet the day to day needs of the common man within Africa and Beyond. We operate in Area of Financial Education, Crypto Education and Investing, Blockchain Technology, E-commerce and Enterprenurial Advancement in Africa and Beyond
+			</p>
+			<!-- <p style="font-size: 20px" class="">Gentlecrypto trading academy is a result oriented crypto currency coaching and mentorship platform, a
 				subsidiary of the Gentlecrypto enterprises, where we have structured step by step guide on everything
 				you need to know concerning trading crypto assets successfully as an independent trader using our
 				flexible yet exclusive training modules within the space of 5 weeks. 
@@ -34,7 +36,7 @@
 				strategies we have taken our time to explain during the training. 
 				We provide weekly alert on how to trade crypto currencies, and key crypto currency trading set ups
 				strengthened by fundamental & technical analysis for trading opportunities and entries.
-			</p>
+			</p> -->
 		</div>
 	</section>
 
