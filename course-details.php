@@ -317,6 +317,7 @@
 <script defer src="fonts/fontawesome-all.js"></script>
 
 <script src="js/main.js"></script>
+<script src="js/dis.js"></script>
 
 <!-- SVG icons loader -->
 <script src="js/svg-loader.js"></script>
@@ -334,7 +335,7 @@
 			extract($user);
 		}?>
 <script>
-	const API_publicKey = "pk_test_212c6a956274335d640891ce188317a046abd95a";
+	const API_publicKey = "pk_live_e3357a746717dedc1637cc88d1452580d63bef68";
 	const purchaseBtn = document.getElementById('purchase')
 
 	purchaseBtn.addEventListener('click', (e) => {
@@ -362,7 +363,7 @@
 						//Response
 					})
 
-					alert('Your payment for <?= $course['course_name']; ?> was successful! We will approve your payment soon.');
+					alert('Your payment for this course was successful! We will approve your payment soon.');
 					window.location.reload();
 			},
 

@@ -85,7 +85,7 @@ $cp_result = mysqli_query($link,$sql_course_p);
                                             <!-- <td><?php echo $user_id; ?></td>
                                             <td><?php echo $course_id; ?></td> -->
                                             <td>$<?php echo $amount; ?></td>
-                                            <td><?php echo date('h:iA',strtotime($date)); ?></td>
+                                            <td><?php echo date('d F, Y | h:iA',strtotime($date)); ?></td>
                                             <td>
                                                 <div class="btn btn-primary rounded btn-sm text-dark waves-effect waves-light shadow" data-id="<?= $id; ?>" onclick="approvePayment(this)" id="approveBtn">
                                                 Approve Payment

@@ -21,6 +21,7 @@
                             </div>
                         </div>
 
+                        <marquee class="text-light bg-info rounded p-2">Approved Paid Courses will show on your dashboard</marquee>
 
                         <div class="row">
                             <div class="col-sm-12">
@@ -42,14 +43,11 @@
                                                 <p class="text-muted">Income amounts</p>
                                             </div>
                                         </div> -->
-
-
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!--end row -->
-
 
                         <div class="row">
                             <div class="col-sm-12">

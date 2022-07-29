@@ -25,8 +25,9 @@
 	</section>
 
 	<div class="container mb-3">
-		<h3 style="color: #ffba00"><?= strtoupper('Your Fastlane into the world of crypto and Blockchain Technology.'); ?></h3>
-		<p style="font-size: 22px; color: #fff;">Let us walk you by the hand through the dynamic world of Crypto currency Trading, Mentorship, Investment and
+		<h2 style="color: #ffba00"><?= strtoupper('Your Fastlane into'); ?></h2>
+		<h4 style="color: #ffba00"><?= strtoupper('crypto and Blockchain Technology'); ?></h4>
+		<p style="color: #fff;">Let us walk you by the hand through the dynamic world of Crypto currency Trading, Mentorship, Investment and
 		utility.</p>
 	</div>
 
