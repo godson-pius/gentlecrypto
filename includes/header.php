@@ -25,6 +25,8 @@
 
 	<!--<link rel="stylesheet" type="text/css" href="css/rtl.css">-->
 	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
 		.team-img {
 			width: 200px; height: 200px; background-size: cover; border-radius: 600px;
 		}

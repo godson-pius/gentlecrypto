@@ -65,7 +65,7 @@
 
 	} else if ($_GET['service'] === 'basc') {
 		$title = "Buying and selling coins";
-		$description = "We buy and sell any crypto available to you according to your requirements at a very customer friendly rate";
+		$description = "We buy and sell any crypto available to you according to your requirements at a very customer friendly rate. <br /> <a style='margin-top: 10px' class='btn btn-primary' href='https://wa.me/2349034931935' />Contact Us</a>";
 
 	} else if ($_GET['service'] === 'code') {
 		$title = "Crypto OTC desk/exchange";
@@ -111,7 +111,7 @@
 		Affordable Escrow fees per transaction of about 0.5% instead of 1%
 		Convenient system of transaction <br /><br />
 		
-		<h6>Disclaimer:</h6> There are a lot of impersonators online posing to be Gentlecrypto Enterprise or controlling an illegal Escrow group with Gentlecrypto as title, peradventure you fall for those impostors, Gentlecrypto or anyone working with me will not be held accountable for any loses you shall incur, please be careful and make sure you use the approved link above.
+		<h6 style='color: red'><b>Disclaimer</b>:</h6> There are a lot of impersonators online posing to be Gentlecrypto Enterprise or controlling an illegal Escrow group with Gentlecrypto as title, peradventure you fall for those impostors, Gentlecrypto or anyone working with me will not be held accountable for any loses you shall incur, please be careful and make sure you use the approved link above.
 		";
 	} else if ($_GET['service'] === 'gta') {
 		$title = "Gentlecrypto trading Academy (GTA)";
@@ -148,8 +148,8 @@
 
 
 
-			<div style="">
-				<p style=""><?= ucfirst($description); ?></p>
+			<div style="font-size: 22px;">
+				<p style="font-size: 22px;"><?= ucfirst($description); ?></p>
 			</div>
 
 

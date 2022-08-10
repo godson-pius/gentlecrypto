@@ -180,7 +180,7 @@
                             <a href="javascript: void(0);"><i class="ti-book"></i> <span> My Courses </span> <span class="menu-arrow"></span></a>
                             <ul class="nav-second-level" aria-expanded="false">
                                 <li><a href="courses.php">All Courses</a></li>
-                                <li><a href="../courses.php">Buy Course</a></li>
+                                <li><a href="../courses.php" target="_blank">Buy Course</a></li>
                             </ul>
                         </li>
 

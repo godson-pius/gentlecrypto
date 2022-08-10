@@ -25,9 +25,9 @@
 	</section>
 
 	<div class="container mb-3">
-		<h2 style="color: #ffba00"><?= strtoupper('Your Fastlane into'); ?></h2>
-		<h4 style="color: #ffba00"><?= strtoupper('crypto and Blockchain Technology'); ?></h4>
-		<p style="color: #fff;">Let us walk you by the hand through the dynamic world of Crypto currency Trading, Mentorship, Investment and
+		<h2 style="color: #ffba00; font-family: 'Cinzel', serif;"><?= strtoupper('Your Fastlane into'); ?></h2>
+		<h4 style="color: #ffba00; font-family: 'Cinzel', serif;"><?= strtoupper('crypto and Blockchain Technology'); ?></h4>
+		<p style="color: #fff; font-size: 20px">Let us walk you by the hand through the dynamic world of Crypto currency Trading, Mentorship, Investment and
 		utility.</p>
 	</div>
 
@@ -334,7 +334,7 @@
 							<span class="weight-bold">CEO</span></h2>
 					</header>
 
-					<p>
+					<p style="font-size: 20px">
 						Igwenagu Emmanuel, is the founder and CEO of Gentlecrypto Enterprise, an award-winning Business
 						conglomerate, crypto currency Trading, mentorship and Consulting Company. <br>
 						Over the years he has acquired in-depth knowledge in Business development and consulting, sales
@@ -497,7 +497,7 @@
 								<div
 									class="crumina-module crumina-testimonial-item testimonial--style2 has-border-arrow">
 									<div class="avatar avatar80">
-										<img src="img/author2.jpg" alt="avatar">
+										<img src="img/author1.jpg" alt="avatar">
 									</div>
 									<div class="testimonial-content">
 										<div class="block--with-arrow-bottom-center">
@@ -555,7 +555,7 @@
 								<div
 									class="crumina-module crumina-testimonial-item testimonial--style2 has-border-arrow">
 									<div class="avatar avatar80">
-										<img src="img/author2.jpg" alt="avatar">
+										<img src="img/author1.jpg" alt="avatar">
 									</div>
 									<div class="testimonial-content">
 										<div class="block--with-arrow-bottom-center">

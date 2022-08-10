@@ -363,7 +363,7 @@
 						//Response
 					})
 
-					alert('Your payment for this course was successful! We will approve your payment soon.');
+					alert('Your payment for this course was successful! We will approve your payment within 24hrs.');
 					window.location.reload();
 			},
 
