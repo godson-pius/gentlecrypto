@@ -110,7 +110,7 @@
 
 							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sorting-item">
 								<div class="crumina-module crumina-event-item">
-									<div class="event-thumb bg-event4" style="background-image: url('img/bg-help.png')">
+									<div class="event-thumb bg-event4" style="background-image: url('img/signal.jpeg')">
 										<div class="overlay"></div>
 									</div>
 									<div class="event-content">

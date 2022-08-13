@@ -18,7 +18,7 @@
         <button>Donate today</button> <br /><br />
         
         <h6>Our target </h6>
-        Do attach the image of the SDG here <br />
+        
         We wish to focus on achieving the sustainable development goals (SDGs) of the United Nations, this will serve as our civil society responsibility (CSR), as a company and as a business that thrives in Africa. We wish to help Africa solve life threatening human and environmental problems with the funds we shall be raising through our foundation. <br /><br />
         
         We hope to partner with well-meaning civil society organizations (CSOs) in making sure that we reach African at the points of their most pressing needs.
@@ -44,8 +44,8 @@
         </h6> 
         
         
-        We also accept fiat using the payment platforms accepted by our company <br />
-        Paystack: <br />
+        We also accept fiat using the payment platforms accepted by our company.
+        <a class='btn btn-primary' href='https://paystack.com/pay/gentlecrypto-foundation'>Pay Here</a> <br />
         
 		";
 

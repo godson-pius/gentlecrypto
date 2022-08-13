@@ -177,8 +177,8 @@
 					alter in any way the visual presentation or appearance of our Website. <br> <br>
 
 					<h3>Content Liability</h3>
-					We shall not be hold responsible for any content that appears on your Website. You agree to protect
-					and defend us against all claims that is rising on your Website. No link(s) should appear on any
+					We shall not be held responsible for any content that appears on your Website. You agree to protect
+					and defend us against all claims that is rising on our Website. No link(s) should appear on any
 					Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise
 					violates, or advocates the infringement or other violation of, any third party rights. <br> <br>
 

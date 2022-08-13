@@ -28,10 +28,12 @@
 		
 		<h6>Note:</h6> Only traders are allowed to be part of the signal room unless they which to be part of the long term hodlers room which is open to both traders and non-traders. But if you wish to know how to trade, rush and take the advanced package <a class='btn btn-primary' href='courses.php'>Advanced Package</a> <br /><br />
 		
-		The subscription fees are listed below
-		Long-term Hodlers signal room 10 dollars
-		Spots signal room 20 dollars
-		Futures signal room 50 dollars
+		The subscription fees are listed below:
+		<ul>
+			<li>Long-term Hodlers signal room 10 dollars</li>
+			<li>Spots signal room 20 dollars</li>
+			<li>Futures signal room 50 dollars</li>
+		</ul>
 		";
 
 	} else if ($_GET['service'] === 'ccc') {
