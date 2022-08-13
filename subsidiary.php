@@ -1,4 +1,4 @@
-<?php require_once("admin/config/db.php"); 
+<?php //require_once("admin/config/db.php"); 
 
 	if ($_GET['sub'] === 'gta') {
 		$title = "Gentlecrypto trading Academy (GTA)";
@@ -23,6 +23,12 @@
         
         We hope to partner with well-meaning civil society organizations (CSOs) in making sure that we reach African at the points of their most pressing needs.
         We shall keep our eyes on the following Goals: <br /><br />
+
+		<div class='row'>
+			<div class='col-12'>
+				<img src='img/goals.jpeg' width='600' />
+			</div>
+		</div>
         
         
         <h6>Method of donation:</h6>
