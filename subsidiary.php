@@ -87,7 +87,7 @@
 
 
 
-			<div style="">
+			<div>
 				<p style=""><?= ucfirst($description); ?></p>
 			</div>
 

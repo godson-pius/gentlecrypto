@@ -6,7 +6,7 @@
 
 <style>
 	.dk {
-		color: ghostwhite;
+		color: ghostwhite
 		 !important;
 		font-weight: bolder;
 	}
@@ -60,6 +60,13 @@
 	</div>
 
 
+	<div class="post-thumb">
+		
+		<!-- <iframe width="1543" height="505" src="https://youtu.be/PpvAxCL2opY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+			<iframe width="1543" height="505" src="https://www.youtube.com/embed/twKnYnX6ibo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	</div>
 	<section class="medium-padding120">
 		<div class="container">
 		<h3>Courses available</h3>
