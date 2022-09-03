@@ -71,9 +71,32 @@
 
 	} else if ($_GET['service'] === 'code') {
 		$title = "Crypto OTC desk/exchange";
-		$description = "<h5>Buy and sell crypto online using our Reliable OTC desk </h5><br /><br />
-		Gentlecrypto Exchange is the fastest way to buy and sell Bitcoin, Etherum and Tether at the best rate.<br /><br />
-		
+		$description = "<h5>What is Crypto OTC?</h5>
+		Crypto OTC is when trading of crypto is involved directly between the two parties. That trade
+		can be crypto-to-crypto or Fiat-to-Crypto. The trade always occurs between a dedicated trading
+		desk with the involvement of another institution who is providing OTC services, known as
+		counter party.<br /><br />
+
+		<h6>Why do Crypto OTC Services exist?</h6>
+		Buying or selling huge volume of crypto is difficult. Mainly because no single entity sells huge
+		volume all alone and when buying from different traders, you would become a victim of
+		slippage. The first trade would be at market price but subsequent ones would be at higher
+		market price because the trading would increase investor’s interest. And soon the last lot would
+		be available at a much higher price than what you have started with. This is known as Slippage.<br /><br />
+
+		So it is better to spread your purchase through multiple exchanges. Hence, OTC services.
+		These would quote you one price and would get all the required volume of crypto at that price
+		for you. They excel at sourcing large volume of crypto assets. <br /><br />
+
+		<h6>How does a Principal desk works?</h6>
+		Some OTC Service providers use this method where they source whatever crypto you are
+		buying through their own funds. They assume the risk in this process. The risk is that they have
+		to source the crypto assets in a way they can make a profit and not end up incurring huge
+		losses. Once agreed upon assets are purchased, the client would wire the money and get the
+		crypto assets in his wallet as per agreement.<br /><br />
+		<strong>GENTLECRYPTO OTC DESK</strong> is the fastest way to buy and sell Bulk Bitcoin,
+		Etherum and Tether at the best rate. <br /><br />
+
 		<h6>Why choose us?</h6>
 
 		<ul>
