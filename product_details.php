@@ -36,7 +36,7 @@
 
 					<div class="post-details-wrap">
 						<div class="post__date">
-							<a href="#" class="number">$<?= $p_price; ?></a>
+							<a href="#" class="number">₦<?= $p_price; ?></a>
 							<time class="published" datetime="2018-03-14 12:00:00">
 								Price,
 								<span><?= $p_name; ?></span>
@@ -323,6 +323,7 @@
 			key: API_publicKey, // Replace with your public key
 			email: "<?= $email; ?>",
 			amount: price * 100,
+			currency: 'NGN',
 			ref: 'GC' + Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
 			// label: "Optional string that replaces customer email"
 			
