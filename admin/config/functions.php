@@ -683,6 +683,51 @@ function getCourseLesson($id) {
   }
 }
 
+function getUserName($id) {
+  global $link;
+
+  $sql = "SELECT * FROM users WHERE id = '$id'";
+  $query = mysqli_query($link, $sql);
+
+  if (mysqli_num_rows($query) > 0) {
+      foreach ($query as $user) {
+        return $user['email'];
+      }
+  } else {
+    return false;
+  }
+}
+
+function getProductName($id) {
+  global $link;
+
+  $sql = "SELECT * FROM products WHERE id = '$id'";
+  $query = mysqli_query($link, $sql);
+
+  if (mysqli_num_rows($query) > 0) {
+      foreach ($query as $product) {
+        return $product['p_name'];
+      }
+  } else {
+    return false;
+  }
+}
+
+function getCourseName($id) {
+  global $link;
+
+  $sql = "SELECT * FROM courses WHERE course_id = '$id'";
+  $query = mysqli_query($link, $sql);
+
+  if (mysqli_num_rows($query) > 0) {
+      foreach ($query as $product) {
+        return $product['course_name'];
+      }
+  } else {
+    return false;
+  }
+}
+
 function update_brand($post, $name) {
   global $link;
 

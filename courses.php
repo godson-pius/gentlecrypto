@@ -10,7 +10,53 @@
 		 !important;
 		font-weight: bolder;
 	}
+
+	.disclaimer {
+		background-color: orange;
+		display: block;
+		color: #000;
+		font-weight: bold;
+		width: 50%;
+		min-height: 10px;
+		border-radius: 7px;
+		position: relative;
+		top: 60px;
+		overflow-y: auto;
+		z-index: 1000;
+	}
+
+	.disclaimer header {
+		background-color: #fff;
+		padding: 7px;
+	}
+
+	.disclaimer p {
+		margin-top: 60px;
+		padding: 0px 30px 0px 30px;
+		color: #000;
+	}
+
+	.disclaimer .close {
+		float: right;
+		font-size: 20px;
+		color: red;
+		cursor: pointer;
+	}
 </style>
+
+<!-- <center>
+	<div class="disclaimer" id="disclaimer">
+		<header>DISCLAIMER
+		<span class="close" id="closedisclaimer" onclick="close(this)">&times;</span>
+		</header>
+		<p>The advanced courses (complete courses) are currently not available on the website, but if you wish to take the Advanced course (complete course), you will have to reach out to our coach via whatapp using the link:
+		<a href="https://wa.me/2349034931935" style="color: blue;">Whatsapp</a>.
+
+		Our Coach will personally have a one-on-one training session with you on Advanced/Complete crypto Trading.
+
+		While we work on making the Advance courses available on the site, kindly attached your Email in the subscription box at the bottom of the page to be informed when it will be  made available for you to access.</p>
+	</div>
+</center> -->
 
 <div class="main-content-wrapper">
 	<section data-settings="particles-1" class="main-section crumina-flying-balls particles-js bg-1">
@@ -305,7 +351,11 @@ else{
 <!-- ... end Footer -->
 
 
+
+
 <script src="js/method-assign.js"></script>
+
+<!-- <script src="./js/disclaimer.js"></script> -->
 
 <!-- jQuery first, then Other JS. -->
 
