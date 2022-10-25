@@ -15,7 +15,7 @@
 
                         <div class="row">
                             <div class="col-sm-12">
-                                <h4 class="header-title m-t-0 m-b-20">Subscribers</h4>
+                                <h4 class="header-title m-t-0 m-b-20">Users</h4>
                             </div>
                         </div>
 
@@ -27,8 +27,10 @@
                                     <table id="datatable-buttons" class="table table-striped table-bordered text-center" cellspacing="0" width="100%">
                                         <thead>
                                         <tr>
-                                            <th>Subscriber Email</th>
-                                            <th>Date Subscribed</th>
+                                            <th>Full Name</th>
+                                            <th>Email</th>
+                                            <th>Phone</th>
+                                            <th>Registered Date</th>
                                             <th>Action</th>
                                             
                                         </tr>
@@ -38,19 +40,21 @@
                                         <tbody>
                                           <?php
 
-$sql_subscriber = "SELECT * from subscribers";
-$subscriber_result = mysqli_query($link,$sql_subscriber);
-      $count_result = mysqli_num_rows($subscriber_result);
+$sql_user = "SELECT * from users";
+$user_result = mysqli_query($link,$sql_user);
+      $count_result = mysqli_num_rows($user_result);
 
     if($count_result != 0){
-        foreach ($subscriber_result as $subscribers) {
-            extract($subscribers);
+        foreach ($user_result as $users) {
+            extract($users);
 ?>
                                         <tr>
+                                            <td><?php echo $first_name . " " . $last_name; ?></td>
                                             <td><?php echo $email; ?></td>
-                                            <td><?php echo date('F d, Y',strtotime($created)); ?></td>
+                                            <td><?php echo $phone; ?></td>
+                                            <td><?php echo date('F d, Y',strtotime($reg_date)); ?></td>
                                             <td>
-                                                <div class="btn btn-danger btn-sm rounded waves-effect waves-light" data-id="<?= $id; ?>" onclick="deleteSubscriber(this)" id="deleteBtn">
+                                                <div class="btn btn-danger btn-sm rounded waves-effect waves-light" data-id="<?= $id; ?>" onclick="deleteUser(this)" id="deleteBtn">
                                                     Delete
                                                 </div>
                                             </td>
@@ -106,16 +110,16 @@ $subscriber_result = mysqli_query($link,$sql_subscriber);
 
         <script>
             
-            function deleteSubscriber(e){
+            function deleteUser(e){
                 var id = e.dataset.id;
-                var conf = confirm('Are you sure you want to delete this subscriber');
+                var conf = confirm('Are you sure you want to delete this user');
                 if (conf) {
-                    fetch(`delete.php?subscriber=${id}`).then(r => r).then(r => r.text()).then(r => {
+                    fetch(`delete.php?user=${id}`).then(r => r).then(r => r.text()).then(r => {
                         if (r == true) {
-                            alert('Subscriber deleted');
+                            alert('User deleted');
                             window.location.reload();
                         } else {
-                            alert('Failed to delete subscriber!');
+                            alert('Failed to delete user!');
                         }
                     })
                 }

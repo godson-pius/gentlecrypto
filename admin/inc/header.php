@@ -207,7 +207,14 @@
                         </li>
 
                         <li>
-                            <a href="javascript: void(0);"><i class="ti-user"></i> <span> Vendors </span> <span class="menu-arrow"></span></a>
+                            <a href="javascript: void(0);"><i class="ti-user"></i> <span> Users </span> <span class="menu-arrow"></span></a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li><a href="users.php">Registered Users</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);"><i class="ti-layers"></i> <span> Vendors </span> <span class="menu-arrow"></span></a>
                             <ul class="nav-second-level" aria-expanded="false">
                                 <li><a href="#">All Vendors</a></li>
                             </ul>

@@ -38,8 +38,19 @@ if (isset($_GET['subscriber'])) {
 
 if (isset($_GET['message'])) {
     $id = $_GET['message'];
-
+    
     $response = deleteColumn('messages', $id);
+    if ($response === true) {
+        echo true;
+    } else {
+        echo false;
+    }
+}
+
+if (isset($_GET['user'])) {
+    $id = $_GET['user'];
+
+    $response = deleteColumn('users', $id);
     if ($response === true) {
         echo true;
     } else {

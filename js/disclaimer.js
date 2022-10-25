@@ -1,7 +1,5 @@
-// alert('d')
 
-
-// const close = (e) => {
-//     alert('ddd')
-//     // e.parentNode.parentNode.remove
-// }
+// document.getElementById('disclaimer').style.display = 'block';
+const closeDisclaimer = () => {
+    document.getElementById('disclaimer').style.display = 'none';
+}

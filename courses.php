@@ -13,14 +13,14 @@
 
 	.disclaimer {
 		background-color: orange;
-		display: block;
 		color: #000;
 		font-weight: bold;
-		width: 50%;
-		min-height: 10px;
+		width: 80%;
+		height: 400px;
 		border-radius: 7px;
 		position: relative;
 		top: 60px;
+
 		overflow-y: auto;
 		z-index: 1000;
 	}
@@ -40,14 +40,16 @@
 		float: right;
 		font-size: 20px;
 		color: red;
+		margin-right: 20px;
 		cursor: pointer;
 	}
+
 </style>
 
-<!-- <center>
+<center>
 	<div class="disclaimer" id="disclaimer">
 		<header>DISCLAIMER
-		<span class="close" id="closedisclaimer" onclick="close(this)">&times;</span>
+		<span class="close" id="closedisclaimer" onclick="closeDisclaimer()">&times;</span>
 		</header>
 		<p>The advanced courses (complete courses) are currently not available on the website, but if you wish to take the Advanced course (complete course), you will have to reach out to our coach via whatapp using the link:
 		<a href="https://wa.me/2349034931935" style="color: blue;">Whatsapp</a>.
@@ -56,7 +58,7 @@
 
 		While we work on making the Advance courses available on the site, kindly attached your Email in the subscription box at the bottom of the page to be informed when it will be  made available for you to access.</p>
 	</div>
-</center> -->
+</center>
 
 <div class="main-content-wrapper">
 	<section data-settings="particles-1" class="main-section crumina-flying-balls particles-js bg-1">
@@ -355,7 +357,7 @@ else{
 
 <script src="js/method-assign.js"></script>
 
-<!-- <script src="./js/disclaimer.js"></script> -->
+<script src="./js/disclaimer.js"></script>
 
 <!-- jQuery first, then Other JS. -->
 
